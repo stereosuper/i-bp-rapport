@@ -26,6 +26,13 @@ module.exports = {
         'no-console': 'off',
         'no-unused-vars': 1,
         'no-useless-escape': 0,
+        "vue/html-self-closing": ["error", {
+            "html": {
+                "void": "always",
+                "normal": "never",
+                "component": "always"
+            }
+        }],
         "vue/max-attributes-per-line": "off",
         'vue/html-indent': [
             'warn',
@@ -39,6 +46,7 @@ module.exports = {
         'no-console': 'off',
         'prettier/prettier': ['error', {
             'semi': true
-        }]
+        }],
+        "vue/attribute-hyphenation": ["warn", "never"]
     }
 }
