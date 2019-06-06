@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font: 1.6em / 1.2 $chivo;
+    font: 1.8em / 1.2 $chivo;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
@@ -31,22 +31,24 @@ h1 {
     font-weight: 600;
     margin: 0.67em 0;
     z-index: 1;
-    > span{
+
+    >span {
         display: block;
         font-family: $chivo;
         font-size: 0.2em;
         font-weight: 500;
-        text-transfom: uppercase;
+        text-transform: uppercase;
     }
-    > strong{
+
+    strong {
         position: absolute;
         top: 0;
-        right: 0; 
+        right: 0;
         font-size: 1.9em;
         line-height: 0.8;
         color: $primary;
         text-shadow:
-            -1px -1px 0 $white,  
+            -1px -1px 0 $white,
             1px -1px 0 $white,
             -1px 1px 0 $white,
             1px 1px 0 $white;
@@ -56,8 +58,22 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
-    margin: 0.83em 0;
+    font-size: 3.4rem;
+    line-height: 1.1;
+    margin: 0.5em 0 0;
+
+    strong {
+        display: block;
+        font-size: 20rem;
+
+        &.medium {
+            font-size: 10rem;
+        }
+
+        span {
+            font-size: 5rem;
+        }
+    }
 }
 
 h3 {
@@ -82,6 +98,7 @@ h6 {
 
 p {
     margin: 1em 0;
+    line-height: 1.5;
 }
 
 b,

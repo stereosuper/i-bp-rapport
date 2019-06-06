@@ -5,7 +5,15 @@
 $white: #ffffff;
 $black: #000000;
 $primary: #192A6B;
+$primary-alt-light: #F4F9FD;
+$primary-light: #C4C5DC;
+$primary-x-light: #D7DDF6;
 $secondary: #FC6C6F;
+$secondary-light: #FFD4D5;
+$tertiary: #489FDF;
+$tertiary-light: #BEE4FF;
+$quaternary: #B7BF10;
+$quaternary-light: #EFF1AF;
 
 
 // Transitions
@@ -31,5 +39,7 @@ $phone-small: '400px';
 
 // Grid
 $col: 100/3*1%;
+$tileCol: 100/6*1%;
+$tile2Col: 100/12*1%;
 
 $gutter: 80px;

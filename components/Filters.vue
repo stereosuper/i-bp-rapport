@@ -59,25 +59,20 @@ export default {
         text-transform: uppercase;
         padding-bottom: 15px;
         color: $primary;
+        &::before {
+            content: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-top: 1px solid $secondary;
+        }
         &.on {
             color: $secondary;
-            .filter {
-                &::before {
-                    content: "";
-                }
+            &::before {
+                content: "";
             }
         }
-    }
-}
-.filter {
-    position: relative;
-    &::before {
-        content: none;
-        position: absolute;
-        bottom: -14px;
-        left: 0;
-        right: 0;
-        border-top: 1px solid $secondary;
     }
 }
 .nb-elem {

@@ -3,6 +3,7 @@
         <Header />
         <Filters />
         <nuxt />
+        <Svgs />
         <Footer />
     </div>
 </template>
@@ -11,12 +12,14 @@
 import Header from "~/components/Header";
 import Filters from "~/components/Filters";
 import Footer from "~/components/Footer";
+import Svgs from "~/components/Svgs";
 
 export default {
     components: {
         Header,
         Filters,
-        Footer
+        Footer,
+        Svgs
     },
     data() {
         return {};
