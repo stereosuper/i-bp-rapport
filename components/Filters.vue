@@ -49,8 +49,9 @@ export default {
 .filters {
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    flex-wrap: wrap;
+    padding-top: 42px;
+    padding-bottom: 32px;
     button {
         position: relative;
         font-family: $chivo;

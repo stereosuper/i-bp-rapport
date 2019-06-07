@@ -1,7 +1,12 @@
 <template>
     <div
         class="tile"
-        :class="[{ 'two-cols': twoCols }, `bg-${theme}`, `alt-${altTheme}`]"
+        :class="[
+            { 'two-cols': twoCols },
+            `bg-${theme}`,
+            `alt-${altTheme}`,
+            { 'title-filled': titleFilled }
+        ]"
     >
         <header>
             <ul class="hashtags">
@@ -95,6 +100,11 @@ export default {
         cta: {
             type: Object,
             required: false
+        },
+        titleFilled: {
+            type: Boolean,
+            required: false,
+            default: false
         }
     },
     data() {
@@ -225,10 +235,12 @@ export default {
             }
             border-color: $primary-light;
         }
-        .content {
-            /deep/ h2 {
-                strong {
-                    color: $primary;
+        &:not(.title-filled) {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $primary;
+                    }
                 }
             }
         }
@@ -247,10 +259,12 @@ export default {
             }
             border-color: $secondary-light;
         }
-        .content {
-            /deep/ h2 {
-                strong {
-                    color: $secondary;
+        &:not(.title-filled) {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $secondary;
+                    }
                 }
             }
         }
@@ -269,10 +283,12 @@ export default {
             }
             border-color: $tertiary-light;
         }
-        .content {
-            /deep/ h2 {
-                strong {
-                    color: $tertiary;
+        &:not(.title-filled) {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $tertiary;
+                    }
                 }
             }
         }
@@ -291,10 +307,12 @@ export default {
             }
             border-color: $quaternary-light;
         }
-        .content {
-            /deep/ h2 {
-                strong {
-                    color: $quaternary;
+        &:not(.title-filled) {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $quaternary;
+                    }
                 }
             }
         }
@@ -316,12 +334,25 @@ export default {
                 width: $tile2Col * 5;
             }
         }
+        .illus {
+            margin-bottom: 0;
+        }
+    }
+    &.title-filled {
+        /deep/ h2 {
+            strong {
+                text-shadow: none;
+                color: $white;
+            }
+        }
     }
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    min-height: 80px;
+    margin-bottom: 30px;
 }
 .hashtags {
     display: flex;
@@ -329,6 +360,8 @@ header {
     flex-wrap: wrap;
     align-items: flex-start;
     list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0;
     > li {
         font-family: $chivo;
         font-size: 1.4rem;
@@ -373,9 +406,11 @@ header {
 .illus {
     display: block;
     width: 100%;
+    margin-bottom: 25px;
 }
 .wrapper-logo {
     width: auto;
+    margin-bottom: 40px;
 }
 .content {
     /deep/ h2 {

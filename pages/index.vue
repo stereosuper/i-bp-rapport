@@ -12,7 +12,7 @@
             :filters="['Banque', 'Performances']"
             :twoCols="true"
             :content="
-                `<h2><strong>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i-BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
+                `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i-BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
             "
             :illusUrl="'img/femmes-effectifs.svg'"
         />
@@ -21,7 +21,7 @@
             :altTheme="'tertiary'"
             :filters="['Tendances']"
             :content="
-                `<h2><strong class='medium'>1000</strong> followers Twitter en mars 2018</h2>`
+                `<h2><strong class='small'>1000</strong> followers Twitter en mars 2018</h2>`
             "
             :illusUrl="'img/twitter-followers.svg'"
             :social="true"
@@ -38,7 +38,7 @@
             :altTheme="'secondary'"
             :filters="['Banque', 'Évènement']"
             :content="
-                `<h2><strong class='medium'>10</strong> ans de la plateforme LAB*</h2><p>*Lutte Anti-Blanchiment</p>`
+                `<h2><strong class='small'>10</strong> ans de la plateforme LAB*</h2><p>*Lutte Anti-Blanchiment</p>`
             "
             :illusUrl="'img/twitter-followers.svg'"
             :cta="{
@@ -114,7 +114,7 @@
                 'Tendances'
             ]"
             :content="
-                `<h2><strong>3e</strong> année pour Osons, autrement</h2>`
+                `<h2><strong>3<sup>e</sup></strong> année pour Osons, autrement</h2>`
             "
         />
         <Tile
@@ -164,7 +164,7 @@
             :altTheme="'secondary'"
             :filters="['Performances', 'Transformation']"
             :content="
-                `<h2><strong class='medium'>15</strong> cadrages accompagnés par les coach agiles</h2>`
+                `<h2><strong class='small'>15</strong> cadrages accompagnés par les coach agiles</h2>`
             "
             :illusUrl="'img/twitter-followers.svg'"
         />
@@ -174,13 +174,14 @@
             :content="
                 `<h2><strong>359</strong> millions d’euros de chiffre d’affaires en 2018, toutes activités confondues</h2>`
             "
+            :titleFilled="true"
         />
         <Tile
             :theme="'white'"
             :altTheme="'tertiary'"
             :filters="['Tendances', 'Événement']"
             :content="
-                `<h2><strong class='medium'>02</strong> numéros pour un nouveau magazine</h2>`
+                `<h2><strong class='small'>02</strong> numéros pour un nouveau magazine</h2>`
             "
             :illusUrl="'img/twitter-followers.svg'"
         />
@@ -198,7 +199,7 @@
             :altTheme="'quaternary'"
             :filters="['Performances', 'Banque']"
             :content="
-                `<h2><strong class='medium'>6400</strong> mètres carrés</h2>`
+                `<h2><strong class='small'>6400</strong> mètres carrés</h2>`
             "
             :illusUrl="'img/twitter-followers.svg'"
         />
