@@ -86,7 +86,7 @@
             :content="
                 `<h2>Le Centre d’Expertise Sécurité Métier voit le jour</h2>`
             "
-            :logoUrl="'img/logo-cesm.png'"
+            :logoUrl="'img/logo-cesm-small.png'"
         />
         <Tile
             :theme="'white'"
