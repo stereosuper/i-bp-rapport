@@ -26,10 +26,11 @@
             </div>
             <div class="content" v-html="content"></div>
             <a v-if="cta" :href="cta.url" class="cta">
+                <span class="border"></span>
                 <svg v-if="cta.type" :class="`icon icon-${cta.type}`">
                     <use :xlink:href="`#icon-${cta.type}`" />
                 </svg>
-                <span v-if="cta.label">{{ cta.label }}</span>
+                <span v-if="cta.label" class="text">{{ cta.label }}</span>
             </a>
             <div v-if="social" class="wrapper-social">
                 <div class="social-title">Rejoignez-nous</div>

@@ -3,11 +3,187 @@
     position: relative;
     display: inline-flex;
     align-items: center;
+    margin: 15px 0 0;
     padding: 20px 25px;
     font-family: $chivo;
     font-size: 1.6rem;
+    overflow: hidden;
+
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: transform 0.2s;
+    }
+
+    &::before {
+        bottom: 0;
+        border-top: 1px solid $grey;
+    }
+
+    &::after {
+        top: 0;
+        border-bottom: 1px solid $grey;
+        transform: translate3d(-101%, 0, 0);
+    }
+
+    &:hover {
+        &::before {
+            transform: translate3d(-15px, 0, 0);
+        }
+
+        &::after {
+            transform: translate3d(0, 0, 0);
+        }
+
+        .border {
+
+            &::before,
+            &::after {
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .text {
+            &::before {
+                transform: rotate(-45deg) translate3d(0, 0, 0);
+            }
+        }
+    }
 
     .icon {
         margin-right: 15px;
+    }
+
+    .border {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            transition: transform 0.2s;
+        }
+
+        &::before {
+            left: 0;
+            bottom: 0;
+            border-right: 1px solid $grey;
+            transform: translate3d(0, 101%, 0);
+        }
+
+        &::after {
+            right: 0;
+            bottom: 15px;
+            border-left: 1px solid $grey;
+            transform: translate3d(0, -101%, 0);
+        }
+    }
+
+    .text {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 15px;
+            right: 0;
+            width: 22px;
+            height: 1px;
+            background: $grey;
+            transform-origin: 100% 0;
+            transform: rotate(-45deg) translate3d(100%, 100%, 0);
+            transition: transform 0.2s;
+        }
+    }
+
+    .alt-secondary & {
+
+        &:hover,
+        &:focus {
+            color: $secondary;
+
+            &::before,
+            &::after {
+                border-color: $secondary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $secondary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $secondary;
+                }
+            }
+        }
+
+
+    }
+
+    .alt-tertiary & {
+
+        &:hover,
+        &:focus {
+            color: $tertiary;
+
+            &::before,
+            &::after {
+                border-color: $tertiary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $tertiary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $tertiary;
+                }
+            }
+        }
+    }
+
+    .alt-quaternary & {
+
+        &:hover,
+        &:focus {
+            color: $quaternary;
+
+            &::before,
+            &::after {
+                border-color: $quaternary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $quaternary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $quaternary;
+                }
+            }
+        }
     }
 }
