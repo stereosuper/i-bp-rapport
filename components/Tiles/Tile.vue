@@ -9,13 +9,12 @@
             { 'title-filled': titleFilled }
         ]"
     >
-        <div class="modal">
+        <div v-if="hasModal" class="modal">
             <button type="button" class="btn-circular"></button>
             <div class="content">
                 <div>
-                    <h3>
-                        61, nombre d'évènements auxquels i-BP a participé au
-                        titre de la marque employeur
+                    <h3 v-if="titleModal">
+                        {{ titleModal }}
                     </h3>
                     <div class="cols">
                         <div class="col">
@@ -199,6 +198,11 @@ export default {
             type: Boolean,
             required: false,
             default: false
+        },
+        titleModal: {
+            type: String,
+            required: false,
+            default: ""
         },
         ctaModal: {
             type: Array,
@@ -600,11 +604,14 @@ header {
     bottom: 0;
     left: 0;
     padding: 0 60px 60px 0;
+    color: $primary;
     z-index: 2;
     .content {
         display: flex;
         align-items: center;
         min-height: calc(100vh - 60px);
+        padding: 90px 160px;
+        background: $white;
     }
     h3 {
         width: 50%;
@@ -638,5 +645,13 @@ header {
     font-family: $chivo;
     font-size: 1.4rem;
     text-transform: uppercase;
+}
+.wrapper-cta {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .cta {
+        margin: 15px 40px 0 0;
+    }
 }
 </style>
