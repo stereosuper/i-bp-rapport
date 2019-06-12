@@ -5,6 +5,7 @@
             { 'two-cols': twoCols },
             `bg-${theme}`,
             `alt-${altTheme}`,
+            `${height}-height`,
             { 'title-filled': titleFilled }
         ]"
     >
@@ -72,6 +73,11 @@ export default {
             type: Boolean,
             required: false,
             default: false
+        },
+        height: {
+            type: String,
+            required: false,
+            default: "medium"
         },
         content: {
             type: String,
