@@ -717,7 +717,7 @@ header {
         position: fixed;
         top: 50px;
         right: 160px;
-        z-index: 1;
+        z-index: 2;
         &::before {
             transform: rotate(45deg);
         }
