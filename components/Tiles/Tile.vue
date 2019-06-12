@@ -9,13 +9,83 @@
             { 'title-filled': titleFilled }
         ]"
     >
+        <div class="modal">
+            <button type="button" class="btn-circular"></button>
+            <div class="content">
+                <div>
+                    <h3>
+                        61, nombre d'évènements auxquels i-BP a participé au
+                        titre de la marque employeur
+                    </h3>
+                    <div class="cols">
+                        <div class="col">
+                            <p>
+                                La marque employeur a permis d’accentuer la
+                                notoriété de l'entreprise sur ses métiers,
+                                notamment sur la filière de développement, et
+                                sur ses territoires. i-BP existe désormais
+                                au-delà de son écosystème naturel.
+                            </p>
+                            <div class="wrapper-buttons">
+                                <div class="label-buttons">
+                                    Pour aller plus loin :
+                                </div>
+                                <div v-if="ctaModal" class="wrapper-cta">
+                                    <a
+                                        v-for="(singleCtaModal,
+                                        index) in ctaModal"
+                                        :key="index"
+                                        :href="singleCtaModal.url"
+                                        class="cta"
+                                    >
+                                        <span class="border"></span>
+                                        <svg
+                                            v-if="singleCtaModal.type"
+                                            :class="
+                                                `icon icon-${
+                                                    singleCtaModal.type
+                                                }`
+                                            "
+                                        >
+                                            <use
+                                                :xlink:href="
+                                                    `#icon-${
+                                                        singleCtaModal.type
+                                                    }`
+                                                "
+                                            />
+                                        </svg>
+                                        <span
+                                            v-if="singleCtaModal.label"
+                                            class="text"
+                                            >{{ singleCtaModal.label }}</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p>
+                                i-BP a participé en 2018 aux DevFest de Nantes
+                                et Toulouse qui ont rassemblé plusieurs milliers
+                                de développeurs, au salon de la Data lors de la
+                                Nantes Digital Week ou à des évènements sur la
+                                sécurité informatique. Les relations écoles ont
+                                aussi été développées au plus près des sites et
+                                des métiers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header>
             <ul class="hashtags">
                 <li v-for="(filter, index) in filters" :key="index">
                     #{{ filter }}
                 </li>
             </ul>
-            <div class="btn-circular"></div>
+            <div v-if="hasModal" class="btn-circular"></div>
         </header>
         <div class="wrapper-content">
             <div v-if="illusUrl" class="wrapper-illus">
@@ -25,13 +95,25 @@
                 <img :src="logoUrl" class="logo" />
             </div>
             <div class="content" v-html="content"></div>
-            <a v-if="cta" :href="cta.url" class="cta">
-                <span class="border"></span>
-                <svg v-if="cta.type" :class="`icon icon-${cta.type}`">
-                    <use :xlink:href="`#icon-${cta.type}`" />
-                </svg>
-                <span v-if="cta.label" class="text">{{ cta.label }}</span>
-            </a>
+            <div v-if="cta" class="wrapper-cta">
+                <a
+                    v-for="(singleCta, index) in cta"
+                    :key="index"
+                    :href="singleCta.url"
+                    class="cta"
+                >
+                    <span class="border"></span>
+                    <svg
+                        v-if="singleCta.type"
+                        :class="`icon icon-${singleCta.type}`"
+                    >
+                        <use :xlink:href="`#icon-${singleCta.type}`" />
+                    </svg>
+                    <span v-if="singleCta.label" class="text">{{
+                        singleCta.label
+                    }}</span>
+                </a>
+            </div>
             <div v-if="social" class="wrapper-social">
                 <div class="social-title">Rejoignez-nous</div>
                 <div class="social">
@@ -105,13 +187,22 @@ export default {
             required: true
         },
         cta: {
-            type: Object,
+            type: Array,
             required: false
         },
         titleFilled: {
             type: Boolean,
             required: false,
             default: false
+        },
+        hasModal: {
+            type: Boolean,
+            required: false,
+            default: false
+        },
+        ctaModal: {
+            type: Array,
+            required: false
         }
     },
     data() {
@@ -203,6 +294,15 @@ export default {
                 }
             }
         }
+        .modal {
+            .btn-circular {
+                border-color: $primary;
+                &::before,
+                &::after {
+                    background: $primary;
+                }
+            }
+        }
     }
     &.bg-primary-alt-light {
         color: $primary;
@@ -221,12 +321,31 @@ export default {
             }
             border-color: $primary-light;
         }
+        .modal {
+            background: $primary-alt-light;
+            .btn-circular {
+                border-color: $primary;
+                &::before,
+                &::after {
+                    background: $primary;
+                }
+            }
+        }
     }
     &.bg-primary,
     &.bg-secondary,
     &.bg-tertiary,
     &.bg-quaternary {
         color: $white;
+        .modal {
+            .btn-circular {
+                border-color: $primary;
+                &::before,
+                &::after {
+                    background: $primary;
+                }
+            }
+        }
     }
     &.bg-primary {
         &::before {
@@ -249,6 +368,12 @@ export default {
                         color: $primary;
                     }
                 }
+            }
+        }
+        .modal {
+            background: $primary;
+            /deep/ h3 {
+                color: $primary;
             }
         }
     }
@@ -275,6 +400,12 @@ export default {
                 }
             }
         }
+        .modal {
+            background: $secondary;
+            /deep/ h3 {
+                color: $secondary;
+            }
+        }
     }
     &.bg-tertiary {
         &::before {
@@ -299,6 +430,12 @@ export default {
                 }
             }
         }
+        .modal {
+            background: $tertiary;
+            /deep/ h3 {
+                color: $tertiary;
+            }
+        }
     }
     &.bg-quaternary {
         &::before {
@@ -321,6 +458,12 @@ export default {
                         color: $quaternary;
                     }
                 }
+            }
+        }
+        .modal {
+            background: $quaternary;
+            /deep/ h3 {
+                color: $quaternary;
             }
         }
     }
@@ -448,5 +591,52 @@ header {
         width: 16px;
         height: 16px;
     }
+}
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 60px 60px 0;
+    z-index: 2;
+    .content {
+        display: flex;
+        align-items: center;
+        min-height: calc(100vh - 60px);
+    }
+    h3 {
+        width: 50%;
+        margin-top: 0;
+    }
+    .cols {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .col {
+        flex: 1 1 0;
+        padding-right: 16.666%;
+    }
+    .btn-circular {
+        position: fixed;
+        top: 50px;
+        right: 160px;
+        &::before {
+            transform: rotate(45deg);
+        }
+        &::after {
+            transform: rotate(139deg);
+        }
+    }
+}
+.wrapper-buttons {
+    margin: 50px 0 0;
+}
+.label-buttons {
+    font-family: $chivo;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 </style>

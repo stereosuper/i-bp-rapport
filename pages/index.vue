@@ -6,6 +6,22 @@
             :content="
                 `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i-BP.</h2>`
             "
+            :hasModal="true"
+            :titleModal="
+                `61, nombre d'évènements auxquels i-BP a participé au titre de la marque employeur`
+            "
+            :ctaModal="[
+                {
+                    type: 'twitter',
+                    label: `Afterwork en image`,
+                    url: '#'
+                },
+                {
+                    type: 'linkedin',
+                    label: `Offres d’emplois`,
+                    url: '#'
+                }
+            ]"
         />
         <Tile
             :theme="'white'"
@@ -44,11 +60,13 @@
                 `<h2><strong class='small'>10</strong> ans de la plateforme LAB*</h2><p>*Lutte Anti-Blanchiment</p>`
             "
             :illusUrl="'img/twitter-followers.svg'"
-            :cta="{
-                type: 'file',
-                label: `L'interview`,
-                url: '#'
-            }"
+            :cta="[
+                {
+                    type: 'file',
+                    label: `L'interview`,
+                    url: '#'
+                }
+            ]"
         />
         <Tile
             :theme="'white'"
