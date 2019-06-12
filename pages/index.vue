@@ -22,6 +22,7 @@
                     url: '#'
                 }
             ]"
+            :ctaModalCol="1"
         />
         <Tile
             :theme="'white'"

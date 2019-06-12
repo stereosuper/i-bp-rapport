@@ -25,11 +25,14 @@
                                 sur ses territoires. i-BP existe désormais
                                 au-delà de son écosystème naturel.
                             </p>
-                            <div class="wrapper-buttons">
+                            <div
+                                v-if="ctaModal && ctaModalCol === 1"
+                                class="wrapper-buttons"
+                            >
                                 <div class="label-buttons">
                                     Pour aller plus loin :
                                 </div>
-                                <div v-if="ctaModal" class="wrapper-cta">
+                                <div class="wrapper-cta">
                                     <a
                                         v-for="(singleCtaModal,
                                         index) in ctaModal"
@@ -73,6 +76,46 @@
                                 aussi été développées au plus près des sites et
                                 des métiers.
                             </p>
+                            <div
+                                v-if="ctaModal && ctaModalCol === 2"
+                                class="wrapper-buttons"
+                            >
+                                <div class="label-buttons">
+                                    Pour aller plus loin :
+                                </div>
+                                <div class="wrapper-cta">
+                                    <a
+                                        v-for="(singleCtaModal,
+                                        index) in ctaModal"
+                                        :key="index"
+                                        :href="singleCtaModal.url"
+                                        class="cta"
+                                    >
+                                        <span class="border"></span>
+                                        <svg
+                                            v-if="singleCtaModal.type"
+                                            :class="
+                                                `icon icon-${
+                                                    singleCtaModal.type
+                                                }`
+                                            "
+                                        >
+                                            <use
+                                                :xlink:href="
+                                                    `#icon-${
+                                                        singleCtaModal.type
+                                                    }`
+                                                "
+                                            />
+                                        </svg>
+                                        <span
+                                            v-if="singleCtaModal.label"
+                                            class="text"
+                                            >{{ singleCtaModal.label }}</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -207,6 +250,11 @@ export default {
         ctaModal: {
             type: Array,
             required: false
+        },
+        ctaModalCol: {
+            type: Number,
+            required: false,
+            default: 1
         }
     },
     data() {
