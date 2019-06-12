@@ -655,11 +655,50 @@ header {
     color: $primary;
     z-index: 2;
     .content {
+        position: relative;
         display: flex;
         align-items: center;
-        min-height: calc(100vh - 60px);
-        padding: 90px 160px;
-        background: $white;
+        height: calc(100vh - 60px);
+        z-index: 1;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 206px;
+            left: 0;
+            background: $white;
+            z-index: -1;
+        }
+        > div {
+            height: calc(100vh - 60px);
+            padding: 90px 160px;
+            overflow: auto;
+            &::before,
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: -1;
+            }
+            &::before {
+                bottom: 0;
+                left: 0;
+                right: 268px;
+                height: 206px;
+                background: $white;
+            }
+            &::after {
+                bottom: 0;
+                right: 0;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 206px 268px 0 0;
+                border-color: $white transparent transparent transparent;
+            }
+        }
     }
     h3 {
         width: 50%;
@@ -678,6 +717,7 @@ header {
         position: fixed;
         top: 50px;
         right: 160px;
+        z-index: 1;
         &::before {
             transform: rotate(45deg);
         }
