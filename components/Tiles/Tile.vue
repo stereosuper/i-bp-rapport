@@ -6,11 +6,17 @@
             `bg-${theme}`,
             `alt-${altTheme}`,
             `${height}-height`,
-            { 'title-filled': titleFilled }
+            { 'title-filled': titleFilled },
+            { 'modal-on': modalOn },
+            { 'has-modal': hasModal }
         ]"
     >
         <div v-if="hasModal" class="modal">
-            <button type="button" class="btn-circular"></button>
+            <button
+                type="button"
+                class="btn-circular"
+                @click="closeModal"
+            ></button>
             <div class="content">
                 <div>
                     <h3 v-if="titleModal">
@@ -121,59 +127,61 @@
                 </div>
             </div>
         </div>
-        <header>
-            <ul class="hashtags">
-                <li v-for="(filter, index) in filters" :key="index">
-                    #{{ filter }}
-                </li>
-            </ul>
-            <div v-if="hasModal" class="btn-circular"></div>
-        </header>
-        <div class="wrapper-content">
-            <div v-if="illusUrl" class="wrapper-illus">
-                <img :src="illusUrl" class="illus" />
-            </div>
-            <div v-if="logoUrl" class="wrapper-logo">
-                <img :src="logoUrl" class="logo" />
-            </div>
-            <div class="content" v-html="content"></div>
-            <div v-if="cta" class="wrapper-cta">
-                <a
-                    v-for="(singleCta, index) in cta"
-                    :key="index"
-                    :href="singleCta.url"
-                    class="cta"
-                >
-                    <span class="border"></span>
-                    <svg
-                        v-if="singleCta.type"
-                        :class="`icon icon-${singleCta.type}`"
+        <div class="tile-content" @click="openModal">
+            <header>
+                <ul class="hashtags">
+                    <li v-for="(filter, index) in filters" :key="index">
+                        #{{ filter }}
+                    </li>
+                </ul>
+                <div v-if="hasModal" class="btn-circular"></div>
+            </header>
+            <div class="wrapper-content">
+                <div v-if="illusUrl" class="wrapper-illus">
+                    <img :src="illusUrl" class="illus" />
+                </div>
+                <div v-if="logoUrl" class="wrapper-logo">
+                    <img :src="logoUrl" class="logo" />
+                </div>
+                <div class="content" v-html="content"></div>
+                <div v-if="cta" class="wrapper-cta">
+                    <a
+                        v-for="(singleCta, index) in cta"
+                        :key="index"
+                        :href="singleCta.url"
+                        class="cta"
                     >
-                        <use :xlink:href="`#icon-${singleCta.type}`" />
-                    </svg>
-                    <span v-if="singleCta.label" class="text">{{
-                        singleCta.label
-                    }}</span>
-                </a>
-            </div>
-            <div v-if="social" class="wrapper-social">
-                <div class="social-title">Rejoignez-nous</div>
-                <div class="social">
-                    <a href="https://twitter.com/InformatiqueBP">
-                        <svg class="icon icon-twitter">
-                            <use xlink:href="#icon-twitter" />
+                        <span class="border"></span>
+                        <svg
+                            v-if="singleCta.type"
+                            :class="`icon icon-${singleCta.type}`"
+                        >
+                            <use :xlink:href="`#icon-${singleCta.type}`" />
                         </svg>
+                        <span v-if="singleCta.label" class="text">{{
+                            singleCta.label
+                        }}</span>
                     </a>
-                    <a href="https://fr.linkedin.com/company/i-bp">
-                        <svg class="icon icon-linkedin">
-                            <use xlink:href="#icon-linkedin" />
-                        </svg>
-                    </a>
-                    <a href="https://informatique.banquepopulaire.fr/">
-                        <svg class="icon icon-link">
-                            <use xlink:href="#icon-link" />
-                        </svg>
-                    </a>
+                </div>
+                <div v-if="social" class="wrapper-social">
+                    <div class="social-title">Rejoignez-nous</div>
+                    <div class="social">
+                        <a href="https://twitter.com/InformatiqueBP">
+                            <svg class="icon icon-twitter">
+                                <use xlink:href="#icon-twitter" />
+                            </svg>
+                        </a>
+                        <a href="https://fr.linkedin.com/company/i-bp">
+                            <svg class="icon icon-linkedin">
+                                <use xlink:href="#icon-linkedin" />
+                            </svg>
+                        </a>
+                        <a href="https://informatique.banquepopulaire.fr/">
+                            <svg class="icon icon-link">
+                                <use xlink:href="#icon-link" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -258,25 +266,30 @@ export default {
         }
     },
     data() {
-        return {};
+        return {
+            modalOn: false
+        };
     },
     computed: {},
     watch: {},
     mounted() {},
     destroyed() {},
-    methods: {}
+    methods: {
+        openModal() {
+            this.modalOn = true;
+        },
+        closeModal() {
+            console.log("coucou");
+            this.modalOn = false;
+        }
+    }
 };
 </script>
 
 <style lang="scss" scoped>
 .tile {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 33.3333%;
-    min-height: 700px;
-    padding: 50px $gutter 100px;
     z-index: 1;
     &::before {
         content: "";
@@ -289,10 +302,14 @@ export default {
         z-index: -1;
     }
     &.small-height {
-        min-height: 600px;
+        .tile-content {
+            min-height: 600px;
+        }
     }
     &.big-height {
-        min-height: 800px;
+        .tile-content {
+            min-height: 800px;
+        }
     }
     &.bg-white {
         color: $primary;
@@ -548,6 +565,24 @@ export default {
             }
         }
     }
+    &.has-modal {
+        .tile-content {
+            cursor: pointer;
+        }
+    }
+    &.modal-on {
+        z-index: 3;
+        .modal {
+            display: block;
+        }
+    }
+}
+.tile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 700px;
+    padding: 50px $gutter 100px;
 }
 header {
     display: flex;
@@ -645,7 +680,7 @@ header {
     }
 }
 .modal {
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
