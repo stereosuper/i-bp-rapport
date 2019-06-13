@@ -170,12 +170,24 @@
         />
         <Tile
             :theme="'primary-alt-light'"
-            :filters="['Tendances', 'Banque', 'Évènements']"
+            :filters="['Banque', 'Tendances', 'Évènements']"
             :height="'small'"
-            :content="
-                `<h2>Un collaborateur i-BP parmi les lauréats du prix des collaborateurs.</h2>`
-            "
+            :content="`<h2>Un collaborateur i-BP parmi les lauréats</h2>`"
             :logoUrl="'img/trophees-make-it-simple.png'"
+            :hasModal="true"
+            :titleModal="`1 collaborateur i-BP parmi les lauréats `"
+            :col1Modal="
+                `<p>Les Trophées Make it Simple 2018 affichent un leitmotiv : encourager et valoriser les projets des collaborateurs du Groupe BPCE permettant de « faire plus simple ». Plus simple au bénéfice des clients, des collaborateurs, de l’entreprise et de ses partenaires au sens large.</p>
+                <p>C’est le projet de l’équipe Banque Populaire Rives de Paris / i-BP qui a remporté le prix des collaborateurs. Il vise à soulager les équipes commerciales en agences de certains types de mails et dégager du temps commercial pour les clients grâce à un traitement centralisé des mails d’agences vers les « Middle Offices Commerciaux ».</p>`
+            "
+            :ctaModal="[
+                {
+                    type: 'play',
+                    label: `Trophées Make It Simple`,
+                    url: 'https://youtu.be/NvrKGm14-8g'
+                }
+            ]"
+            :ctaModalCol="1"
         />
         <Tile
             :theme="'secondary'"
@@ -397,12 +409,32 @@
         />
         <Tile
             :theme="'primary-alt-light'"
-            :filters="['Tendances', 'Banque', 'Évènements']"
+            :filters="['Banque', 'Tendances', 'Évènements']"
             :height="'small'"
             :content="
-                `<h2>9 entités du Groupe BPCE réunies pour le  5ème hackathon Banque Populaire</h2>`
+                `
+        <h2>
+            9 entités du Groupe BPCE réunies pour le 5ème hackathon Banque
+            Populaire
+        </h2>
+        `
             "
             :logoUrl="'img/logo-groupe-bpce.png'"
+            :hasModal="true"
+            :titleModal="
+                `9 entités du Groupe BPCE réunies pour le 5ème Hackathon Banque Populaire`
+            "
+            :col1Modal="
+                `<p>La 5ème édition du Hackathon Banque Populaire a réuni 30 participants représentant 9 entités du groupe et plus de 20 métiers. Ils étaient invités à répondre à la problématique suivante « comment réduire, grâce au digital, l’impact environnemental de nos collaborateurs ? ». Le projet victorieux, eGreen s’appuie sur un assistant intégré à la messagerie permettant de maîtriser la taille des mails envoyés, associé à un tableau de bord individuel et un challenge collectif visant à réduire de 10 % le volume de mails stockés par les collaborateurs.</p>`
+            "
+            :ctaModal="[
+                {
+                    type: 'twitter',
+                    label: `Hackathon 5`,
+                    url: 'https://twitter.com/HackathonBP'
+                }
+            ]"
+            :ctaModalCol="1"
         />
         <Tile
             :theme="'white'"
@@ -439,6 +471,39 @@
                 `<h2><strong class='small'>15</strong> cadrages accompagnés par les coach agiles</h2>`
             "
             :illusUrl="'img/twitter-followers.svg'"
+            :hasModal="true"
+            :titleModal="`15 cadrages accompagnés par les coachs agile.`"
+            :col1Modal="
+                `<p>La DSI Retail est montée en puissance durant cette année 2018 et i-BP y a pleinement pris sa place via des apports sur la méthode avec Tempo et l’agilité, par la participation des équipes dans les projets 89C3 ou dans les BAPI (Business Application Programming Interface) Factories.</p>`
+            "
+            :ctaModal="[
+                {
+                    type: 'play',
+                    label: `La minute agile S01E1`,
+                    url: 'https://www.youtube.com/watch?v=AJodBjY-46o'
+                },
+                {
+                    type: 'play',
+                    label: `La minute agile S01E2`,
+                    url: 'https://www.youtube.com/watch?v=45J9oqIZAyM'
+                },
+                {
+                    type: 'play',
+                    label: `La minute agile S01E7`,
+                    url: 'https://www.youtube.com/watch?v=Li7Elz9PvjI'
+                },
+                {
+                    type: 'play',
+                    label: `Comprendre le cadrage agile`,
+                    url: 'https://youtu.be/Ua5VjrXMPnM'
+                },
+                {
+                    type: 'play',
+                    label: `Retour d'expérience`,
+                    url: 'https://youtu.be/TntXS0De-AM'
+                }
+            ]"
+            :ctaModalCol="1"
         />
         <Tile
             :theme="'tertiary'"
@@ -458,6 +523,25 @@
                 `<h2><strong class='small'>02</strong> numéros pour un nouveau magazine</h2>`
             "
             :illusUrl="'img/twitter-followers.svg'"
+            :hasModal="true"
+            :titleModal="`2 numéros pour un nouveau magazine`"
+            :col1Modal="
+                `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i-BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>
+                <p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
+            "
+            :ctaModal="[
+                {
+                    type: 'file',
+                    label: `D-CODE #1`,
+                    url: 'pdf/D-CODE#1.pdf'
+                },
+                {
+                    type: 'file',
+                    label: `D-CODE #2`,
+                    url: 'pdf/D-CODE#2.pdf'
+                }
+            ]"
+            :ctaModalCol="1"
         />
         <Tile
             :theme="'white'"
