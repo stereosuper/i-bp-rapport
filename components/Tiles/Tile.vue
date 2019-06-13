@@ -774,4 +774,28 @@ header {
         margin: 15px 40px 0 0;
     }
 }
+
+@media (max-width: $desktop-medium){
+    .tile {
+
+        &.small-height {
+            .tile-content {
+                min-height: 400px;
+            }
+        }
+        &.big-height {
+            .tile-content {
+                min-height: 600px;
+            }
+        }
+    }
+    .tile-content {
+        padding: 50px $gutter-small 100px;
+        min-height: 500px;
+    }
+}
+
+@media (max-width: $desktop-small){
+    
+}
 </style>
