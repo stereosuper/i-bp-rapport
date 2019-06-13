@@ -245,7 +245,7 @@
             :filters="['Tendances', 'Évènements']"
             :height="'small'"
             :content="
-                `<h2><strong>10</strong> janvier</h2><p>lancement du Centre d’Expertise Sécurité Métier</p>`
+                `<h2><strong class='medium'>10</strong> janvier</h2><p>lancement du Centre d’Expertise Sécurité Métier</p>`
             "
             :logoUrl="'img/logo-cesm-small.png'"
             :hasModal="true"
@@ -277,7 +277,7 @@
             :height="'small'"
             :twoCols="true"
             :content="
-                `<h2><strong>2018</strong> une année enthousiasmante</h2>`
+                `<h2><strong class='medium'>2018</strong> une année enthousiasmante</h2>`
             "
             :illusUrl="'img/femmes-effectifs.svg'"
             :hasModal="true"
