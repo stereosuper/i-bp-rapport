@@ -24,13 +24,7 @@
                     </h3>
                     <div class="cols">
                         <div class="col">
-                            <p>
-                                La marque employeur a permis d’accentuer la
-                                notoriété de l'entreprise sur ses métiers,
-                                notamment sur la filière de développement, et
-                                sur ses territoires. i-BP existe désormais
-                                au-delà de son écosystème naturel.
-                            </p>
+                            <div v-if="col1Modal" v-html="col1Modal"></div>
                             <div
                                 v-if="ctaModal && ctaModalCol === 1"
                                 class="wrapper-buttons"
@@ -73,15 +67,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <p>
-                                i-BP a participé en 2018 aux DevFest de Nantes
-                                et Toulouse qui ont rassemblé plusieurs milliers
-                                de développeurs, au salon de la Data lors de la
-                                Nantes Digital Week ou à des évènements sur la
-                                sécurité informatique. Les relations écoles ont
-                                aussi été développées au plus près des sites et
-                                des métiers.
-                            </p>
+                            <div v-if="col2Modal" v-html="col2Modal"></div>
                             <div
                                 v-if="ctaModal && ctaModalCol === 2"
                                 class="wrapper-buttons"
@@ -255,6 +241,16 @@ export default {
             required: false,
             default: ""
         },
+        col1Modal: {
+            type: String,
+            required: false,
+            default: ""
+        },
+        col2Modal: {
+            type: String,
+            required: false,
+            default: ""
+        },
         ctaModal: {
             type: Array,
             required: false
@@ -364,6 +360,7 @@ export default {
             }
         }
         .modal {
+            background: $primary;
             .btn-circular {
                 border-color: $primary;
                 &::before,
