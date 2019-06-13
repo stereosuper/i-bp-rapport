@@ -22,6 +22,7 @@
         />
         <Tile
             :theme="'white'"
+            :altTheme="'secondary'"
             :filters="['Inside']"
             :twoCols="true"
             :content="
@@ -50,7 +51,7 @@
         />
         <Tile
             :theme="'white'"
-            :altTheme="'tertiary'"
+            :altTheme="'quaternary-dark'"
             :filters="['Tendances']"
             :height="'big'"
             :content="
@@ -82,7 +83,7 @@
             :ctaModalCol="1"
         />
         <Tile
-            :theme="'primary'"
+            :theme="'quinary'"
             :filters="['Inside', 'Évènements']"
             :height="'big'"
             :content="
@@ -130,6 +131,7 @@
         />
         <Tile
             :theme="'white'"
+            :alt-theme="'quinary'"
             :filters="['Inside', 'Tendances']"
             :height="'small'"
             :twoCols="true"
@@ -212,6 +214,7 @@
         />
         <Tile
             :theme="'white'"
+            :alt-theme="'tertiary'"
             :filters="['Banque', 'Performances']"
             :height="'small'"
             :twoCols="true"
@@ -325,6 +328,7 @@
         />
         <Tile
             :theme="'white'"
+            :alt-theme="'tertiary'"
             :filters="['Banque', 'Transformation']"
             :height="'small'"
             :twoCols="true"
@@ -350,6 +354,7 @@
         />
         <Tile
             :theme="'white'"
+            :alt-theme="'tertiary'"
             :filters="['Transformation', 'Évènements']"
             :twoCols="true"
             :content="
@@ -378,7 +383,7 @@
             :ctaModalCol="1"
         />
         <Tile
-            :theme="'primary'"
+            :theme="'quinary'"
             :filters="['Banque', 'Performances']"
             :content="
                 `<h2><strong>23</strong> mille jours homme pour le Plan Informatique Annuel</h2>`
@@ -408,18 +413,13 @@
             :ctaModalCol="1"
         />
         <Tile
-            :theme="'primary-alt-light'"
+            :theme="'secondary'"
             :filters="['Banque', 'Tendances', 'Évènements']"
             :height="'small'"
             :content="
-                `
-        <h2>
-            9 entités du Groupe BPCE réunies pour le 5ème hackathon Banque
-            Populaire
-        </h2>
-        `
+                `<h2><strong>9</strong> entités du Groupe BPCE réunies pour le 5ème hackathon Banque
+                Populaire</h2>`
             "
-            :logoUrl="'img/logo-groupe-bpce.png'"
             :hasModal="true"
             :titleModal="
                 `9 entités du Groupe BPCE réunies pour le 5ème Hackathon Banque Populaire`
@@ -438,6 +438,7 @@
         />
         <Tile
             :theme="'white'"
+            :alt-theme="'quinary'"
             :filters="['Inside']"
             :height="'small'"
             :twoCols="true"
@@ -510,9 +511,8 @@
             :filters="['Banque', 'Performances']"
             :height="'big'"
             :content="
-                `<h2><strong class='medium'>358,7</strong> millions d’euros de chiffre d’affaires toutes activités confondues</h2>`
+                `<h2><strong>359</strong> millions d’euros de chiffre d’affaires toutes activités confondues</h2>`
             "
-            :titleFilled="true"
         />
         <Tile
             :theme="'white'"
@@ -545,6 +545,7 @@
         />
         <Tile
             :theme="'white'"
+            :alt-theme="'quaternary-dark'"
             :filters="['Inside']"
             :height="'big'"
             :twoCols="true"

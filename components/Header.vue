@@ -41,8 +41,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-    background: $primary;
-    color: $white;
+    color: $primary;
 }
 .header {
     display: flex;
@@ -50,7 +49,7 @@ export default {
     padding-top: 50px;
 }
 .logo {
-    fill: $white;
+    fill: $black;
 }
 .content {
     width: $col * 2;
