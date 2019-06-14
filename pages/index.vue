@@ -7,7 +7,7 @@
                 `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
             "
             :hasModal="true"
-            :titleModal="`22 couleurs pour le nouveau nuancier d’i&#8209;BP`"
+            :titleModal="`22 couleurs pour le nouveau nuancier d’i-BP`"
             :col1Modal="
                 `<p>i&#8209;BP change de logo ! La nouvelle identité est en cohérence avec le paysage de marque du groupe, et affirme notre place aux côtés des banques, mais en marquant notre spécificité métier.</p>`
             "
@@ -18,7 +18,7 @@
                     url: '#'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -47,7 +47,7 @@
                     url: '#'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -59,28 +59,6 @@
             "
             :illusUrl="'img/twitter-followers.svg'"
             :social="true"
-            :hasModal="true"
-            :titleModal="`1000 followers sur Twitter en mars 2018`"
-            :col1Modal="`<p>Retrouvez-nous sur nos réseaux !</p>`"
-            :ctaModal="[
-                {
-                    type: 'twitter',
-                    label: `@InformatiqueBP #iBP`,
-                    url: 'https://twitter.com/informatiquebp?lang=fr'
-                },
-                {
-                    type: 'linkedin',
-                    label: `Informatique Banque Populaire`,
-                    url:
-                        'https://www.linkedin.com/company/informatique-banque-populaire/?originalSubdomain=fr'
-                },
-                {
-                    type: 'link',
-                    label: `www.informatique.banquepopulaire.fr`,
-                    url: 'www.informatique.banquepopulaire.fr'
-                }
-            ]"
-            :ctaModalCol="1"
         />
         <Tile
             :theme="'quinary'"
@@ -91,10 +69,13 @@
             "
             :hasModal="true"
             :titleModal="
-                `61 évènements auxquels i&#8209;BP a participé au titre de la marque employeur`
+                `61 évènements auxquels i-BP a participé au titre de la marque employeur`
             "
             :col1Modal="
-                `<p>La marque employeur a permis d’accentuer la notoriété de l'entreprise sur ses métiers, notamment sur la filière de développement, et sur ses territoires. i&#8209;BP existe désormais au-delà de son écosystème naturel. i&#8209;BP a participé en 2018 aux DevFest de Nantes et Toulouse qui ont rassemblé plusieurs milliers de développeurs, au salon de la Data lors de Nantes Digital Week ou à des évènements sur la sécurité informatique. Les relations écoles ont aussi été développées au plus près des sites et des métiers.</p>`
+                `<p>La marque employeur a permis d’accentuer la notoriété de l'entreprise sur ses métiers, notamment sur la filière de développement, et sur ses territoires. i&#8209;BP existe désormais au-delà de son écosystème naturel. i&#8209;BP a participé en 2018 aux DevFest de Nantes et Toulouse qui ont rassemblé plusieurs milliers de développeurs, au salon de la Data lors de Nantes Digital Week ou à des évènements sur la sécurité informatique.</p>`
+            "
+            :col2Modal="
+                `<p>Les relations écoles ont aussi été développées au plus près des sites et des métiers.</p>`
             "
             :ctaModal="[
                 {
@@ -110,7 +91,7 @@
                         'https://twitter.com/InformatiqueBP/status/985824624360480769'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -168,7 +149,7 @@
                     url: 'https://www.youtube.com/watch?v=0uUzURi2fUs'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'primary-alt-light'"
@@ -177,10 +158,12 @@
             :content="`<h2>Un collaborateur i&#8209;BP parmi les lauréats</h2>`"
             :logoUrl="'img/trophees-make-it-simple.png'"
             :hasModal="true"
-            :titleModal="`1 collaborateur i&#8209;BP parmi les lauréats `"
+            :titleModal="`1 collaborateur i-BP parmi les lauréats `"
             :col1Modal="
-                `<p>Les Trophées Make it Simple 2018 affichent un leitmotiv : encourager et valoriser les projets des collaborateurs du Groupe BPCE permettant de « faire plus simple ». Plus simple au bénéfice des clients, des collaborateurs, de l’entreprise et de ses partenaires au sens large.</p>
-                <p>C’est le projet de l’équipe Banque Populaire Rives de Paris / i&#8209;BP qui a remporté le prix des collaborateurs. Il vise à soulager les équipes commerciales en agences de certains types de mails et dégager du temps commercial pour les clients grâce à un traitement centralisé des mails d’agences vers les « Middle Offices Commerciaux ».</p>`
+                `<p>Les Trophées Make it Simple 2018 affichent un leitmotiv : encourager et valoriser les projets des collaborateurs du Groupe BPCE permettant de « faire plus simple ». Plus simple au bénéfice des clients, des collaborateurs, de l’entreprise et de ses partenaires au sens large.</p>`
+            "
+            :col2Modal="
+                `<p>C’est le projet de l’équipe Banque Populaire Rives de Paris / i&#8209;BP qui a remporté le prix des collaborateurs. Il vise à soulager les équipes commerciales en agences de certains types de mails et dégager du temps commercial pour les clients grâce à un traitement centralisé des mails d’agences vers les « Middle Offices Commerciaux ».</p>`
             "
             :ctaModal="[
                 {
@@ -189,7 +172,7 @@
                     url: 'https://youtu.be/NvrKGm14-8g'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'secondary'"
@@ -241,7 +224,7 @@
                     url: 'https://youtu.be/eFC1uiMMTPA'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'primary-alt-light'"
@@ -256,7 +239,10 @@
                 `10 janvier, lancement du Centre d’Expertise Sécurité métier.`
             "
             :col1Modal="
-                `<p>Le Centre d’Expertise Sécurité Métier voit le jour dans le cadre de la DSI Retail, afin de mieux répondre aux nouveaux enjeux de la cybersécurité : soutenir la transformation digitale, se prémunir contre les cyberattaques ou encore renforcer notre capacité à les détecter comme à y réagir. Ses missions ? Accompagner les projets de la DSI Retail et la 89C3, en intégrant une expertise sécurité forte dès les premières phases, promouvoir le développement sécurisé mais aussi favoriser la lutte contre la fraude et la sensibilisation à la sécurité.</p>`
+                `<p>Le Centre d’Expertise Sécurité Métier voit le jour dans le cadre de la DSI Retail, afin de mieux répondre aux nouveaux enjeux de la cybersécurité : soutenir la transformation digitale, se prémunir contre les cyberattaques ou encore renforcer notre capacité à les détecter comme à y réagir.</p>`
+            "
+            :col2Modal="
+                `<p>Ses missions ? Accompagner les projets de la DSI Retail et la 89C3, en intégrant une expertise sécurité forte dès les premières phases, promouvoir le développement sécurisé mais aussi favoriser la lutte contre la fraude et la sensibilisation à la sécurité.</p>`
             "
             :ctaModal="[
                 {
@@ -265,7 +251,7 @@
                     url: 'pdf/Securite-informatique-Groupe-BPCE.pdf'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -284,7 +270,6 @@
             "
             :illusUrl="'img/femmes-effectifs.svg'"
             :hasModal="true"
-            :titleModal="`2018, une année enthousiasmante`"
             :col1Modal="
                 `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
             "
@@ -353,7 +338,7 @@
                     url: 'pdf/Les-chantiers-du-GAl.pdf'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -383,7 +368,7 @@
                     url: '#'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'quinary'"
@@ -413,7 +398,7 @@
                     url: '/pdf/PIA-2018.pdf'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'secondary'"
@@ -428,7 +413,10 @@
                 `9 entités du Groupe BPCE réunies pour le 5ème Hackathon Banque Populaire`
             "
             :col1Modal="
-                `<p>La 5ème édition du Hackathon Banque Populaire a réuni 30 participants représentant 9 entités du groupe et plus de 20 métiers. Ils étaient invités à répondre à la problématique suivante « comment réduire, grâce au digital, l’impact environnemental de nos collaborateurs ? ». Le projet victorieux, eGreen s’appuie sur un assistant intégré à la messagerie permettant de maîtriser la taille des mails envoyés, associé à un tableau de bord individuel et un challenge collectif visant à réduire de 10 % le volume de mails stockés par les collaborateurs.</p>`
+                `<p>La 5ème édition du Hackathon Banque Populaire a réuni 30 participants représentant 9 entités du groupe et plus de 20 métiers. Ils étaient invités à répondre à la problématique suivante « comment réduire, grâce au digital, l’impact environnemental de nos collaborateurs ? ».</p>`
+            "
+            :col2Modal="
+                `<p>Le projet victorieux, eGreen s’appuie sur un assistant intégré à la messagerie permettant de maîtriser la taille des mails envoyés, associé à un tableau de bord individuel et un challenge collectif visant à réduire de 10 % le volume de mails stockés par les collaborateurs.</p>`
             "
             :ctaModal="[
                 {
@@ -437,7 +425,7 @@
                     url: 'https://twitter.com/HackathonBP'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -454,7 +442,10 @@
                 `245 personnes aux journées handicap et Qualité de Vie au Travail`
             "
             :col1Modal="
-                `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs. Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
+                `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs.</p>`
+            "
+            :col2Modal="
+                `<p>Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
             "
             :ctaModal="[
                 {
@@ -507,7 +498,7 @@
                     url: 'https://youtu.be/TntXS0De-AM'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'tertiary'"
@@ -529,8 +520,10 @@
             :hasModal="true"
             :titleModal="`2 numéros pour un nouveau magazine`"
             :col1Modal="
-                `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>
-                <p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
+                `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>`
+            "
+            :col2Modal="
+                `<p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
             "
             :ctaModal="[
                 {
@@ -544,7 +537,7 @@
                     url: 'pdf/D-CODE#2.pdf'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -575,7 +568,7 @@
                     url: '#'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
@@ -605,7 +598,7 @@
                     url: 'https://youtu.be/izrDMMFPcTw'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
     </div>
 </template>

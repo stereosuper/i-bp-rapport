@@ -152,12 +152,14 @@
                 <div v-if="social" class="wrapper-social">
                     <div class="social-title">Rejoignez-nous</div>
                     <div class="social">
-                        <a href="https://twitter.com/InformatiqueBP">
+                        <a href="https://twitter.com/informatiquebp?lang=fr">
                             <svg class="icon icon-twitter">
                                 <use xlink:href="#icon-twitter" />
                             </svg>
                         </a>
-                        <a href="https://fr.linkedin.com/company/i-bp">
+                        <a
+                            href="https://www.linkedin.com/company/informatique-banque-populaire/?originalSubdomain=fr"
+                        >
                             <svg class="icon icon-linkedin">
                                 <use xlink:href="#icon-linkedin" />
                             </svg>
@@ -845,6 +847,11 @@ header {
     .col {
         flex: 1 1 0;
         padding-right: 16.666%;
+        > div {
+            + .wrapper-buttons {
+                margin-top: 50px;
+            }
+        }
     }
     .btn-circular {
         position: fixed;
@@ -860,7 +867,7 @@ header {
     }
 }
 .wrapper-buttons {
-    margin: 50px 0 0;
+    margin: 0.6em 0 0;
 }
 .label-buttons {
     font-family: $chivo;
