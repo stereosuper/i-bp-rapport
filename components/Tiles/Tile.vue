@@ -275,7 +275,6 @@ export default {
             this.modalOn = true;
         },
         closeModal() {
-            console.log("coucou");
             this.modalOn = false;
         }
     }
@@ -359,6 +358,24 @@ export default {
                 }
             }
         }
+        &.alt-quaternary-dark {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $quaternary-dark;
+                    }
+                }
+            }
+        }
+        &.alt-quinary {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $quinary;
+                    }
+                }
+            }
+        }
         .modal {
             background: $primary;
             .btn-circular {
@@ -401,7 +418,8 @@ export default {
     &.bg-primary,
     &.bg-secondary,
     &.bg-tertiary,
-    &.bg-quaternary {
+    &.bg-quaternary,
+    &.bg-quinary {
         color: $white;
         .modal {
             .btn-circular {
@@ -440,6 +458,36 @@ export default {
             background: $primary;
             /deep/ h3 {
                 color: $primary;
+            }
+        }
+    }
+    &.bg-quinary {
+        &::before {
+            background: $quinary;
+        }
+        .hashtags {
+            color: $quinary-light;
+        }
+        .btn-circular {
+            &::before,
+            &::after {
+                background: $quinary-light;
+            }
+            border-color: $quinary-light;
+        }
+        &:not(.title-filled) {
+            .content {
+                /deep/ h2 {
+                    strong {
+                        color: $quinary;
+                    }
+                }
+            }
+        }
+        .modal {
+            background: $quinary;
+            /deep/ h3 {
+                color: $quinary;
             }
         }
     }

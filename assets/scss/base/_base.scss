@@ -46,12 +46,12 @@ h1 {
         right: 0;
         font-size: 1.9em;
         line-height: 0.8;
-        color: $primary;
+        color: $white;
         text-shadow:
-            -1px -1px 0 $white,
-            1px -1px 0 $white,
-            -1px 1px 0 $white,
-            1px 1px 0 $white;
+            -1px -1px 0 $quinary-light,
+            1px -1px 0 $quinary-light,
+            -1px 1px 0 $quinary-light,
+            1px 1px 0 $quinary-light;
         transform: translate3d(12.5%, -50%, 0);
         z-index: -1;
     }
