@@ -510,7 +510,7 @@
             :filters="['Banque', 'Performances']"
             :height="'big'"
             :content="
-                `<h2><strong class='medium'>358,7</strong> millions d’euros de chiffre d’affaires toutes activités confondues</h2>`
+                `<h2><strong class='medium'>359</strong> millions d’euros de chiffre d’affaires toutes activités confondues</h2>`
             "
             :titleFilled="true"
         />

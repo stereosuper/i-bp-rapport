@@ -604,6 +604,7 @@ header {
     }
 }
 .btn-circular {
+    flex: 0 0 auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -775,9 +776,8 @@ header {
     }
 }
 
-@media (max-width: $desktop-medium){
+@media (max-width: $desktop-medium) {
     .tile {
-
         &.small-height {
             .tile-content {
                 min-height: 400px;
@@ -793,9 +793,12 @@ header {
         padding: 50px $gutter-small 100px;
         min-height: 500px;
     }
+    .btn-circular {
+        width: 65px;
+        height: 65px;
+    }
 }
 
-@media (max-width: $desktop-small){
-    
+@media (max-width: $desktop-small) {
 }
 </style>

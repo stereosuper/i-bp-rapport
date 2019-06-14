@@ -311,58 +311,67 @@ a {
     transition: none !important;
 }
 
-@media (max-width: $desktop-large){
+@media (max-width: $desktop-large) {
     h2 {
         font-size: 2.8rem;
+
         strong {
             font-size: 18rem;
+
             &.medium {
                 font-size: 14.4rem;
             }
+
             &.small {
                 font-size: 8rem;
             }
+
             span {
                 font-size: 4rem;
             }
         }
     }
 }
-@media (max-width: $desktop-medium){
+
+@media (max-width: $desktop-medium) {
     h2 {
         font-size: 2rem;
+
         strong {
             font-size: 15rem;
+
             &.medium {
                 font-size: 10rem;
             }
+
             &.small {
                 font-size: 7rem;
             }
+
             span {
                 font-size: 3rem;
             }
         }
     }
 }
-@media (max-width: $desktop){
-    // h1 {
-    //     font-size: 10rem;
-    // }
 
-    // h2 {
-    //     font-size: 3.4rem;
-    //     strong {
-    //         font-size: 20rem;
-    //         &.medium {
-    //             font-size: 16.4rem;
-    //         }
-    //         &.small {
-    //             font-size: 10rem;
-    //         }
-    //         span {
-    //             font-size: 5rem;
-    //         }
-    //     }
-    // }
+@media (max-width: $desktop) {
+    h2 {
+
+        strong {
+            font-size: 12rem;
+
+            &.medium {
+                font-size: 9rem;
+            }
+
+            &.small {
+                font-size: 6rem;
+            }
+
+            span {
+                font-size: 2rem;
+            }
+        }
+    }
 }
