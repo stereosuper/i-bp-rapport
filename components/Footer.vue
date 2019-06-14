@@ -9,7 +9,7 @@
             /></a>
         </div>
         <div>
-            <nuxt-link to="/mentions-legales">Mentions légales</nuxt-link>
+            <nuxt-link to="/mentions">Mentions légales</nuxt-link>
         </div>
     </footer>
 </template>
