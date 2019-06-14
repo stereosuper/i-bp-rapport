@@ -529,12 +529,12 @@
                 {
                     type: 'file',
                     label: `D-CODE #1`,
-                    url: 'pdf/D-CODE#1.pdf'
+                    url: 'pdf/D-CODE1.pdf'
                 },
                 {
                     type: 'file',
                     label: `D-CODE #2`,
-                    url: 'pdf/D-CODE#2.pdf'
+                    url: 'pdf/D-CODE2.pdf'
                 }
             ]"
             :ctaModalCol="2"
