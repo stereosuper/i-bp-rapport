@@ -120,7 +120,7 @@
                         #{{ filter }}
                     </li>
                 </ul>
-                <div v-if="hasModal" class="btn-circular">
+                <div v-if="hasModal" class="btn-open btn-circular">
                     <span>Voir</span>
                 </div>
             </header>
@@ -390,7 +390,7 @@ export default {
         &.has-modal{
             .tile-content{
                 &:hover, &:focus{
-                    .btn-circular{
+                    .btn-open{
                         border-color: $primary;
                         background: $primary-alt-light;
                     }
@@ -426,11 +426,9 @@ export default {
             }
         }
         &.has-modal{
-            .tile-content{
-                &:hover, &:focus{
-                    .btn-circular{
-                        background: $white;
-                    }
+            &:hover, &:focus{
+                .btn-open{
+                    background: $white;
                 }
             }
         }
@@ -631,17 +629,15 @@ export default {
         }
     }
     &.has-modal {
-        .tile-content {
-            cursor: pointer;
-            &:hover, &:focus{
-                .btn-circular{
-                    background: rgba(#fff, 0.2);
-                    &:before, &:after{
-                        opacity: 0;
-                    }
-                    > span{
-                        opacity: 1;
-                    }
+        cursor: pointer;
+        &:hover, &:focus{
+            .btn-open{
+                background: rgba(#fff, 0.2);
+                &:before, &:after{
+                    opacity: 0;
+                }
+                > span{
+                    opacity: 1;
                 }
             }
         }
