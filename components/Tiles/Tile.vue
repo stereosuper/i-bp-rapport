@@ -16,7 +16,7 @@
                 type="button"
                 class="btn-circular"
                 @click="closeModal"
-            ></button>
+            ><span>Retour</span></button>
             <div class="content">
                 <div>
                     <h3 v-if="titleModal">
@@ -120,7 +120,9 @@
                         #{{ filter }}
                     </li>
                 </ul>
-                <div v-if="hasModal" class="btn-circular"></div>
+                <div v-if="hasModal" class="btn-open btn-circular">
+                    <span>Voir</span>
+                </div>
             </header>
             <div class="wrapper-content">
                 <div v-if="illusUrl" class="wrapper-illus">
@@ -283,12 +285,11 @@ export default {
 
 <style lang="scss" scoped>
 .tile {
-    position: relative;
     width: 33.3333%;
+    position: relative;
     z-index: 1;
     &::before {
         content: "";
-        display: block;
         position: absolute;
         top: 0;
         right: 0;
@@ -386,6 +387,16 @@ export default {
                 }
             }
         }
+        &.has-modal{
+            .tile-content{
+                &:hover, &:focus{
+                    .btn-open{
+                        border-color: $primary;
+                        background: $primary-alt-light;
+                    }
+                }
+            }
+        }
     }
     &.bg-primary-alt-light {
         color: $primary;
@@ -411,6 +422,13 @@ export default {
                 &::before,
                 &::after {
                     background: $primary;
+                }
+            }
+        }
+        &.has-modal{
+            &:hover, &:focus{
+                .btn-open{
+                    background: $white;
                 }
             }
         }
@@ -611,12 +629,22 @@ export default {
         }
     }
     &.has-modal {
-        .tile-content {
-            cursor: pointer;
+        cursor: pointer;
+        &:hover, &:focus{
+            .btn-open{
+                background: rgba(#fff, 0.2);
+                &:before, &:after{
+                    opacity: 0;
+                }
+                > span{
+                    opacity: 1;
+                }
+            }
         }
     }
     &.modal-on {
         z-index: 3;
+        cursor: auto;
         .modal {
             display: block;
         }
@@ -652,20 +680,33 @@ header {
     }
 }
 .btn-circular {
-    flex: 0 0 auto;
-    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 80px;
     height: 80px;
-    border-width: 1px;
-    border-style: solid;
+    border: 1px solid;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
     border-radius: 50%;
+    text-transform: uppercase;
+    transition: $transition;
+    &:hover, &:focus{
+        background: $primary-alt-light;
+        &:before, &:after{
+            opacity: 0;
+        }
+        > span{
+            opacity: 1;
+        }
+    }
+    &:before, &:after, > span{
+        transition: opacity $transition;
+    }
     &::before,
     &::after {
         content: "";
-        display: block;
         width: 16px;
         height: 1px;
         position: absolute;
@@ -675,6 +716,10 @@ header {
     }
     &::after {
         transform: rotate(90deg);
+    }
+    > span{
+        padding: 3px 0 0;
+        opacity: 0;
     }
 }
 .wrapper-content {
