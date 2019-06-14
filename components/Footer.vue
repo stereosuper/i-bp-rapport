@@ -72,7 +72,7 @@ footer {
         > div {
             width: 100%;
             justify-content: center;
-            margin: 5px 0;
+            margin: 10px 0;
             &:nth-child(1) {
                 order: 3;
             }
