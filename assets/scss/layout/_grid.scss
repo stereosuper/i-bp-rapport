@@ -1,12 +1,18 @@
 /* Grid */
 
-.container{
+.container {
     padding: 0 $gutter;
 }
 
 
-@media(max-width: $desktop){
-    .container{
+@media(max-width: $desktop) {
+    .container {
         padding: 0 $gutter/2;
+    }
+}
+
+@media (max-width: $desktop-medium) {
+    .container {
+        padding: 0 $gutter-small;
     }
 }
