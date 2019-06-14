@@ -4,7 +4,11 @@
             ©2019, informatique banque populaire
         </div>
         <div>
-            <a class="logo-groupe-bpce" href="https://groupebpce.com/"
+            <a
+                class="logo-groupe-bpce"
+                href="https://groupebpce.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 ><img src="img/logo-groupe-bpce.svg" alt="Groupe BPCE"
             /></a>
         </div>

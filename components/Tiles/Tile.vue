@@ -36,6 +36,8 @@
                                         index) in ctaModal"
                                         :key="index"
                                         :href="singleCtaModal.url"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         class="cta"
                                     >
                                         <span class="border"></span>
@@ -79,6 +81,8 @@
                                         index) in ctaModal"
                                         :key="index"
                                         :href="singleCtaModal.url"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         class="cta"
                                     >
                                         <span class="border"></span>
@@ -135,6 +139,8 @@
                         v-for="(singleCta, index) in cta"
                         :key="index"
                         :href="singleCta.url"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         class="cta"
                     >
                         <span class="border"></span>
@@ -152,19 +158,29 @@
                 <div v-if="social" class="wrapper-social">
                     <div class="social-title">Rejoignez-nous</div>
                     <div class="social">
-                        <a href="https://twitter.com/informatiquebp?lang=fr">
+                        <a
+                            href="https://twitter.com/informatiquebp?lang=fr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <svg class="icon icon-twitter">
                                 <use xlink:href="#icon-twitter" />
                             </svg>
                         </a>
                         <a
                             href="https://www.linkedin.com/company/informatique-banque-populaire/?originalSubdomain=fr"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <svg class="icon icon-linkedin">
                                 <use xlink:href="#icon-linkedin" />
                             </svg>
                         </a>
-                        <a href="https://informatique.banquepopulaire.fr/">
+                        <a
+                            href="https://informatique.banquepopulaire.fr/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <svg class="icon icon-link">
                                 <use xlink:href="#icon-link" />
                             </svg>
