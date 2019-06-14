@@ -55,6 +55,7 @@ export default {
     button {
         position: relative;
         font-family: $chivo;
+        font-size: 1.6rem;
         font-weight: 500;
         line-height: 1;
         text-transform: uppercase;
