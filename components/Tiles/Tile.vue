@@ -12,11 +12,9 @@
         ]"
     >
         <div v-if="hasModal" class="modal">
-            <button
-                type="button"
-                class="btn-circular"
-                @click="closeModal"
-            ><span>Retour</span></button>
+            <button type="button" class="btn-circular" @click="closeModal">
+                <span>Retour</span>
+            </button>
             <div class="content">
                 <div>
                     <h3 v-if="titleModal">
@@ -387,10 +385,11 @@ export default {
                 }
             }
         }
-        &.has-modal{
-            .tile-content{
-                &:hover, &:focus{
-                    .btn-open{
+        &.has-modal {
+            .tile-content {
+                &:hover,
+                &:focus {
+                    .btn-open {
                         border-color: $primary;
                         background: $primary-alt-light;
                     }
@@ -425,9 +424,10 @@ export default {
                 }
             }
         }
-        &.has-modal{
-            &:hover, &:focus{
-                .btn-open{
+        &.has-modal {
+            &:hover,
+            &:focus {
+                .btn-open {
                     background: $white;
                 }
             }
@@ -630,13 +630,15 @@ export default {
     }
     &.has-modal {
         cursor: pointer;
-        &:hover, &:focus{
-            .btn-open{
+        &:hover,
+        &:focus {
+            .btn-open {
                 background: rgba(#fff, 0.2);
-                &:before, &:after{
+                &:before,
+                &:after {
                     opacity: 0;
                 }
-                > span{
+                > span {
                     opacity: 1;
                 }
             }
@@ -692,16 +694,20 @@ header {
     border-radius: 50%;
     text-transform: uppercase;
     transition: $transition;
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
         background: $primary-alt-light;
-        &:before, &:after{
+        &:before,
+        &:after {
             opacity: 0;
         }
-        > span{
+        > span {
             opacity: 1;
         }
     }
-    &:before, &:after, > span{
+    &:before,
+    &:after,
+    > span {
         transition: opacity $transition;
     }
     &::before,
@@ -717,7 +723,7 @@ header {
     &::after {
         transform: rotate(90deg);
     }
-    > span{
+    > span {
         padding: 3px 0 0;
         opacity: 0;
     }
@@ -886,33 +892,33 @@ header {
         padding: 50px $gutter-small 100px;
         min-height: 500px;
     }
-    .btn-circular {
-        width: 65px;
-        height: 65px;
-    }
 }
 @media (max-width: $desktop) {
     .tile {
+        width: 100%;
         &.small-height {
             .tile-content {
-                min-height: 300px;
+                min-height: 0;
             }
         }
         &.big-height {
             .tile-content {
-                min-height: 500px;
+                min-height: 0;
             }
         }
         .tile-content {
-            min-height: 400px;
+            min-height: 0;
         }
+        &.two-cols {
+            width: 100%;
+        }
+    }
+    .wrapper-illus {
+        width: 100%;
+        max-width: 400px;
     }
 }
 @media (max-width: $tablet) {
-    .btn-circular {
-        width: 80px;
-        height: 80px;
-    }
     .tile {
         width: 100%;
         &.two-cols {
@@ -926,16 +932,6 @@ header {
 }
 @media (max-width: $phone) {
     .tile {
-        &.small-height {
-            .tile-content {
-                min-height: 0;
-            }
-        }
-        &.big-height {
-            .tile-content {
-                min-height: 0;
-            }
-        }
         &.two-cols {
             .wrapper-content {
                 flex-direction: column;
@@ -948,9 +944,6 @@ header {
                     width: 100%;
                 }
             }
-        }
-        .tile-content {
-            min-height: 0;
         }
     }
     .tile-content {
