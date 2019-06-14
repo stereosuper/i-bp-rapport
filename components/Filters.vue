@@ -48,6 +48,8 @@ export default {
 <style lang="scss" scoped>
 .filters {
     display: flex;
+    align-self: flex-end;
+    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 42px;

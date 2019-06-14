@@ -27,12 +27,17 @@ body {
 h1 {
     position: relative;
     font-family: $archivo;
-    font-size: 10rem;
+    font-size: 9rem;
     font-weight: 600;
     margin: 0.67em 0;
     z-index: 1;
 
-    >span {
+    > .title{
+        display: block;
+        max-width: 510px;
+    }
+
+    > .subtitle {
         display: block;
         font-family: $chivo;
         font-size: 0.2em;
@@ -40,9 +45,9 @@ h1 {
         text-transform: uppercase;
     }
 
-    strong {
+    > strong {
         position: absolute;
-        top: 0;
+        top: 20px;
         right: 0;
         font-size: 1.9em;
         line-height: 0.8;
