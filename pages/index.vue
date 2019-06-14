@@ -455,7 +455,7 @@
                         'https://twitter.com/InformatiqueBP/status/1069943964311130112'
                 }
             ]"
-            :ctaModalCol="1"
+            :ctaModalCol="2"
         />
         <Tile
             :theme="'white'"
