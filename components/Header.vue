@@ -1,7 +1,9 @@
 <template>
     <div class="hero">
         <header class="header container">
-            <img src="img/ibp.png" alt="" class="logo" />
+            <nuxt-link to="/" class="logo"
+                ><img src="img/ibp.png" alt=""
+            /></nuxt-link>
         </header>
         <div class="content">
             <h1>
@@ -70,9 +72,13 @@ export default {
     right: $gutter;
 }
 .logo {
+    display: block;
     width: 185px;
     height: 47px;
     margin: 0 60px 0 0;
+    > img {
+        width: 100%;
+    }
 }
 .content {
     width: $col * 2;
