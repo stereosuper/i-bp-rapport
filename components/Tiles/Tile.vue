@@ -274,7 +274,9 @@ export default {
     destroyed() {},
     methods: {
         openModal() {
-            this.modalOn = true;
+            if (this.hasModal) {
+                this.modalOn = true;
+            }
         },
         closeModal() {
             this.modalOn = false;
