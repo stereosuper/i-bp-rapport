@@ -918,6 +918,25 @@ header {
         padding: 50px $gutter-small 100px;
         min-height: 500px;
     }
+    .modal {
+        .content {
+            &::before {
+                bottom: 123px;
+            }
+            > div {
+                padding: 90px 160px 90px $gutter-small;
+                &::before {
+                    right: 160px;
+                }
+                &::after {
+                    border-width: 123px 160px 0 0;
+                }
+            }
+        }
+        .col {
+            padding-right: $gutter-small;
+        }
+    }
 }
 @media (max-width: $desktop) {
     .tile {
@@ -943,6 +962,63 @@ header {
     .wrapper-illus {
         width: 100%;
         max-width: 400px;
+    }
+    .modal {
+        h3 {
+            width: 100%;
+        }
+        .btn-circular {
+            right: 105px;
+        }
+        .col {
+            flex: 0 0 auto;
+            width: calc(50% - 25px);
+            padding-right: 0;
+        }
+    }
+}
+@media (max-width: $desktop-small) {
+    .modal {
+        padding: 0;
+        .content {
+            align-items: flex-start;
+            height: 100vh;
+            &::before,
+            &::after {
+                content: none;
+            }
+            > div {
+                height: 100vh;
+                padding: 150px $gutter-small 50px;
+                &::before,
+                &::after {
+                    content: none;
+                }
+            }
+        }
+        .cols {
+            flex-direction: column;
+        }
+        .col {
+            width: 100%;
+        }
+        .btn-circular {
+            top: 50px;
+            right: $gutter-small;
+        }
+    }
+    .tile {
+        &.bg-white,
+        &.bg-primary-alt-light,
+        &.bg-primary,
+        &.bg-secondary,
+        &.bg-tertiary,
+        &.bg-quaternary,
+        &.bg-quinary {
+            .modal {
+                background: $white;
+            }
+        }
     }
 }
 @media (max-width: $tablet) {
