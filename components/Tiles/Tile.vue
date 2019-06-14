@@ -657,6 +657,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     min-height: 700px;
+    height: 100%;
     padding: 50px $gutter 100px;
 }
 header {
@@ -906,11 +907,12 @@ header {
                 min-height: 0;
             }
         }
-        .tile-content {
-            min-height: 0;
-        }
         &.two-cols {
             width: 100%;
+        }
+        .tile-content {
+            min-height: 0;
+            height: auto;
         }
     }
     .wrapper-illus {
