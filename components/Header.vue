@@ -5,8 +5,9 @@
         </header>
         <div class="content">
             <h1>
-                <span class='subtitle'>Rapport d’activité</span> <strong>2018</strong>
+                <span class='subtitle'>Rapport d’activité</span>
                 <span class='title'>Le kiosque à datas i&#8209;BP</span>
+                <strong>2018</strong>
             </h1>
         </div>
         <img src='img/banner.svg' alt='' class='banner'>
@@ -61,7 +62,7 @@ export default {
     max-height: 70vh;
     position: absolute;
     bottom: 5vh;
-    right: 80px;
+    right: $gutter;
 }
 .logo {
     width: 185px;
@@ -82,6 +83,33 @@ export default {
         background: $primary;
         transform-origin: 0 0;
         transform: rotate(-44.5deg);
+    }
+}
+
+@media(max-width: $desktop){
+    .content{
+        width: 100%;
+        padding-right: 140px;
+        padding-left: $gutter/2;
+    }
+
+    .logo{
+        margin-right: $gutter/2;
+    }
+}
+
+@media(max-width: $tablet){
+    .hero{
+        &:before, &:after{
+            content: none;
+        }
+    }
+
+    .content{
+        padding-right: $gutter/2;
+        &:before{
+            content: none;
+        }
     }
 }
 </style>

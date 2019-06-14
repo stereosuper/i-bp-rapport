@@ -364,3 +364,15 @@ a {
         font-size: 3.4rem;
     }
 }
+
+@media(max-width: $tablet){
+    h1{
+        text-align: center;
+        > strong{
+            position: static;
+        }
+        > .title{
+            max-width: 100%;
+        }
+    }
+}
