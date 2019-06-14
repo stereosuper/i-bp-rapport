@@ -32,12 +32,12 @@ h1 {
     margin: 0.67em 0;
     z-index: 1;
 
-    > .title{
+    >.title {
         display: block;
         max-width: 510px;
     }
 
-    > .subtitle {
+    >.subtitle {
         display: block;
         font-family: $chivo;
         font-size: 0.2em;
@@ -45,7 +45,7 @@ h1 {
         text-transform: uppercase;
     }
 
-    > strong {
+    >strong {
         position: absolute;
         top: 20px;
         right: 0;
@@ -339,6 +339,14 @@ a {
 }
 
 @media (max-width: $desktop-medium) {
+    h1 {
+        font-size: 8rem;
+
+        >strong {
+            font-size: 1.7em;
+        }
+    }
+
     h2 {
 
         strong {
@@ -365,14 +373,41 @@ a {
     }
 }
 
-@media(max-width: $tablet){
-    h1{
+@media (max-width: $tablet) {
+    h1 {
+        font-size: 6rem;
+        line-height: 1;
         text-align: center;
-        > strong{
-            position: static;
+        margin: 0;
+
+        >.subtitle {
+            margin-bottom: 5px;
         }
-        > .title{
+
+        >strong {
+            position: relative;
+            line-height: 0.6;
+        }
+
+        >.title {
             max-width: 100%;
+
         }
+    }
+}
+
+@media (max-width: $phone) {
+    h1 {
+
+
+        >.subtitle {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@media (max-width: $phone-small) {
+    h1 {
+        font-size: 4rem;
     }
 }

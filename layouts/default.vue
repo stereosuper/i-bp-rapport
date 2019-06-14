@@ -51,6 +51,7 @@ export default {
 .header-wrapper {
     display: flex;
     min-height: 100vh;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>
