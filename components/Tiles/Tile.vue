@@ -644,6 +644,7 @@ export default {
     }
     &.modal-on {
         z-index: 3;
+        cursor: auto;
         .modal {
             display: block;
         }
