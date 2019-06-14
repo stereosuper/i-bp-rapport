@@ -50,8 +50,8 @@ export default {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 42px;
-    padding-bottom: 32px;
+    padding-top: 29px;
+    padding-bottom: 16px;
     button {
         position: relative;
         font-family: $chivo;
