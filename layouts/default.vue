@@ -1,7 +1,9 @@
 <template>
     <div>
-        <Header />
-        <Filters />
+        <div class='header-wrapper'>
+            <Header />
+            <Filters />
+        </div>
         <nuxt />
         <Svgs />
         <Footer />
@@ -32,4 +34,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+.header-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+</style>

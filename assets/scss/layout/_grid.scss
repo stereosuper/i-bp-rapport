@@ -3,3 +3,10 @@
 .container{
     padding: 0 $gutter;
 }
+
+
+@media(max-width: $desktop){
+    .container{
+        padding: 0 $gutter/2;
+    }
+}
