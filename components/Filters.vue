@@ -267,6 +267,9 @@ export default {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
+        flex-wrap: nowrap;
+        height: calc(100vh - 70px);
+        overflow: auto;
         position: absolute;
         top: 100%;
         left: 0;
@@ -276,6 +279,12 @@ export default {
         z-index: -1;
         transform: translate3d(0, calc(-100% - 70px), 0);
         transition: transform 0.3s ease-out;
+        button {
+            margin: 0 0 28px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 }
 </style>
