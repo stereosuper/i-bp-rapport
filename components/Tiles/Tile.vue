@@ -846,7 +846,71 @@ header {
         height: 65px;
     }
 }
-
-@media (max-width: $desktop-small) {
+@media (max-width: $desktop) {
+    .tile {
+        &.small-height {
+            .tile-content {
+                min-height: 300px;
+            }
+        }
+        &.big-height {
+            .tile-content {
+                min-height: 500px;
+            }
+        }
+        .tile-content {
+            min-height: 400px;
+        }
+    }
+}
+@media (max-width: $tablet) {
+    .btn-circular {
+        width: 80px;
+        height: 80px;
+    }
+    .tile {
+        width: 100%;
+        &.two-cols {
+            width: 100%;
+        }
+    }
+    .wrapper-illus {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+@media (max-width: $phone) {
+    .tile {
+        &.small-height {
+            .tile-content {
+                min-height: 0;
+            }
+        }
+        &.big-height {
+            .tile-content {
+                min-height: 0;
+            }
+        }
+        &.two-cols {
+            .wrapper-content {
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+            .wrapper-illus {
+                width: 100%;
+                + .content {
+                    width: 100%;
+                }
+            }
+        }
+        .tile-content {
+            min-height: 0;
+        }
+    }
+    .tile-content {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
 }
 </style>

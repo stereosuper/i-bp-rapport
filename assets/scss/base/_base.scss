@@ -375,3 +375,28 @@ a {
         }
     }
 }
+
+@media (max-width: $desktop-small) {
+    p {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+
+        strong {
+            font-size: 10rem;
+
+            &.medium {
+                font-size: 8rem;
+            }
+
+            &.small {
+                font-size: 5rem;
+            }
+
+            span {
+                font-size: 2rem;
+            }
+        }
+    }
+}
