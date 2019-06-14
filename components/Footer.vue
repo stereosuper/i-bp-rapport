@@ -55,4 +55,31 @@ footer {
     width: 100%;
     max-width: 148px;
 }
+@media (max-width: $desktop-medium) {
+    footer {
+        padding: 30px $gutter-small;
+    }
+}
+@media (max-width: $desktop-small) {
+    footer {
+        flex-direction: column;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        > div {
+            width: 100%;
+            justify-content: center;
+            margin: 5px 0;
+            &:nth-child(1) {
+                order: 3;
+            }
+            &:nth-child(2) {
+                order: 1;
+            }
+            &:nth-child(3) {
+                order: 2;
+                justify-content: center;
+            }
+        }
+    }
+}
 </style>
