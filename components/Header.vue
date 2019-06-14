@@ -33,9 +33,11 @@ export default {
 <style lang="scss" scoped>
 .hero {
     width: 100%;
-    padding: 0 0 15vh;
+    min-height: calc(100vh - 80px);
     position: relative;
     color: $primary;
+    background: $white;
+    z-index: 3;
     &:before,
     &:after {
         content: "";
@@ -90,6 +92,9 @@ export default {
 }
 
 @media (max-width: $desktop) {
+    .hero {
+        min-height: calc(100vh - 70px);
+    }
     .content {
         width: 100%;
         padding-right: 140px;
