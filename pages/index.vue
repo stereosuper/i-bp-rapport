@@ -4,12 +4,12 @@
             :theme="'tertiary'"
             :filters="['Transformation', 'Évènements']"
             :content="
-                `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i-BP</h2>`
+                `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
             "
             :hasModal="true"
-            :titleModal="`22 couleurs pour le nouveau nuancier d’i-BP`"
+            :titleModal="`22 couleurs pour le nouveau nuancier d’i&#8209;BP`"
             :col1Modal="
-                `<p>i-BP change de logo ! La nouvelle identité est en cohérence avec le paysage de marque du groupe, et affirme notre place aux côtés des banques, mais en marquant notre spécificité métier.</p>`
+                `<p>i&#8209;BP change de logo ! La nouvelle identité est en cohérence avec le paysage de marque du groupe, et affirme notre place aux côtés des banques, mais en marquant notre spécificité métier.</p>`
             "
             :ctaModal="[
                 {
@@ -26,13 +26,13 @@
             :filters="['Inside']"
             :twoCols="true"
             :content="
-                `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i-BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
+                `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
             "
             :illusUrl="'img/femmes-effectifs.svg'"
             :hasModal="true"
             :titleModal="`37 % de femmes dans nos effectifs`"
             :col1Modal="
-                `<p>i-BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle. La représentativité des femmes dans les effectifs est en progression constante malgré un secteur très fortement masculinisé.</p>`
+                `<p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle. La représentativité des femmes dans les effectifs est en progression constante malgré un secteur très fortement masculinisé.</p>`
             "
             :ctaModal="[
                 {
@@ -87,14 +87,14 @@
             :filters="['Inside', 'Évènements']"
             :height="'big'"
             :content="
-                `<h2><strong>61</strong> C'est le nombre d'évènements auxquels i-BP a participé au titre de la marque employeur.</h2>`
+                `<h2><strong>61</strong> C'est le nombre d'évènements auxquels i&#8209;BP a participé au titre de la marque employeur.</h2>`
             "
             :hasModal="true"
             :titleModal="
-                `61 évènements auxquels i-BP a participé au titre de la marque employeur`
+                `61 évènements auxquels i&#8209;BP a participé au titre de la marque employeur`
             "
             :col1Modal="
-                `<p>La marque employeur a permis d’accentuer la notoriété de l'entreprise sur ses métiers, notamment sur la filière de développement, et sur ses territoires. i-BP existe désormais au-delà de son écosystème naturel. i-BP a participé en 2018 aux DevFest de Nantes et Toulouse qui ont rassemblé plusieurs milliers de développeurs, au salon de la Data lors de Nantes Digital Week ou à des évènements sur la sécurité informatique. Les relations écoles ont aussi été développées au plus près des sites et des métiers.</p>`
+                `<p>La marque employeur a permis d’accentuer la notoriété de l'entreprise sur ses métiers, notamment sur la filière de développement, et sur ses territoires. i&#8209;BP existe désormais au-delà de son écosystème naturel. i&#8209;BP a participé en 2018 aux DevFest de Nantes et Toulouse qui ont rassemblé plusieurs milliers de développeurs, au salon de la Data lors de Nantes Digital Week ou à des évènements sur la sécurité informatique. Les relations écoles ont aussi été développées au plus près des sites et des métiers.</p>`
             "
             :ctaModal="[
                 {
@@ -144,7 +144,7 @@
                 `20 films métiers diffusés lors des semaines thématiques`
             "
             :col1Modal="
-                `<p>La parole est donnée aux collaborateurs pour qu'ils parlent de leur métier, leur quotidien et leurs ambitions au service des banques. D'abord diffusées en interne lors de semaines thématiques, les vidéos seront aussi utilisées lors d'évènements et sur les réseaux sociaux pour mettre en valeur les compétences des femmes et des hommes d’i-BP.</p>`
+                `<p>La parole est donnée aux collaborateurs pour qu'ils parlent de leur métier, leur quotidien et leurs ambitions au service des banques. D'abord diffusées en interne lors de semaines thématiques, les vidéos seront aussi utilisées lors d'évènements et sur les réseaux sociaux pour mettre en valeur les compétences des femmes et des hommes d’i&#8209;BP.</p>`
             "
             :ctaModal="[
                 {
@@ -174,13 +174,13 @@
             :theme="'primary-alt-light'"
             :filters="['Banque', 'Tendances', 'Évènements']"
             :height="'small'"
-            :content="`<h2>Un collaborateur i-BP parmi les lauréats</h2>`"
+            :content="`<h2>Un collaborateur i&#8209;BP parmi les lauréats</h2>`"
             :logoUrl="'img/trophees-make-it-simple.png'"
             :hasModal="true"
-            :titleModal="`1 collaborateur i-BP parmi les lauréats `"
+            :titleModal="`1 collaborateur i&#8209;BP parmi les lauréats `"
             :col1Modal="
                 `<p>Les Trophées Make it Simple 2018 affichent un leitmotiv : encourager et valoriser les projets des collaborateurs du Groupe BPCE permettant de « faire plus simple ». Plus simple au bénéfice des clients, des collaborateurs, de l’entreprise et de ses partenaires au sens large.</p>
-                <p>C’est le projet de l’équipe Banque Populaire Rives de Paris / i-BP qui a remporté le prix des collaborateurs. Il vise à soulager les équipes commerciales en agences de certains types de mails et dégager du temps commercial pour les clients grâce à un traitement centralisé des mails d’agences vers les « Middle Offices Commerciaux ».</p>`
+                <p>C’est le projet de l’équipe Banque Populaire Rives de Paris / i&#8209;BP qui a remporté le prix des collaborateurs. Il vise à soulager les équipes commerciales en agences de certains types de mails et dégager du temps commercial pour les clients grâce à un traitement centralisé des mails d’agences vers les « Middle Offices Commerciaux ».</p>`
             "
             :ctaModal="[
                 {
@@ -227,7 +227,7 @@
                 `6 banques impliquées dans les 2 opérations de fusion menées en 2018`
             "
             :col1Modal="
-                `<p>Deux importants projets de fusion, Banque Populaire Grand Ouest et Banque Populaire Aquitaine Centre Atlantique, ont été menés avec succès et avec des niveaux de performance jamais atteints auparavant. Le professionnalisme des équipes i-BP et la maîtrise de travaux mobilisant de multiples acteurs du groupe se sont de nouveau concrétisés, au service des banques.</p>`
+                `<p>Deux importants projets de fusion, Banque Populaire Grand Ouest et Banque Populaire Aquitaine Centre Atlantique, ont été menés avec succès et avec des niveaux de performance jamais atteints auparavant. Le professionnalisme des équipes i&#8209;BP et la maîtrise de travaux mobilisant de multiples acteurs du groupe se sont de nouveau concrétisés, au service des banques.</p>`
             "
             :ctaModal="[
                 {
@@ -286,7 +286,7 @@
             :hasModal="true"
             :titleModal="`2018, une année enthousiasmante`"
             :col1Modal="
-                `<blockquote><p>L’année 2018 aura été pour i-BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i-BP</span></blockquote>`
+                `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
             "
             :ctaModal="[
                 {
@@ -315,7 +315,7 @@
                 `3ème année pour le projet d'entreprise Osons, autrement`
             "
             :col1Modal="
-                `<p>Démarré en 2016, il a pour objectif la satisfaction des Banques Populaires en améliorant la qualité de leur système d’information Equinoxe, en le simplifiant, et en l’enrichissant au plus proche de leurs besoins et de ceux de leurs clients, dans des délais plus courts. Des chantiers ont également été menés à destination des collaborateurs d’i-BP : simplification des processus administratifs, création d’espaces de travail et d’échanges collaboratifs, accès à la formation digitale.</p>`
+                `<p>Démarré en 2016, il a pour objectif la satisfaction des Banques Populaires en améliorant la qualité de leur système d’information Equinoxe, en le simplifiant, et en l’enrichissant au plus proche de leurs besoins et de ceux de leurs clients, dans des délais plus courts. Des chantiers ont également été menés à destination des collaborateurs d’i&#8209;BP : simplification des processus administratifs, création d’espaces de travail et d’échanges collaboratifs, accès à la formation digitale.</p>`
             "
             :col2Modal="
                 `<p>Une filière d’excellence pour les métiers du développement a été créée. L’année 2018 a été axée sur le déploiement et l’appropriation des pratiques, des méthodes et des outils développés par les chantiers dans le cadre des deux premières feuilles de route d’Osons, autrement.</p>`
@@ -344,7 +344,7 @@
                 `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
             "
             :col1Modal="
-                `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un groupe d’action informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i-BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
+                `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un groupe d’action informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
             "
             :ctaModal="[
                 {
@@ -369,7 +369,7 @@
                 `48 collaborateurs pour la Direction Édition logicielle Data *au 31/12/2018`
             "
             :col1Modal="
-                `<p>La Data, nouveau moteur de croissance pour le Groupe BPCE, constitue un sujet stratégique dans lequel i-BP s’est investi en créant une direction dédiée. Un de ces objectifs est d'assurer la mise en œuvre de la gouvernance des données. Les premiers résultats obtenus en 2018 vont irradier vers les banques et le groupe.</p>`
+                `<p>La Data, nouveau moteur de croissance pour le Groupe BPCE, constitue un sujet stratégique dans lequel i&#8209;BP s’est investi en créant une direction dédiée. Un de ces objectifs est d'assurer la mise en œuvre de la gouvernance des données. Les premiers résultats obtenus en 2018 vont irradier vers les banques et le groupe.</p>`
             "
             :ctaModal="[
                 {
@@ -454,7 +454,7 @@
                 `245 personnes aux journées handicap et Qualité de Vie au Travail`
             "
             :col1Modal="
-                `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs. Ce road trip sur les six sites d’i-BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
+                `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs. Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
             "
             :ctaModal="[
                 {
@@ -478,7 +478,7 @@
             :hasModal="true"
             :titleModal="`15 cadrages accompagnés par les coachs agile.`"
             :col1Modal="
-                `<p>La DSI Retail est montée en puissance durant cette année 2018 et i-BP y a pleinement pris sa place via des apports sur la méthode avec Tempo et l’agilité, par la participation des équipes dans les projets 89C3 ou dans les BAPI (Business Application Programming Interface) Factories.</p>`
+                `<p>La DSI Retail est montée en puissance durant cette année 2018 et i&#8209;BP y a pleinement pris sa place via des apports sur la méthode avec Tempo et l’agilité, par la participation des équipes dans les projets 89C3 ou dans les BAPI (Business Application Programming Interface) Factories.</p>`
             "
             :ctaModal="[
                 {
@@ -529,7 +529,7 @@
             :hasModal="true"
             :titleModal="`2 numéros pour un nouveau magazine`"
             :col1Modal="
-                `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i-BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>
+                `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>
                 <p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
             "
             :ctaModal="[
