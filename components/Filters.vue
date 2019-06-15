@@ -167,6 +167,10 @@ export default {
         padding: 15px 0;
         color: $primary;
         margin-right: 30px;
+        &:hover,
+        &:focus {
+            color: $secondary;
+        }
         &:last-child {
             margin-right: 0;
         }
