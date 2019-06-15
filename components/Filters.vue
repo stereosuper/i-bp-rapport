@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper-filters" ref="wrapperFilters">
+    <div id="content" class="wrapper-filters" ref="wrapperFilters">
         <div
             class="filters container"
             :class="[{ 'is-fixed': isFixed }, { 'filters-open': filtersOpen }]"
@@ -25,34 +25,34 @@
                 </button>
             </div>
             <div class="content-filters">
-                <button type="button" class="on">
+                <nuxt-link to="/#content" class="on">
                     <span class="filter">Toutes</span>
                     <span class="nb-elem">22</span>
-                </button>
-                <button type="button">
+                </nuxt-link>
+                <nuxt-link to="/inside#content">
                     <span class="filter">#Inside</span>
                     <span class="nb-elem">8</span>
-                </button>
-                <button type="button">
+                </nuxt-link>
+                <nuxt-link to="/performances#content">
                     <span class="filter">#Performances</span>
                     <span class="nb-elem">7</span>
-                </button>
-                <button type="button">
+                </nuxt-link>
+                <nuxt-link to="/banque#content">
                     <span class="filter">#Banque</span>
                     <span class="nb-elem">8</span>
-                </button>
-                <button type="button">
-                    <span class="filter">#Événement</span>
+                </nuxt-link>
+                <nuxt-link to="/evenements#content">
+                    <span class="filter">#Événements</span>
                     <span class="nb-elem">7</span>
-                </button>
-                <button type="button">
+                </nuxt-link>
+                <nuxt-link to="/transformation#content">
                     <span class="filter">#Transformation</span>
                     <span class="nb-elem">8</span>
-                </button>
-                <button type="button">
+                </nuxt-link>
+                <nuxt-link to="/tendances#content">
                     <span class="filter">#Tendances</span>
                     <span class="nb-elem">7</span>
-                </button>
+                </nuxt-link>
             </div>
         </div>
     </div>
@@ -157,7 +157,8 @@ export default {
     flex-wrap: wrap;
     padding-top: 15px;
     padding-bottom: 15px;
-    button {
+    button,
+    a {
         position: relative;
         font-family: $chivo;
         font-size: 1.6rem;
@@ -283,7 +284,8 @@ export default {
         z-index: -1;
         transform: translate3d(0, calc(-100% - 70px), 0);
         transition: transform 0.3s ease-out;
-        button {
+        button,
+        a {
             margin: 0 0 28px;
             &:last-child {
                 margin-bottom: 0;
