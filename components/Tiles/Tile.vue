@@ -358,11 +358,25 @@ export default {
                     }
                 }
             }
+            .social {
+                a {
+                    &:hover {
+                        color: $secondary;
+                    }
+                }
+            }
         }
         &.alt-tertiary {
             .content {
                 /deep/ h2 {
                     strong {
+                        color: $tertiary;
+                    }
+                }
+            }
+            .social {
+                a {
+                    &:hover {
                         color: $tertiary;
                     }
                 }
@@ -376,6 +390,13 @@ export default {
                     }
                 }
             }
+            .social {
+                a {
+                    &:hover {
+                        color: $quaternary;
+                    }
+                }
+            }
         }
         &.alt-quaternary-dark {
             .content {
@@ -385,11 +406,25 @@ export default {
                     }
                 }
             }
+            .social {
+                a {
+                    &:hover {
+                        color: $quaternary-dark;
+                    }
+                }
+            }
         }
         &.alt-quinary {
             .content {
                 /deep/ h2 {
                     strong {
+                        color: $quinary;
+                    }
+                }
+            }
+            .social {
+                a {
+                    &:hover {
                         color: $quinary;
                     }
                 }
