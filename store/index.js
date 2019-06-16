@@ -11,9 +11,9 @@ const store = () => new Vuex.Store({
             w: null,
             h: null
         },
-        noTransitionElts: []
+        noTransitionElts: [],
+        activeFilter: 0
     }),
-
     mutations: {
         setScrollTop(state, scrollTopValue) {
             state.scrollTop = scrollTopValue;
@@ -26,6 +26,9 @@ const store = () => new Vuex.Store({
         },
         setNoTransitionElts(state, elts) {
             state.noTransitionElts = state.noTransitionElts.concat([...elts]);
+        },
+        setActiveFilter(state, activeFilter) {
+            state.activeFilter = activeFilter;
         }
     },
 

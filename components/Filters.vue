@@ -25,31 +25,49 @@
                 </button>
             </div>
             <div class="content-filters">
-                <nuxt-link to="/#content" class="on">
+                <nuxt-link to="/#content" :class="{ on: activeFilter === 0 }">
                     <span class="filter">Toutes</span>
                     <span class="nb-elem">22</span>
                 </nuxt-link>
-                <nuxt-link to="/inside#content">
+                <nuxt-link
+                    to="/inside#content"
+                    :class="{ on: activeFilter === 1 }"
+                >
                     <span class="filter">#Inside</span>
                     <span class="nb-elem">8</span>
                 </nuxt-link>
-                <nuxt-link to="/performances#content">
+                <nuxt-link
+                    to="/performances#content"
+                    :class="{ on: activeFilter === 2 }"
+                >
                     <span class="filter">#Performances</span>
                     <span class="nb-elem">7</span>
                 </nuxt-link>
-                <nuxt-link to="/banque#content">
+                <nuxt-link
+                    to="/banque#content"
+                    :class="{ on: activeFilter === 3 }"
+                >
                     <span class="filter">#Banque</span>
                     <span class="nb-elem">8</span>
                 </nuxt-link>
-                <nuxt-link to="/evenements#content">
+                <nuxt-link
+                    to="/evenements#content"
+                    :class="{ on: activeFilter === 4 }"
+                >
                     <span class="filter">#Événements</span>
                     <span class="nb-elem">7</span>
                 </nuxt-link>
-                <nuxt-link to="/transformation#content">
+                <nuxt-link
+                    to="/transformation#content"
+                    :class="{ on: activeFilter === 5 }"
+                >
                     <span class="filter">#Transformation</span>
                     <span class="nb-elem">8</span>
                 </nuxt-link>
-                <nuxt-link to="/tendances#content">
+                <nuxt-link
+                    to="/tendances#content"
+                    :class="{ on: activeFilter === 6 }"
+                >
                     <span class="filter">#Tendances</span>
                     <span class="nb-elem">7</span>
                 </nuxt-link>
@@ -76,6 +94,9 @@ export default {
         },
         w() {
             return this.$store.state.window;
+        },
+        activeFilter() {
+            return this.$store.state.activeFilter;
         }
     },
     watch: {

@@ -253,6 +253,9 @@ import Tile from "~/components/Tiles/Tile";
 export default {
     components: {
         Tile
+    },
+    mounted() {
+        this.$store.commit("setActiveFilter", 1);
     }
 };
 </script>
