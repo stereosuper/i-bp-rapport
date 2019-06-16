@@ -8,7 +8,7 @@
             :content="
                 `<h2><strong class='medium'>48</strong> Collaborateurs</h2><p>pour la Direction Edition logicielle Data au 31/12/18.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_06_data_colo_V2.svg'"
             :hasModal="true"
             :titleModal="
                 `48 collaborateurs pour la Direction Édition logicielle Data *au 31/12/2018`
@@ -98,7 +98,7 @@
             :content="
                 `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_02_chantier_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
@@ -123,7 +123,7 @@
             :content="
                 `<h2><strong class='small'>15</strong> cadrages accompagnés par les coach agiles</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_08_agilite_colo.svg'"
             :hasModal="true"
             :titleModal="`15 cadrages accompagnés par les coachs agile.`"
             :col1Modal="
@@ -187,7 +187,7 @@
             :content="
                 `<h2><strong class='small'>6400</strong> mètres carrés</h2><p>d’espaces de travail collaboratifs</p>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_11_espace_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `6400 mètres carrés d’espaces de travail collaboratifs`

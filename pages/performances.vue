@@ -37,7 +37,7 @@
             :content="
                 `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `6 banques impliquées dans les 2 opérations de fusion menées en 2018`
@@ -75,7 +75,7 @@
             :content="
                 `<h2><strong class='small'>15</strong> cadrages accompagnés par les coach agiles</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_08_agilite_colo.svg'"
             :hasModal="true"
             :titleModal="`15 cadrages accompagnés par les coachs agile.`"
             :col1Modal="
@@ -182,7 +182,7 @@
             :content="
                 `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_02_chantier_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`

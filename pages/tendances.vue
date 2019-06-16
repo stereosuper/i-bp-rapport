@@ -9,7 +9,7 @@
             :content="
                 `<h2><strong class='medium'>20</strong> films métiers</h2><p>Diffusés lors des semaines thématiques.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_05_video_colo_V3.svg'"
             :hasModal="true"
             :titleModal="
                 `20 films métiers diffusés lors des semaines thématiques`
@@ -77,7 +77,7 @@
             :content="
                 `<h2><strong class='small'>02</strong> numéros pour un nouveau magazine</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_10_d-code_colo.svg'"
             :hasModal="true"
             :titleModal="`2 numéros pour un nouveau magazine`"
             :col1Modal="
@@ -135,7 +135,7 @@
             :content="
                 `<h2><strong class='small'>1000</strong> followers Twitter en mars 2018</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_04_colo_V2.svg'"
             :social="true"
         />
         <Tile

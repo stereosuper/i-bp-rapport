@@ -86,7 +86,7 @@
             :content="
                 `<h2><strong class='small'>10</strong> ans de la plateforme LAB*</h2><p>*Lutte Anti-Blanchiment</p>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_09_anniv_colo_V2.svg'"
             :cta="[
                 {
                     type: 'file',
@@ -124,7 +124,7 @@
             :content="
                 `<h2><strong class='small'>02</strong> numéros pour un nouveau magazine</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_10_d-code_colo.svg'"
             :hasModal="true"
             :titleModal="`2 numéros pour un nouveau magazine`"
             :col1Modal="
@@ -155,7 +155,7 @@
             :content="
                 `<h2><strong class='medium'>48</strong> Collaborateurs</h2><p>pour la Direction Edition logicielle Data au 31/12/18.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_06_data_colo_V2.svg'"
             :hasModal="true"
             :titleModal="
                 `48 collaborateurs pour la Direction Édition logicielle Data *au 31/12/2018`

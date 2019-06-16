@@ -28,7 +28,7 @@
             :content="
                 `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_12_mixite_colo.svg'"
             :hasModal="true"
             :titleModal="`37 % de femmes dans nos effectifs`"
             :col1Modal="
@@ -57,7 +57,7 @@
             :content="
                 `<h2><strong class='small'>1000</strong> followers Twitter en mars 2018</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_04_colo_V2.svg'"
             :social="true"
         />
         <Tile
@@ -101,7 +101,7 @@
             :content="
                 `<h2><strong class='small'>10</strong> ans de la plateforme LAB*</h2><p>*Lutte Anti-Blanchiment</p>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_09_anniv_colo_V2.svg'"
             :cta="[
                 {
                     type: 'file',
@@ -119,7 +119,7 @@
             :content="
                 `<h2><strong class='medium'>20</strong> films métiers</h2><p>Diffusés lors des semaines thématiques.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_05_video_colo_V3.svg'"
             :hasModal="true"
             :titleModal="
                 `20 films métiers diffusés lors des semaines thématiques`
@@ -204,7 +204,7 @@
             :content="
                 `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `6 banques impliquées dans les 2 opérations de fusion menées en 2018`
@@ -268,7 +268,7 @@
             :content="
                 `<h2><strong class='medium'>2018</strong> une année enthousiasmante</h2>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/2018.svg'"
             :hasModal="true"
             :col1Modal="
                 `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
@@ -323,7 +323,7 @@
             :content="
                 `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_02_chantier_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
@@ -348,7 +348,7 @@
             :content="
                 `<h2><strong class='medium'>48</strong> Collaborateurs</h2><p>pour la Direction Edition logicielle Data au 31/12/18.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_06_data_colo_V2.svg'"
             :hasModal="true"
             :titleModal="
                 `48 collaborateurs pour la Direction Édition logicielle Data *au 31/12/2018`
@@ -436,7 +436,7 @@
             :content="
                 `<h2><strong class='medium'>245</strong> participants</h2><p>pour les journées handicap et Qualité de Vie au Travail.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_07_qvt_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `245 personnes aux journées handicap et Qualité de Vie au Travail`
@@ -465,7 +465,7 @@
             :content="
                 `<h2><strong class='small'>15</strong> cadrages accompagnés par les coach agiles</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_08_agilite_colo.svg'"
             :hasModal="true"
             :titleModal="`15 cadrages accompagnés par les coachs agile.`"
             :col1Modal="
@@ -516,7 +516,7 @@
             :content="
                 `<h2><strong class='small'>02</strong> numéros pour un nouveau magazine</h2>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_10_d-code_colo.svg'"
             :hasModal="true"
             :titleModal="`2 numéros pour un nouveau magazine`"
             :col1Modal="
@@ -548,7 +548,7 @@
             :content="
                 `<h2><strong class='medium'>75</strong> recrutements CDI</h2><p>Près de 30 % des embauches externes ont été réalisées via Linkedin et plus de 15 % sont le résultat d’une cooptation.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_01_colo_V3.svg'"
             :hasModal="true"
             :titleModal="
                 `75 recrutements CDI  30 % des embauches externes via LinkedIn`
@@ -578,7 +578,7 @@
             :content="
                 `<h2><strong class='small'>6400</strong> mètres carrés</h2><p>d’espaces de travail collaboratifs</p>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_11_espace_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `6400 mètres carrés d’espaces de travail collaboratifs`

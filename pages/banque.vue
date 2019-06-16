@@ -119,7 +119,7 @@
             :content="
                 `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `6 banques impliquées dans les 2 opérations de fusion menées en 2018`
@@ -180,7 +180,7 @@
             :content="
                 `<h2><strong class='small'>10</strong> ans de la plateforme LAB*</h2><p>*Lutte Anti-Blanchiment</p>`
             "
-            :illusUrl="'img/twitter-followers.svg'"
+            :illusUrl="'img/dalle_09_anniv_colo_V2.svg'"
             :cta="[
                 {
                     type: 'file',

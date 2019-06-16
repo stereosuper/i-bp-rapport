@@ -35,7 +35,7 @@
             :content="
                 `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_12_mixite_colo.svg'"
             :hasModal="true"
             :titleModal="`37 % de femmes dans nos effectifs`"
             :col1Modal="
@@ -65,7 +65,7 @@
             :content="
                 `<h2><strong class='medium'>20</strong> films métiers</h2><p>Diffusés lors des semaines thématiques.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_05_video_colo_V3.svg'"
             :hasModal="true"
             :titleModal="
                 `20 films métiers diffusés lors des semaines thématiques`
@@ -160,7 +160,7 @@
             :content="
                 `<h2><strong class='medium'>75</strong> recrutements CDI</h2><p>Près de 30 % des embauches externes ont été réalisées via Linkedin et plus de 15 % sont le résultat d’une cooptation.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_01_colo_V3.svg'"
             :hasModal="true"
             :titleModal="
                 `75 recrutements CDI  30 % des embauches externes via LinkedIn`
@@ -191,7 +191,7 @@
             :content="
                 `<h2><strong class='medium'>245</strong> participants</h2><p>pour les journées handicap et Qualité de Vie au Travail.</p>`
             "
-            :illusUrl="'img/femmes-effectifs.svg'"
+            :illusUrl="'img/dalle_07_qvt_colo.svg'"
             :hasModal="true"
             :titleModal="
                 `245 personnes aux journées handicap et Qualité de Vie au Travail`
