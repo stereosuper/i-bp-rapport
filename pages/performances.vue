@@ -10,6 +10,7 @@
                 'Tendances',
                 'Évènements'
             ]"
+            :height="'small'"
             :content="
                 `<h2><strong class='medium'>2018</strong> une année enthousiasmante</h2>`
             "
@@ -112,6 +113,7 @@
         <Tile
             :theme="'quinary'"
             :filters="['Banque', 'Performances']"
+            :height="'big'"
             :content="
                 `<h2><strong>23</strong> mille jours homme pour le Plan Informatique Annuel</h2>`
             "

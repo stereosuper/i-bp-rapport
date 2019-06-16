@@ -37,6 +37,7 @@
                 'Tendances',
                 'Évènements'
             ]"
+            :height="'small'"
             :content="
                 `<h2><strong class='medium'>2018</strong> une année enthousiasmante</h2>`
             "
@@ -97,6 +98,7 @@
         <Tile
             :theme="'tertiary'"
             :filters="['Transformation', 'Évènements']"
+            :height="'big'"
             :content="
                 `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
             "
@@ -178,7 +180,6 @@
         <Tile
             :theme="'secondary'"
             :filters="['Banque', 'Tendances', 'Évènements']"
-            :height="'small'"
             :content="
                 `<h2><strong>9</strong> entités du Groupe BPCE réunies pour le 5ème hackathon Banque
                 Populaire</h2>`

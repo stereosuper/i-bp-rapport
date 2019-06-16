@@ -161,6 +161,7 @@
         <Tile
             :theme="'tertiary'"
             :filters="['Transformation', 'Évènements']"
+            :height="'big'"
             :content="
                 `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
             "
