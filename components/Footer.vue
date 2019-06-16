@@ -42,6 +42,7 @@ footer {
     font-size: 1.1rem;
     text-transform: uppercase;
     color: $primary-light;
+    border-top: 1px solid $primary-x-light;
     > div {
         display: flex;
         justify-content: flex-start;
