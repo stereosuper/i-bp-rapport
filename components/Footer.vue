@@ -53,6 +53,11 @@ footer {
             justify-content: flex-end;
         }
     }
+    a {
+        &:hover {
+            color: $primary;
+        }
+    }
 }
 .logo-groupe-bpce {
     display: block;
