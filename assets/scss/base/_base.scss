@@ -325,6 +325,30 @@ a {
     border-left: 1px solid $primary-x-light;
 }
 
+.default-style {
+    color: $primary;
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    p {
+        margin: 2em 0;
+    }
+
+    li {
+        margin: 0 0 10px;
+    }
+
+    a {
+
+        &:hover,
+        &:focus {
+            color: $primary;
+        }
+    }
+}
+
 @media (max-width: $desktop-large) {
     h2 {
         font-size: 3rem;
@@ -380,6 +404,10 @@ a {
     h2 {
         font-size: 3.4rem;
     }
+
+    h3 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: $tablet) {
@@ -403,6 +431,12 @@ a {
 
         }
     }
+
+    .default-style {
+        h2 {
+            font-size: 4rem;
+        }
+    }
 }
 
 @media (max-width: $phone) {
@@ -418,5 +452,11 @@ a {
 @media (max-width: $phone-small) {
     h1 {
         font-size: 4rem;
+    }
+
+    .default-style {
+        h2 {
+            font-size: 3rem;
+        }
     }
 }
