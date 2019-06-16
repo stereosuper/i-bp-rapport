@@ -106,4 +106,10 @@ export default {
     padding: 50px 30px 120px;
     margin: 0 auto;
 }
+
+@media (max-width: $tablet) {
+    .container {
+        padding-bottom: 50px;
+    }
+}
 </style>
