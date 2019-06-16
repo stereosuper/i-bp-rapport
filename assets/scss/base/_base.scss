@@ -316,6 +316,15 @@ a {
     transition: none !important;
 }
 
+.wrapper-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    border-bottom: 1px solid $primary-x-light;
+    border-left: 1px solid $primary-x-light;
+}
+
 @media (max-width: $desktop-large) {
     h2 {
         font-size: 3rem;

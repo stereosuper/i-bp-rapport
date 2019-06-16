@@ -220,12 +220,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wrapper-tiles {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: flex-start;
-    border-bottom: 1px solid $primary-x-light;
-    border-left: 1px solid $primary-x-light;
-}
 </style>
