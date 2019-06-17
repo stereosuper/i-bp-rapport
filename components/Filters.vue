@@ -298,6 +298,7 @@ export default {
         &.filters-open {
             .content-filters {
                 transform: translate3d(0, 0, 0);
+                pointer-events: auto;
             }
             .btn-filter {
                 display: none;
@@ -339,6 +340,7 @@ export default {
         z-index: -1;
         transform: translate3d(0, calc(-100% - 70px), 0);
         transition: transform 0.3s ease-out;
+        pointer-events: none;
         button,
         a {
             margin: 0 0 28px;
