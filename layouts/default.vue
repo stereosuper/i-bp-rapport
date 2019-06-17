@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div
+        class="content-page"
+        :class="{ 'overflow-not-scrollable': !overflowScrollable }"
+    >
         <div class="header-wrapper">
             <Header />
             <Filters />
@@ -29,7 +32,11 @@ export default {
     data() {
         return {};
     },
-    computed: {},
+    computed: {
+        overflowScrollable() {
+            return this.$store.state.overflowScrollable;
+        }
+    },
     watch: {},
     mounted() {
         this.$store.commit(

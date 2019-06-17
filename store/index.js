@@ -12,7 +12,8 @@ const store = () => new Vuex.Store({
             h: null
         },
         noTransitionElts: [],
-        activeFilter: 0
+        activeFilter: 0,
+        overflowScrollable: true
     }),
     mutations: {
         setScrollTop(state, scrollTopValue) {
@@ -29,6 +30,9 @@ const store = () => new Vuex.Store({
         },
         setActiveFilter(state, activeFilter) {
             state.activeFilter = activeFilter;
+        },
+        toggleOverflowScrollable(state) {
+            state.overflowScrollable = !state.overflowScrollable;
         }
     },
 

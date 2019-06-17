@@ -160,6 +160,7 @@ export default {
         toggleFilters() {
             if (this.w.w <= 1100) {
                 this.filtersOpen = !this.filtersOpen;
+                this.$store.commit("toggleOverflowScrollable");
             }
         }
     }
@@ -327,9 +328,8 @@ export default {
         justify-content: flex-start;
         flex-wrap: nowrap;
         height: calc(100vh - 70px);
-        // overflow-y: scroll;
-        // -webkit-overflow-scrolling: touch;
         overflow: auto;
+        -webkit-overflow-scrolling: touch;
         position: absolute;
         top: 100%;
         left: 0;
