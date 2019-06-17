@@ -186,4 +186,259 @@
             }
         }
     }
+
+    .alt-quinary & {
+
+        &:hover,
+        &:focus {
+            color: $quinary;
+
+            &::before,
+            &::after {
+                border-color: $quinary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $quinary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $quinary;
+                }
+            }
+        }
+    }
+
+    &.bg-primary-alt-light {
+        color: $primary;
+        border-top: 1px solid $primary-x-light;
+        border-right: 1px solid $primary-x-light;
+
+        &::before {
+            background: $primary-alt-light;
+        }
+
+        .hashtags {
+            color: $primary-light;
+        }
+
+        .btn-circular {
+
+            &::before,
+            &::after {
+                background: $primary-light;
+            }
+
+            border-color: $primary-light;
+        }
+
+        .modal {
+            background: $primary-alt-light;
+
+            .btn-circular {
+                border-color: $primary;
+
+                &::before,
+                &::after {
+                    background: $primary;
+                }
+            }
+        }
+
+        &.has-modal {
+
+            &:hover,
+            &:focus {
+                .btn-open {
+                    background: $white;
+                }
+            }
+        }
+    }
+
+    &.bg-primary,
+    &.bg-secondary,
+    &.bg-tertiary,
+    &.bg-quaternary,
+    &.bg-quinary {
+        color: $white;
+
+        .modal {
+            .btn-circular {
+                border-color: $primary;
+
+                &::before,
+                &::after {
+                    background: $primary;
+                }
+            }
+        }
+    }
+
+    .bg-primary .modal & {
+
+        &:hover,
+        &:focus {
+            color: $primary;
+
+            &::before,
+            &::after {
+                border-color: $primary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $primary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $primary;
+                }
+            }
+        }
+    }
+
+    .bg-quinary .modal & {
+
+        &:hover,
+        &:focus {
+            color: $quinary;
+
+            &::before,
+            &::after {
+                border-color: $quinary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $quinary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $quinary;
+                }
+            }
+        }
+    }
+
+    .bg-secondary .modal & {
+
+        &:hover,
+        &:focus {
+            color: $secondary;
+
+            &::before,
+            &::after {
+                border-color: $secondary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $secondary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $secondary;
+                }
+            }
+        }
+    }
+
+    .bg-tertiary .modal & {
+
+        &:hover,
+        &:focus {
+            color: $tertiary;
+
+            &::before,
+            &::after {
+                border-color: $tertiary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $tertiary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $tertiary;
+                }
+            }
+        }
+    }
+
+    .bg-quaternary .modal & {
+
+        &:hover,
+        &:focus {
+            color: $quaternary;
+
+            &::before,
+            &::after {
+                border-color: $quaternary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $quaternary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $quaternary;
+                }
+            }
+        }
+    }
+
+    .bg-primary-alt-light .modal & {
+
+        &:hover,
+        &:focus {
+            color: $primary;
+
+            &::before,
+            &::after {
+                border-color: $primary;
+            }
+
+            .border {
+
+                &::before,
+                &::after {
+                    border-color: $primary;
+                }
+            }
+
+            .text {
+                &::before {
+                    background: $primary;
+                }
+            }
+        }
+    }
 }
