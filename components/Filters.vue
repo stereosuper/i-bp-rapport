@@ -327,8 +327,9 @@ export default {
         justify-content: flex-start;
         flex-wrap: nowrap;
         height: calc(100vh - 70px);
-        overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
+        // overflow-y: scroll;
+        // -webkit-overflow-scrolling: touch;
+        overflow: auto;
         position: absolute;
         top: 100%;
         left: 0;
