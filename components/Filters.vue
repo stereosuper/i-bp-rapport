@@ -56,6 +56,7 @@
                 <nuxt-link
                     to="/inside#content"
                     :class="{ on: activeFilter === 1 }"
+                    @click.native="toggleFilters"
                 >
                     <span class="filter">#Inside</span>
                     <span class="nb-elem">8</span>
@@ -63,6 +64,7 @@
                 <nuxt-link
                     to="/performances#content"
                     :class="{ on: activeFilter === 2 }"
+                    @click.native="toggleFilters"
                 >
                     <span class="filter">#Performances</span>
                     <span class="nb-elem">7</span>
@@ -70,6 +72,7 @@
                 <nuxt-link
                     to="/banque#content"
                     :class="{ on: activeFilter === 3 }"
+                    @click.native="toggleFilters"
                 >
                     <span class="filter">#Banque</span>
                     <span class="nb-elem">8</span>
@@ -77,6 +80,7 @@
                 <nuxt-link
                     to="/evenements#content"
                     :class="{ on: activeFilter === 4 }"
+                    @click.native="toggleFilters"
                 >
                     <span class="filter">#Événements</span>
                     <span class="nb-elem">7</span>
@@ -84,6 +88,7 @@
                 <nuxt-link
                     to="/transformation#content"
                     :class="{ on: activeFilter === 5 }"
+                    @click.native="toggleFilters"
                 >
                     <span class="filter">#Transformation</span>
                     <span class="nb-elem">8</span>
@@ -91,6 +96,7 @@
                 <nuxt-link
                     to="/tendances#content"
                     :class="{ on: activeFilter === 6 }"
+                    @click.native="toggleFilters"
                 >
                     <span class="filter">#Tendances</span>
                     <span class="nb-elem">7</span>
@@ -152,7 +158,9 @@ export default {
             }
         },
         toggleFilters() {
-            this.filtersOpen = !this.filtersOpen;
+            if (this.w.w <= 1100) {
+                this.filtersOpen = !this.filtersOpen;
+            }
         }
     }
 };
