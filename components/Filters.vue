@@ -7,9 +7,33 @@
         >
             <div class="filter-title">
                 <span class="title">Filtre</span>
-                <span class="filter-active"
+                <span class="filter-active" v-if="activeFilter === 0"
                     ><span class="filter">Toutes</span
                     ><span class="nb-elem">22</span></span
+                >
+                <span class="filter-active" v-else-if="activeFilter === 1"
+                    ><span class="filter">Inside</span
+                    ><span class="nb-elem">8</span></span
+                >
+                <span class="filter-active" v-else-if="activeFilter === 2"
+                    ><span class="filter">Performances</span
+                    ><span class="nb-elem">7</span></span
+                >
+                <span class="filter-active" v-else-if="activeFilter === 3"
+                    ><span class="filter">Banque</span
+                    ><span class="nb-elem">8</span></span
+                >
+                <span class="filter-active" v-else-if="activeFilter === 4"
+                    ><span class="filter">Événements</span
+                    ><span class="nb-elem">7</span></span
+                >
+                <span class="filter-active" v-else-if="activeFilter === 5"
+                    ><span class="filter">Transformation</span
+                    ><span class="nb-elem">8</span></span
+                >
+                <span class="filter-active" v-else-if="activeFilter === 6"
+                    ><span class="filter">Tendances</span
+                    ><span class="nb-elem">7</span></span
                 >
             </div>
             <div class="wrapper-button">
