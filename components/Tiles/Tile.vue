@@ -156,7 +156,9 @@
                     </a>
                 </div>
                 <div v-if="social" class="wrapper-social">
-                    <div class="social-title">Rejoignez-nous</div>
+                    <div class="social-title">
+                        Retrouvez-nous sur nos réseaux&nbsp;!
+                    </div>
                     <div class="social">
                         <a
                             href="https://twitter.com/informatiquebp?lang=fr"
