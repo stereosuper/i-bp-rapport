@@ -26,7 +26,7 @@
             :filters="['Inside']"
             :twoCols="true"
             :content="
-                `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2><p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle.</p>`
+                `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2>`
             "
             :illusUrl="'img/dalle_12_mixite_colo.svg'"
             :hasModal="true"
