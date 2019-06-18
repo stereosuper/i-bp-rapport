@@ -198,7 +198,7 @@
             :theme="'primary-alt-light'"
             :filters="['Banque', 'Tendances', 'Évènements']"
             :height="'small'"
-            :content="`<h2>Un collaborateur i&#8209;BP parmi les lauréats</h2>`"
+            :content="`<h2>1 collaborateur i&#8209;BP parmi les lauréats</h2>`"
             :logoUrl="'img/trophees-make-it-simple.png'"
             :hasModal="true"
             :titleModal="`1 collaborateur i-BP parmi les lauréats `"
