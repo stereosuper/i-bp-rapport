@@ -75,10 +75,10 @@
                 `61 évènements auxquels i-BP a participé au titre de la marque employeur`
             "
             :col1Modal="
-                `<p>La marque employeur a permis d’accentuer la notoriété de l'entreprise sur ses métiers, notamment sur la filière de développement, et sur ses territoires. i&#8209;BP existe désormais au-delà de son écosystème naturel. i&#8209;BP a participé en 2018 aux DevFest de Nantes et Toulouse qui ont rassemblé plusieurs milliers de développeurs, au salon de la Data lors de Nantes Digital Week ou à des évènements sur la sécurité informatique.</p>`
+                `<p>La marque employeur a permis d’accentuer la notoriété de l'entreprise sur ses métiers, notamment sur la filière de développement, et sur ses territoires. i&#8209;BP existe désormais au-delà de son écosystème naturel. i&#8209;BP a participé en 2018 aux DevFest de Nantes et Toulouse qui ont rassemblé plusieurs milliers de développeurs, au salon de la Data lors de Nantes Digital Week ou à des évènements sur la sécurité informatique.</p><p>Les relations écoles ont aussi été développées au plus près des sites et des métiers.</p>`
             "
             :col2Modal="
-                `<p>Les relations écoles ont aussi été développées au plus près des sites et des métiers.</p>`
+                `<img src='img/marque_employeur.jpg' alt='Marque employeur'/>`
             "
             :ctaModal="[
                 {

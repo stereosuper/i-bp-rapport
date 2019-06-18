@@ -161,7 +161,6 @@
         <Tile
             :theme="'tertiary'"
             :filters="['Transformation', 'Évènements']"
-            :height="'big'"
             :content="
                 `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
             "
@@ -170,6 +169,9 @@
             :col1Modal="
                 `<p>i&#8209;BP change de logo ! La nouvelle identité est en cohérence avec le paysage de marque du groupe, et affirme notre place aux côtés des banques, mais en marquant notre spécificité métier.</p>`
             "
+            :col2Modal="
+                `<img src='img/nouveau_nuancier_i-BP.jpg' alt='Nouveau nuancier i-BP'/>`
+            "
             :ctaModal="[
                 {
                     type: 'micro',
@@ -177,7 +179,7 @@
                     url: '#'
                 }
             ]"
-            :ctaModalCol="2"
+            :ctaModalCol="1"
         />
         <Tile
             :theme="'white'"
