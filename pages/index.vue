@@ -55,7 +55,7 @@
             :filters="['Tendances']"
             :height="'big'"
             :content="
-                `<h2><strong class='small'>1000</strong> followers Twitter en mars 2018</h2>`
+                `<h2><strong class='small'>1000</strong> followers sur Twitter en mars 2018</h2>`
             "
             :illusUrl="'img/dalle_04_colo_V2.svg'"
             :social="true"
