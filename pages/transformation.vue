@@ -172,7 +172,7 @@
             "
             :ctaModal="[
                 {
-                    type: 'file',
+                    type: 'micro',
                     label: `Une nouvelle identité`,
                     url: '#'
                 }

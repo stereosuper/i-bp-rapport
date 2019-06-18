@@ -908,6 +908,10 @@ header {
                 margin-top: 50px;
             }
         }
+        /deep/ img {
+            display: block;
+            margin: 25px 0;
+        }
     }
     .btn-circular {
         position: fixed;
