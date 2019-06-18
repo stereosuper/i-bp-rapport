@@ -65,7 +65,7 @@
             :filters="['Inside', 'Évènements']"
             :height="'big'"
             :content="
-                `<h2><strong>61</strong> C'est le nombre d'évènements auxquels i&#8209;BP a participé au titre de la marque employeur.</h2>`
+                `<h2><strong>61</strong> événements auxquels i&#8209;BP a participé au titre de la marque employeur</h2>`
             "
             :hasModal="true"
             :titleModal="
