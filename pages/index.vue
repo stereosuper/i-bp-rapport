@@ -364,7 +364,7 @@
                     url: 'https://youtu.be/41nIjRxklM8'
                 },
                 {
-                    type: 'file',
+                    type: 'micro',
                     label: `11 ans dans la Data`,
                     url: '#'
                 }
