@@ -104,7 +104,7 @@
             :illusUrl="'img/dalle_09_anniv_colo_V2.svg'"
             :cta="[
                 {
-                    type: 'file',
+                    type: 'micro',
                     label: `Une belle aventure`,
                     url: '#'
                 }
