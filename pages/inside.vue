@@ -158,7 +158,7 @@
             :height="'big'"
             :twoCols="true"
             :content="
-                `<h2><strong class='medium'>75</strong> recrutements CDI</h2><p>Près de 30 % des embauches externes ont été réalisées via Linkedin et plus de 15 % sont le résultat d’une cooptation.</p>`
+                `<h2><strong class='medium'>75</strong> recrutements en CDI</h2>`
             "
             :illusUrl="'img/dalle_01_colo_V3.svg'"
             :hasModal="true"
