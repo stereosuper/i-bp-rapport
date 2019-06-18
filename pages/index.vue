@@ -274,6 +274,9 @@
             :col1Modal="
                 `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
             "
+            :col2Modal="
+                `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
+            "
             :ctaModal="[
                 {
                     type: 'play',
