@@ -121,7 +121,7 @@
             :filters="['Tendances', 'Évènements']"
             :height="'big'"
             :content="
-                `<h2><strong class='small'>02</strong> numéros pour un nouveau magazine</h2>`
+                `<h2><strong class='small'>2</strong> numéros pour un nouveau magazine</h2>`
             "
             :illusUrl="'img/dalle_10_d-code_colo.svg'"
             :hasModal="true"
