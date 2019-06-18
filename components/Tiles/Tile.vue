@@ -863,6 +863,7 @@ header {
             height: calc(100vh - 60px);
             padding: 90px 160px;
             overflow: auto;
+            -webkit-overflow-scrolling: touch;
             &::before,
             &::after {
                 content: "";
