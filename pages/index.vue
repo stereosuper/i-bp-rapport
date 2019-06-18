@@ -562,7 +562,7 @@
                     url: 'https://youtu.be/OHoYb-DKo-I'
                 },
                 {
-                    type: 'file',
+                    type: 'micro',
                     label: `Ils ont testé`,
                     url: '#'
                 }
