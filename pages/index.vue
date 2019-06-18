@@ -266,7 +266,7 @@
             :height="'small'"
             :twoCols="true"
             :content="
-                `<h2><strong class='medium'>2018</strong> une année enthousiasmante</h2>`
+                `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
             "
             :illusUrl="'img/2018.svg'"
             :hasModal="true"

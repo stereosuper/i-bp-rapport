@@ -37,7 +37,9 @@
                 'Tendances',
                 'Évènements'
             ]"
-            :content="`<h2>une année enthousiasmante</h2>`"
+            :content="
+                `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+            "
             :illusUrl="'img/2018.svg'"
             :hasModal="true"
             :col1Modal="
