@@ -138,11 +138,9 @@
                 :hasModal="true"
                 :titleModal="`2 numéros pour un nouveau magazine`"
                 :col1Modal="
-                    `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>`
+                    `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p><p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
                 "
-                :col2Modal="
-                    `<p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
-                "
+                :col2Modal="`<img src='img/dalle_10_d-code_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'file',
@@ -155,7 +153,7 @@
                         url: 'pdf/D-CODE2.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -173,6 +171,7 @@
                 :col1Modal="
                     `<p>La Data, nouveau moteur de croissance pour le Groupe BPCE, constitue un sujet stratégique dans lequel i&#8209;BP s’est investi en créant une direction dédiée. Un de ses objectifs est d'assurer la mise en œuvre de la gouvernance des données. Les premiers résultats obtenus en 2018 vont irradier vers les banques et le groupe.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_06_data_colo_V2.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -185,7 +184,7 @@
                         url: 'pdf/IBP_interview_data.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'secondary'"

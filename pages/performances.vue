@@ -52,6 +52,7 @@
                 :col1Modal="
                     `<p>Deux importants projets de fusion, Banque Populaire Grand Ouest et Banque Populaire Aquitaine Centre Atlantique, ont été menés avec succès et avec des niveaux de performance jamais atteints auparavant. Le professionnalisme des équipes i&#8209;BP et la maîtrise de travaux mobilisant de multiples acteurs du groupe se sont de nouveau concrétisés, au service des banques.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_03_fusion_V2_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -64,7 +65,7 @@
                         url: 'https://youtu.be/eFC1uiMMTPA'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'tertiary'"
@@ -88,6 +89,7 @@
                 :col1Modal="
                     `<p>La DSI Retail est montée en puissance durant cette année 2018 et i&#8209;BP y a pleinement pris sa place via des apports sur la méthode avec Tempo et l’agilité, par la participation des équipes dans les projets 89C3 ou dans les BAPI (Business Application Programming Interface) Factories.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_08_agilite_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -115,7 +117,7 @@
                         url: 'https://youtu.be/TntXS0De-AM'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quinary'"
@@ -198,6 +200,7 @@
                 :col1Modal="
                     `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un Groupe d’Action Informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_02_chantier_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'file',
@@ -205,7 +208,7 @@
                         url: 'pdf/Les-chantiers-du-GAl.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
         </div>
     </div>

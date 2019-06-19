@@ -51,6 +51,7 @@
                 :col1Modal="
                     `<p>La Data, nouveau moteur de croissance pour le Groupe BPCE, constitue un sujet stratégique dans lequel i&#8209;BP s’est investi en créant une direction dédiée. Un de ses objectifs est d'assurer la mise en œuvre de la gouvernance des données. Les premiers résultats obtenus en 2018 vont irradier vers les banques et le groupe.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_06_data_colo_V2.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -63,7 +64,7 @@
                         url: 'pdf/IBP_interview_data.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -82,6 +83,7 @@
                 :col1Modal="
                     `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un Groupe d’Action Informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_02_chantier_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'file',
@@ -89,7 +91,7 @@
                         url: 'pdf/Les-chantiers-du-GAl.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quaternary'"
@@ -137,6 +139,7 @@
                 :col1Modal="
                     `<p>La DSI Retail est montée en puissance durant cette année 2018 et i&#8209;BP y a pleinement pris sa place via des apports sur la méthode avec Tempo et l’agilité, par la participation des équipes dans les projets 89C3 ou dans les BAPI (Business Application Programming Interface) Factories.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_08_agilite_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -164,7 +167,7 @@
                         url: 'https://youtu.be/TntXS0De-AM'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'tertiary'"
@@ -205,6 +208,7 @@
                 :col1Modal="
                     `<p>Après Toulouse en 2017, de nouveaux espaces de travail sont aménagés à Paris et la construction d’un bâtiment est lancée à Nantes. Ces espaces favorisent le travail en mode collaboratif et répondent aux pratiques des équipes : laboratoires d’expérimentation, agilité, design thinking, test and learn...</p>`
                 "
+                :col2Modal="`<img src='img/dalle_11_espace_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -217,7 +221,7 @@
                         url: 'https://youtu.be/izrDMMFPcTw'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
         </div>
     </div>

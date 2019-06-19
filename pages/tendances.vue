@@ -52,6 +52,7 @@
                 :col1Modal="
                     `<p>La parole est donnée aux collaborateurs pour qu'ils parlent de leur métier, leur quotidien et leurs ambitions au service des banques. D'abord diffusées en interne lors de semaines thématiques, les vidéos seront aussi utilisées lors d'évènements et sur les réseaux sociaux pour mettre en valeur les compétences des femmes et des hommes d’i&#8209;BP.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_05_video_colo_V3.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -74,7 +75,7 @@
                         url: 'https://www.youtube.com/watch?v=0uUzURi2fUs'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -88,11 +89,9 @@
                 :hasModal="true"
                 :titleModal="`2 numéros pour un nouveau magazine`"
                 :col1Modal="
-                    `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>`
+                    `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p><p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
                 "
-                :col2Modal="
-                    `<p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
-                "
+                :col2Modal="`<img src='img/dalle_10_d-code_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'file',
@@ -105,7 +104,7 @@
                         url: 'pdf/D-CODE2.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'secondary'"

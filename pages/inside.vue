@@ -49,6 +49,7 @@
                 :col1Modal="
                     `<p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle. La représentativité des femmes dans les effectifs est en progression constante malgré un secteur très fortement masculinisé.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_12_mixite_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'linkedin',
@@ -62,7 +63,7 @@
                         url: 'pdf/afterwork_infographie.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -81,6 +82,7 @@
                 :col1Modal="
                     `<p>La parole est donnée aux collaborateurs pour qu'ils parlent de leur métier, leur quotidien et leurs ambitions au service des banques. D'abord diffusées en interne lors de semaines thématiques, les vidéos seront aussi utilisées lors d'évènements et sur les réseaux sociaux pour mettre en valeur les compétences des femmes et des hommes d’i&#8209;BP.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_05_video_colo_V3.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -103,7 +105,7 @@
                         url: 'https://www.youtube.com/watch?v=0uUzURi2fUs'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'secondary'"
@@ -176,6 +178,7 @@
                 :col1Modal="
                     `<p>2018 a été une année de forte activité en matière de recrutements et gestion de carrière : 75 personnes ont rejoint l’entreprise en CDI et 80 collaborateurs ont bénéficié d’une mobilité interne. Près de 30 % des embauches externes ont été réalisées via LinkedIn et plus de 15 % sont le résultat d’une cooptation.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_01_colo_V3.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -188,7 +191,7 @@
                         url: 'pdf/IBP_interview_cooptation.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -205,11 +208,9 @@
                     `245 personnes aux journées handicap et Qualité de Vie au Travail`
                 "
                 :col1Modal="
-                    `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs.</p>`
+                    `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs.</p><p>Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
                 "
-                :col2Modal="
-                    `<p>Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
-                "
+                :col2Modal="`<img src='img/dalle_07_qvt_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'twitter',
@@ -218,7 +219,7 @@
                             'https://twitter.com/InformatiqueBP/status/1069943964311130112'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quaternary'"

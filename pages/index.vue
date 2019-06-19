@@ -138,6 +138,7 @@
                 :col1Modal="
                     `<p>La parole est donnée aux collaborateurs pour qu'ils parlent de leur métier, leur quotidien et leurs ambitions au service des banques. D'abord diffusées en interne lors de semaines thématiques, les vidéos seront aussi utilisées lors d'évènements et sur les réseaux sociaux pour mettre en valeur les compétences des femmes et des hommes d’i&#8209;BP.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_05_video_colo_V3.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -160,7 +161,7 @@
                         url: 'https://www.youtube.com/watch?v=0uUzURi2fUs'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'primary-alt-light'"
@@ -224,6 +225,7 @@
                 :col1Modal="
                     `<p>Deux importants projets de fusion, Banque Populaire Grand Ouest et Banque Populaire Aquitaine Centre Atlantique, ont été menés avec succès et avec des niveaux de performance jamais atteints auparavant. Le professionnalisme des équipes i&#8209;BP et la maîtrise de travaux mobilisant de multiples acteurs du groupe se sont de nouveau concrétisés, au service des banques.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_03_fusion_V2_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -236,7 +238,7 @@
                         url: 'https://youtu.be/eFC1uiMMTPA'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -252,6 +254,7 @@
                 :col1Modal="
                     `<p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle. La représentativité des femmes dans les effectifs est en progression constante malgré un secteur très fortement masculinisé.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_12_mixite_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'linkedin',
@@ -265,7 +268,7 @@
                         url: 'pdf/afterwork_infographie.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'primary-alt-light'"
@@ -343,6 +346,7 @@
                 :col1Modal="
                     `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un Groupe d’Action Informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_02_chantier_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'file',
@@ -350,7 +354,7 @@
                         url: 'pdf/Les-chantiers-du-GAl.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -368,6 +372,7 @@
                 :col1Modal="
                     `<p>La Data, nouveau moteur de croissance pour le Groupe BPCE, constitue un sujet stratégique dans lequel i&#8209;BP s’est investi en créant une direction dédiée. Un de ses objectifs est d'assurer la mise en œuvre de la gouvernance des données. Les premiers résultats obtenus en 2018 vont irradier vers les banques et le groupe.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_06_data_colo_V2.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -380,7 +385,7 @@
                         url: 'pdf/IBP_interview_data.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quinary'"
@@ -453,11 +458,9 @@
                     `245 personnes aux journées handicap et Qualité de Vie au Travail`
                 "
                 :col1Modal="
-                    `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs.</p>`
+                    `<p>Un programme zen et pédagogique concocté par les référentes Handicap et Qualité de Vie au Travail. Échanges, quiz, jeu collaboratif… mais aussi des ateliers animés par des praticiens déficients visuels, autant d’idées originales pour sensibliser les collaborateurs.</p><p>Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
                 "
-                :col2Modal="
-                    `<p>Ce road trip sur les six sites d’i&#8209;BP s’est terminé par un évènement exceptionnel, la conférence à Dijon de Manon Genest, championne du monde de para-triathlon et vice-championne d’Europe en para-athlétisme, sur le thème « Handicap et Performance ».</p>`
-                "
+                :col2Modal="`<img src='img/dalle_07_qvt_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'twitter',
@@ -466,7 +469,7 @@
                             'https://twitter.com/InformatiqueBP/status/1069943964311130112'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -482,6 +485,7 @@
                 :col1Modal="
                     `<p>La DSI Retail est montée en puissance durant cette année 2018 et i&#8209;BP y a pleinement pris sa place via des apports sur la méthode avec Tempo et l’agilité, par la participation des équipes dans les projets 89C3 ou dans les BAPI (Business Application Programming Interface) Factories.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_08_agilite_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -509,7 +513,7 @@
                         url: 'https://youtu.be/TntXS0De-AM'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'tertiary'"
@@ -531,11 +535,9 @@
                 :hasModal="true"
                 :titleModal="`2 numéros pour un nouveau magazine`"
                 :col1Modal="
-                    `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p>`
+                    `<p>D-CODE décode, chaque semestre, une grande thématique. Le premier numéro, sorti en janvier 2018, aborde la cyber-sécurité sous bien des angles et le numéro 2 décrypte la culture de l’open. Il s'inscrit sur des thématiques métier, traitant de sujets stratégiques, de transformation et d'ouverture à l'écosystème d'i&#8209;BP et du groupe. Les thématiques traitées répondent à des attentes des collaborateurs.</p><p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
                 "
-                :col2Modal="
-                    `<p>Pensé comme formant une collection, D-CODE est réalisé sur support papier (recyclé). C'est un objet qui se conserve, se consulte, se lit et se relit.</p>`
-                "
+                :col2Modal="`<img src='img/dalle_10_d-code_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'file',
@@ -548,7 +550,7 @@
                         url: 'pdf/D-CODE2.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -567,6 +569,7 @@
                 :col1Modal="
                     `<p>2018 a été une année de forte activité en matière de recrutements et gestion de carrière : 75 personnes ont rejoint l’entreprise en CDI et 80 collaborateurs ont bénéficié d’une mobilité interne. Près de 30 % des embauches externes ont été réalisées via LinkedIn et plus de 15 % sont le résultat d’une cooptation.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_01_colo_V3.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -579,7 +582,7 @@
                         url: 'pdf/IBP_interview_cooptation.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
@@ -597,6 +600,7 @@
                 :col1Modal="
                     `<p>Après Toulouse en 2017, de nouveaux espaces de travail sont aménagés à Paris et la construction d’un bâtiment est lancée à Nantes. Ces espaces favorisent le travail en mode collaboratif et répondent aux pratiques des équipes : laboratoires d’expérimentation, agilité, design thinking, test and learn...</p>`
                 "
+                :col2Modal="`<img src='img/dalle_11_espace_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -609,7 +613,7 @@
                         url: 'https://youtu.be/izrDMMFPcTw'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
         </div>
     </div>

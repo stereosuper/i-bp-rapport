@@ -132,6 +132,7 @@
                 :col1Modal="
                     `<p>Deux importants projets de fusion, Banque Populaire Grand Ouest et Banque Populaire Aquitaine Centre Atlantique, ont été menés avec succès et avec des niveaux de performance jamais atteints auparavant. Le professionnalisme des équipes i&#8209;BP et la maîtrise de travaux mobilisant de multiples acteurs du groupe se sont de nouveau concrétisés, au service des banques.</p>`
                 "
+                :col2Modal="`<img src='img/dalle_03_fusion_V2_colo.svg'/>`"
                 :ctaModal="[
                     {
                         type: 'play',
@@ -144,7 +145,7 @@
                         url: 'https://youtu.be/eFC1uiMMTPA'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quinary'"
