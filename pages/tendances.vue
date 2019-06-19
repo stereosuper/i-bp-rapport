@@ -7,6 +7,36 @@
         <div class="wrapper-tiles">
             <Tile
                 :theme="'white'"
+                :filters="[
+                    'Banque',
+                    'Performances',
+                    'Inside',
+                    'Transformation',
+                    'Tendances',
+                    'Évènements'
+                ]"
+                :content="
+                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                "
+                :illusUrl="'img/2018.svg'"
+                :hasModal="true"
+                :col1Modal="
+                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                "
+                :col2Modal="
+                    `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
+                "
+                :ctaModal="[
+                    {
+                        type: 'play',
+                        label: `L’année 2018`,
+                        url: 'https://youtu.be/6ddcFmj-w0E'
+                    }
+                ]"
+                :ctaModalCol="1"
+            />
+            <Tile
+                :theme="'white'"
                 :alt-theme="'quinary'"
                 :filters="['Inside', 'Tendances']"
                 :height="'small'"
@@ -45,36 +75,6 @@
                     }
                 ]"
                 :ctaModalCol="2"
-            />
-            <Tile
-                :theme="'white'"
-                :filters="[
-                    'Banque',
-                    'Performances',
-                    'Inside',
-                    'Transformation',
-                    'Tendances',
-                    'Évènements'
-                ]"
-                :content="
-                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
-                "
-                :illusUrl="'img/2018.svg'"
-                :hasModal="true"
-                :col1Modal="
-                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
-                "
-                :col2Modal="
-                    `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
-                "
-                :ctaModal="[
-                    {
-                        type: 'play',
-                        label: `L’année 2018`,
-                        url: 'https://youtu.be/6ddcFmj-w0E'
-                    }
-                ]"
-                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"

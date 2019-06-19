@@ -7,6 +7,36 @@
         <div class="wrapper-tiles">
             <Tile
                 :theme="'white'"
+                :filters="[
+                    'Banque',
+                    'Performances',
+                    'Inside',
+                    'Transformation',
+                    'Tendances',
+                    'Évènements'
+                ]"
+                :content="
+                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                "
+                :illusUrl="'img/2018.svg'"
+                :hasModal="true"
+                :col1Modal="
+                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                "
+                :col2Modal="
+                    `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
+                "
+                :ctaModal="[
+                    {
+                        type: 'play',
+                        label: `L’année 2018`,
+                        url: 'https://youtu.be/6ddcFmj-w0E'
+                    }
+                ]"
+                :ctaModalCol="1"
+            />
+            <Tile
+                :theme="'white'"
                 :alt-theme="'tertiary'"
                 :filters="['Transformation', 'Évènements']"
                 :twoCols="true"
@@ -37,33 +67,29 @@
             />
             <Tile
                 :theme="'white'"
-                :filters="[
-                    'Banque',
-                    'Performances',
-                    'Inside',
-                    'Transformation',
-                    'Tendances',
-                    'Évènements'
-                ]"
+                :alt-theme="'tertiary'"
+                :filters="['Banque', 'Transformation']"
+                :height="'small'"
+                :twoCols="true"
                 :content="
-                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                    `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique.</p>`
                 "
-                :illusUrl="'img/2018.svg'"
+                :illusUrl="'img/dalle_02_chantier_colo.svg'"
                 :hasModal="true"
-                :col1Modal="
-                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                :titleModal="
+                    `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
                 "
-                :col2Modal="
-                    `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
+                :col1Modal="
+                    `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un groupe d’action informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
                 "
                 :ctaModal="[
                     {
-                        type: 'play',
-                        label: `L’année 2018`,
-                        url: 'https://youtu.be/6ddcFmj-w0E'
+                        type: 'file',
+                        label: `GAI en quelques mots`,
+                        url: 'pdf/Les-chantiers-du-GAl.pdf'
                     }
                 ]"
-                :ctaModalCol="1"
+                :ctaModalCol="2"
             />
             <Tile
                 :theme="'quaternary'"
@@ -93,32 +119,6 @@
                         type: 'play',
                         label: `La transformation d’i-BP`,
                         url: 'https://www.youtube.com/watch?v=7t2uYqvST88'
-                    }
-                ]"
-                :ctaModalCol="2"
-            />
-            <Tile
-                :theme="'white'"
-                :alt-theme="'tertiary'"
-                :filters="['Banque', 'Transformation']"
-                :height="'small'"
-                :twoCols="true"
-                :content="
-                    `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique.</p>`
-                "
-                :illusUrl="'img/dalle_02_chantier_colo.svg'"
-                :hasModal="true"
-                :titleModal="
-                    `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
-                "
-                :col1Modal="
-                    `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un groupe d’action informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
-                "
-                :ctaModal="[
-                    {
-                        type: 'file',
-                        label: `GAI en quelques mots`,
-                        url: 'pdf/Les-chantiers-du-GAl.pdf'
                     }
                 ]"
                 :ctaModalCol="2"
