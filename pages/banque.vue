@@ -212,7 +212,7 @@
                 :height="'small'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique.</p>`
+                    `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique</p>`
                 "
                 :illusUrl="'img/dalle_02_chantier_colo.svg'"
                 :hasModal="true"
