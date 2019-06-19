@@ -41,7 +41,7 @@
                 :filters="['Inside']"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2>`
+                    `<h2><strong class='medium'>37<span>%</span></strong> de femmes</h2><p>dans nos effectifs</p>`
                 "
                 :illusUrl="'img/dalle_12_mixite_colo.svg'"
                 :hasModal="true"
@@ -166,7 +166,7 @@
                 :height="'big'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>75</strong> recrutements en CDI</h2>`
+                    `<h2><strong class='medium'>75</strong> recrutements</h2><p>en CDI</p>`
                 "
                 :illusUrl="'img/dalle_01_colo_V3.svg'"
                 :hasModal="true"

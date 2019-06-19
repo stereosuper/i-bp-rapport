@@ -66,7 +66,7 @@
                 :filters="['Tendances']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='small'>1000</strong> followers sur Twitter en mars 2018</h2>`
+                    `<h2><strong class='small'>1000</strong> followers</h2><p>sur Twitter en mars 2018</p>`
                 "
                 :illusUrl="'img/dalle_04_colo_V2.svg'"
                 :social="true"
@@ -167,7 +167,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>1</strong> collaborateur i&#8209;BP parmi les lauréats</h2>`
+                    `<h2><strong>1</strong> collaborateur i&#8209;BP</h2><p>parmi les lauréats</p>`
                 "
                 :hasModal="true"
                 :titleModal="`1 collaborateur i-BP parmi les lauréats `"
@@ -214,7 +214,7 @@
                 :height="'small'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018</p>`
+                    `<h2><strong>6</strong> banques impliquées</h2><p>dans les deux opérations de fusion menées en 2018</p>`
                 "
                 :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
                 :hasModal="true"
@@ -244,7 +244,7 @@
                 :filters="['Inside']"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2>`
+                    `<h2><strong class='medium'>37<span>%</span></strong> de femmes</h2><p>dans nos effectifs</p>`
                 "
                 :illusUrl="'img/dalle_12_mixite_colo.svg'"
                 :hasModal="true"
@@ -358,7 +358,7 @@
                 :filters="['Transformation', 'Évènements']"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>48</strong> collaborateurs</h2><p>pour la Direction Edition logicielle Data <span class='small'>au 31/12/18</span></p>`
+                    `<h2><strong class='medium'>48</strong> collaborateurs</h2><p>pour la Direction Edition logicielle Data <span class='small'>* au 31/12/18</span></p>`
                 "
                 :illusUrl="'img/dalle_06_data_colo_V2.svg'"
                 :hasModal="true"
@@ -419,7 +419,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>9</strong> entités</h2><p>du Groupe BPCE réunies pour le 5ème hackathon Banque Populaire</p>`
+                    `<h2><strong>9</strong> entités du Groupe BPCE</h2><p>réunies pour le 5ème hackathon Banque Populaire</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -474,7 +474,7 @@
                 :filters="['Performances', 'Transformation']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='small'>15</strong> cadrages accompagnés par les coachs agiles</h2>`
+                    `<h2><strong class='small'>15</strong> cadrages</h2><p>accompagnés par les coachs agiles</p>`
                 "
                 :illusUrl="'img/dalle_08_agilite_colo.svg'"
                 :hasModal="true"
@@ -525,7 +525,7 @@
                 :filters="['Tendances', 'Évènements']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='small'>2</strong> numéros pour un nouveau magazine</h2>`
+                    `<h2><strong class='small'>2</strong> numéros</h2><p>pour un nouveau magazine</p>`
                 "
                 :illusUrl="'img/dalle_10_d-code_colo.svg'"
                 :hasModal="true"
@@ -557,7 +557,7 @@
                 :height="'big'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>75</strong> recrutements en CDI</h2>`
+                    `<h2><strong class='medium'>75</strong> recrutements</h2><p>en CDI</p>`
                 "
                 :illusUrl="'img/dalle_01_colo_V3.svg'"
                 :hasModal="true"

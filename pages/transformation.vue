@@ -41,7 +41,7 @@
                 :filters="['Transformation', 'Évènements']"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>48</strong> collaborateurs</h2><p>pour la Direction Edition logicielle Data <span class='small'>au 31/12/18</span></p>`
+                    `<h2><strong class='medium'>48</strong> collaborateurs</h2><p>pour la Direction Edition logicielle Data <span class='small'>* au 31/12/18</span></p>`
                 "
                 :illusUrl="'img/dalle_06_data_colo_V2.svg'"
                 :hasModal="true"
@@ -129,7 +129,7 @@
                 :filters="['Performances', 'Transformation']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='small'>15</strong> cadrages accompagnés par les coachs agiles</h2>`
+                    `<h2><strong class='small'>15</strong> cadrages</h2><p>accompagnés par les coachs agiles</p>`
                 "
                 :illusUrl="'img/dalle_08_agilite_colo.svg'"
                 :hasModal="true"

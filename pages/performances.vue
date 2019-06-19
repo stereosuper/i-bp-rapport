@@ -42,7 +42,7 @@
                 :height="'small'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018</p>`
+                    `<h2><strong>6</strong> banques impliquées</h2><p>dans les deux opérations de fusion menées en 2018</p>`
                 "
                 :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
                 :hasModal="true"
@@ -80,7 +80,7 @@
                 :filters="['Performances', 'Transformation']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='small'>15</strong> cadrages accompagnés par les coachs agiles</h2>`
+                    `<h2><strong class='small'>15</strong> cadrages</h2><p>accompagnés par les coachs agiles</p>`
                 "
                 :illusUrl="'img/dalle_08_agilite_colo.svg'"
                 :hasModal="true"

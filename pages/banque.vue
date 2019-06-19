@@ -40,7 +40,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>1</strong> collaborateur i&#8209;BP parmi les lauréats</h2>`
+                    `<h2><strong>1</strong> collaborateur i&#8209;BP</h2><p>parmi les lauréats</p>`
                 "
                 :hasModal="true"
                 :titleModal="`1 collaborateur i-BP parmi les lauréats `"
@@ -96,7 +96,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>9</strong> entités</h2><p>du Groupe BPCE réunies pour le 5ème hackathon Banque Populaire</p>`
+                    `<h2><strong>9</strong> entités du Groupe BPCE</h2><p>réunies pour le 5ème hackathon Banque Populaire</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -122,7 +122,7 @@
                 :height="'small'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018</p>`
+                    `<h2><strong>6</strong> banques impliquées</h2><p>dans les deux opérations de fusion menées en 2018</p>`
                 "
                 :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
                 :hasModal="true"
