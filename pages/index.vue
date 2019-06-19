@@ -475,7 +475,7 @@
                 :filters="['Performances', 'Transformation']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='small'>15</strong> cadrages accompagnés par les coach agiles</h2>`
+                    `<h2><strong class='small'>15</strong> cadrages accompagnés par les coachs agiles</h2>`
                 "
                 :illusUrl="'img/dalle_08_agilite_colo.svg'"
                 :hasModal="true"
