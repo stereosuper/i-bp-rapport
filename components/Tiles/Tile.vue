@@ -17,9 +17,7 @@
             </button>
             <div class="content">
                 <div>
-                    <h3 v-if="titleModal">
-                        {{ titleModal }}
-                    </h3>
+                    <h3 v-if="titleModal" v-html="titleModal"></h3>
                     <div class="cols">
                         <div class="col">
                             <div v-if="col1Modal" v-html="col1Modal"></div>

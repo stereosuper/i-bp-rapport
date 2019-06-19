@@ -563,7 +563,7 @@
                 :illusUrl="'img/dalle_01_colo_V3.svg'"
                 :hasModal="true"
                 :titleModal="
-                    `75 recrutements CDI  30 % des embauches externes via LinkedIn`
+                    `75 recrutements CDI <br/>30 % des embauches externes via LinkedIn`
                 "
                 :col1Modal="
                     `<p>2018 a été une année de forte activité en matière de recrutements et gestion de carrière : 75 personnes ont rejoint l’entreprise en CDI et 80 collaborateurs ont bénéficié d’une mobilité interne. Près de 30 % des embauches externes ont été réalisées via LinkedIn et plus de 15 % sont le résultat d’une cooptation.</p>`
