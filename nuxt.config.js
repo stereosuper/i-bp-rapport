@@ -7,7 +7,7 @@ export default {
      ** Headers of the page
      */
     head: {
-        title: pkg.name,
+        title: "Rapport d’activité 2018 | i-BP",
         meta: [{
                 charset: "utf-8"
             },
@@ -18,7 +18,12 @@ export default {
             {
                 hid: "description",
                 name: "description",
-                content: pkg.description
+                content: "Découvrez le kiosque à datas d’Informatique Banque Populaire, une manière innovante de vous plonger au coeur de l’activité 2018"
+            },
+            {
+                hid: "keywords",
+                name: "keywords",
+                content: "informatique, banque, banquepopulaire, 2018, rapport d’activités, datas, illustrations, chiffres"
             },
             {
                 name: 'msapplication-TileColor',
