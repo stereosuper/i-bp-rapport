@@ -41,7 +41,7 @@
                 :filters="['Transformation', 'Évènements']"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>48</strong> Collaborateurs</h2><p>pour la Direction Edition logicielle Data au 31/12/18.</p>`
+                    `<h2><strong class='medium'>48</strong> collaborateurs</h2><p>pour la Direction Edition logicielle Data <span class='small'>au 31/12/18</span></p>`
                 "
                 :illusUrl="'img/dalle_06_data_colo_V2.svg'"
                 :hasModal="true"
