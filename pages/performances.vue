@@ -42,7 +42,7 @@
                 :height="'small'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018.</p>`
+                    `<h2><strong>6</strong> banques</h2><p>impliquées dans les deux opérations de fusion menées en 2018</p>`
                 "
                 :illusUrl="'img/dalle_03_fusion_V2_colo.svg'"
                 :hasModal="true"
