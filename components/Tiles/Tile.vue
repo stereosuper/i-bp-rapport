@@ -308,6 +308,7 @@ export default {
     width: 33.3333%;
     position: relative;
     z-index: 1;
+    margin-bottom: -1px;
     &::before {
         content: "";
         position: absolute;
@@ -330,6 +331,7 @@ export default {
     &.bg-white {
         color: $primary;
         border-top: 1px solid $primary-x-light;
+        border-bottom: 1px solid $primary-x-light;
         border-right: 1px solid $primary-x-light;
         &::before {
             background: $white;

@@ -34,6 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 footer {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,6 +44,7 @@ footer {
     text-transform: uppercase;
     color: $primary-light;
     border-top: 1px solid $primary-x-light;
+    z-index: 1;
     > div {
         display: flex;
         justify-content: flex-start;
