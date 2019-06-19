@@ -517,7 +517,7 @@
                 :filters="['Banque', 'Performances']"
                 :height="'big'"
                 :content="
-                    `<h2><strong class='regular'>358,7</strong> millions</h2><p>d’euros de chiffre d’affaires toutes activités confondues</p>`
+                    `<h2><strong class='regular'>358,7</strong> millions d’euros</h2><p>de chiffre d’affaires toutes activités confondues</p>`
                 "
             />
             <Tile
