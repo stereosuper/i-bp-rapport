@@ -54,7 +54,7 @@
                 {
                     type: 'file',
                     label: `Chiffres clés`,
-                    url: '#'
+                    url: 'pdf/afterwork_infographie.pdf'
                 }
             ]"
             :ctaModalCol="2"
@@ -180,7 +180,7 @@
                 {
                     type: 'micro',
                     label: `Ils ont testé`,
-                    url: '#'
+                    url: 'pdf/IBP_interview_cooptation.pdf'
                 }
             ]"
             :ctaModalCol="2"

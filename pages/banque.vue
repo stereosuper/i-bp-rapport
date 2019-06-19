@@ -185,7 +185,7 @@
                 {
                     type: 'micro',
                     label: `Une belle aventure`,
-                    url: '#'
+                    url: 'pdf/IBP_interview_lab.pdf'
                 }
             ]"
         />

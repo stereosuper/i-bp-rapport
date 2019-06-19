@@ -25,7 +25,7 @@
                 {
                     type: 'micro',
                     label: `11 ans dans la Data`,
-                    url: '#'
+                    url: 'pdf/IBP_interview_data.pdf'
                 }
             ]"
             :ctaModalCol="2"
@@ -179,7 +179,7 @@
                 {
                     type: 'micro',
                     label: `Une nouvelle identité`,
-                    url: '#'
+                    url: 'pdf/IBP_interview_identite.pdf'
                 }
             ]"
             :ctaModalCol="1"
