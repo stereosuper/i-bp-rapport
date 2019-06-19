@@ -35,11 +35,11 @@ export default {
             },
             {
                 property: 'og:title',
-                content: `Rapport d'activité 2018`
+                content: `Rapport d’activité 2018 | i-BP`
             },
             {
                 property: 'og:description',
-                content: `Le kiosque à datas i-BP`
+                content: `Découvrez le kiosque à datas d’Informatique Banque Populaire, une manière innovante de vous plonger au coeur de l’activité 2018`
             },
             {
                 property: 'og:image',
