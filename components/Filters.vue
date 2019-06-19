@@ -24,7 +24,7 @@
                     ><span class="nb-elem">9</span></span
                 >
                 <span class="filter-active" v-else-if="activeFilter === 4"
-                    ><span class="filter">Événements</span
+                    ><span class="filter">Évènements</span
                     ><span class="nb-elem">8</span></span
                 >
                 <span class="filter-active" v-else-if="activeFilter === 5"
@@ -82,7 +82,7 @@
                     :class="{ on: activeFilter === 4 }"
                     @click.native="toggleFilters"
                 >
-                    <span class="filter">#Événements</span>
+                    <span class="filter">#Évènements</span>
                     <span class="nb-elem">8</span>
                 </nuxt-link>
                 <nuxt-link
