@@ -17,11 +17,11 @@
                 >
                 <span class="filter-active" v-else-if="activeFilter === 2"
                     ><span class="filter">Performances</span
-                    ><span class="nb-elem">6</span></span
+                    ><span class="nb-elem">7</span></span
                 >
                 <span class="filter-active" v-else-if="activeFilter === 3"
                     ><span class="filter">Banque</span
-                    ><span class="nb-elem">9</span></span
+                    ><span class="nb-elem">8</span></span
                 >
                 <span class="filter-active" v-else-if="activeFilter === 4"
                     ><span class="filter">Évènements</span
@@ -67,7 +67,7 @@
                     @click.native="toggleFilters"
                 >
                     <span class="filter">#Performances</span>
-                    <span class="nb-elem">6</span>
+                    <span class="nb-elem">7</span>
                 </nuxt-link>
                 <nuxt-link
                     to="/banque#content"
@@ -75,7 +75,7 @@
                     @click.native="toggleFilters"
                 >
                     <span class="filter">#Banque</span>
-                    <span class="nb-elem">9</span>
+                    <span class="nb-elem">8</span>
                 </nuxt-link>
                 <nuxt-link
                     to="/evenements#content"

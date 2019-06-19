@@ -68,7 +68,7 @@
             <Tile
                 :theme="'white'"
                 :alt-theme="'tertiary'"
-                :filters="['Banque', 'Transformation']"
+                :filters="['Transformation', 'Performances']"
                 :height="'small'"
                 :twoCols="true"
                 :content="

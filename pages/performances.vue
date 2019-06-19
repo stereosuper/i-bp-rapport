@@ -182,6 +182,32 @@
                 ]"
                 :ctaModalCol="2"
             />
+            <Tile
+                :theme="'white'"
+                :alt-theme="'tertiary'"
+                :filters="['Transformation', 'Performances']"
+                :height="'small'"
+                :twoCols="true"
+                :content="
+                    `<h2><strong class='medium'>14</strong> chantiers</h2><p>du Groupe d’Action Informatique</p>`
+                "
+                :illusUrl="'img/dalle_02_chantier_colo.svg'"
+                :hasModal="true"
+                :titleModal="
+                    `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
+                "
+                :col1Modal="
+                    `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un Groupe d’Action Informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
+                "
+                :ctaModal="[
+                    {
+                        type: 'file',
+                        label: `GAI en quelques mots`,
+                        url: 'pdf/Les-chantiers-du-GAl.pdf'
+                    }
+                ]"
+                :ctaModalCol="2"
+            />
         </div>
     </div>
 </template>
