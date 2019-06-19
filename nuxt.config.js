@@ -27,6 +27,26 @@ export default {
             {
                 name: 'theme-color',
                 content: '#ffffff'
+            },
+            {
+                property: 'og:title',
+                content: `Rapport d'activité 2018`
+            },
+            {
+                property: 'og:description',
+                content: `Le kiosque à datas i-BP`
+            },
+            {
+                property: 'og:image',
+                content: `https://ibp-rapport.netlify.com/thumbnail-small.png`
+            },
+            {
+                property: 'og:url',
+                content: 'https://ibp-rapport.netlify.com/'
+            },
+            {
+                name: 'twitter:card',
+                content: 'summary_large_image'
             }
         ],
         link: [{
