@@ -45,7 +45,7 @@
                 :logoUrl="'img/logo-cesm-small.png'"
                 :hasModal="true"
                 :titleModal="
-                    `10 janvier, lancement du Centre d’Expertise Sécurité métier.`
+                    `10 janvier, lancement du Centre d’Expertise Sécurité métier`
                 "
                 :col1Modal="
                     `<p>Le Centre d’Expertise Sécurité Métier voit le jour dans le cadre de la DSI Retail, afin de mieux répondre aux nouveaux enjeux de la cybersécurité : soutenir la transformation digitale, se prémunir contre les cyberattaques ou encore renforcer notre capacité à les détecter comme à y réagir.</p><p>Ses missions ? Accompagner les projets de la DSI Retail et la 89C3, en intégrant une expertise sécurité forte dès les premières phases, promouvoir le développement sécurisé mais aussi favoriser la lutte contre la fraude et la sensibilisation à la sécurité.</p>`
@@ -168,7 +168,7 @@
                 :illusUrl="'img/dalle_06_data_colo_V2.svg'"
                 :hasModal="true"
                 :titleModal="
-                    `48 collaborateurs pour la Direction Édition logicielle Data *au 31/12/2018`
+                    `48 collaborateurs pour la Direction Édition logicielle Data au 31/12/2018`
                 "
                 :col1Modal="
                     `<p>La Data, nouveau moteur de croissance pour le Groupe BPCE, constitue un sujet stratégique dans lequel i&#8209;BP s’est investi en créant une direction dédiée. Un de ses objectifs est d'assurer la mise en œuvre de la gouvernance des données. Les premiers résultats obtenus en 2018 vont irradier vers les banques et le groupe.</p>`

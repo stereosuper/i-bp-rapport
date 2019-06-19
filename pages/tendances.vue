@@ -153,7 +153,7 @@
                 :logoUrl="'img/logo-cesm-small.png'"
                 :hasModal="true"
                 :titleModal="
-                    `10 janvier, lancement du Centre d’Expertise Sécurité métier.`
+                    `10 janvier, lancement du Centre d’Expertise Sécurité métier`
                 "
                 :col1Modal="
                     `<p>Le Centre d’Expertise Sécurité Métier voit le jour dans le cadre de la DSI Retail, afin de mieux répondre aux nouveaux enjeux de la cybersécurité : soutenir la transformation digitale, se prémunir contre les cyberattaques ou encore renforcer notre capacité à les détecter comme à y réagir.</p><p>Ses missions ? Accompagner les projets de la DSI Retail et la 89C3, en intégrant une expertise sécurité forte dès les premières phases, promouvoir le développement sécurisé mais aussi favoriser la lutte contre la fraude et la sensibilisation à la sécurité.</p>`
