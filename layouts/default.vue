@@ -3,10 +3,7 @@
         class="content-page"
         :class="{ 'overflow-not-scrollable': !overflowScrollable }"
     >
-        <div class="header-wrapper">
-            <Header />
-            <Filters />
-        </div>
+        <Header />
         <nuxt />
         <Svgs />
         <Footer />
@@ -17,7 +14,6 @@
 import Scroll from "~/mixins/scroll.js";
 import Window from "~/mixins/window.js";
 import Header from "~/components/Header";
-import Filters from "~/components/Filters";
 import Footer from "~/components/Footer";
 import Svgs from "~/components/Svgs";
 
@@ -25,7 +21,6 @@ export default {
     mixins: [Scroll, Window],
     components: {
         Header,
-        Filters,
         Footer,
         Svgs
     },
@@ -55,10 +50,4 @@ export default {
 </script>
 
 <style lang="scss">
-.header-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-}
 </style>

@@ -103,13 +103,13 @@ export default {
 <style lang="scss" scoped>
 .container {
     max-width: 950px;
-    padding: 50px 30px 120px;
+    padding: 200px 30px 120px;
     margin: 0 auto;
 }
 
 @media (max-width: $tablet) {
     .container {
-        padding-bottom: 50px;
+        padding: 150px 30px 50px;
     }
 }
 </style>
