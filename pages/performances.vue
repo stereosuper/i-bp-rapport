@@ -121,7 +121,7 @@
                 :theme="'quinary'"
                 :filters="['Banque', 'Performances']"
                 :content="
-                    `<h2><strong class='small'>23&nbsp;000</strong> jours homme pour le Plan Informatique Annuel</h2>`
+                    `<h2><strong class='small'>23&nbsp;000</strong> jours homme</h2><p>pour le Plan Informatique Annuel</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -160,7 +160,7 @@
                 ]"
                 :height="'small'"
                 :content="
-                    `<h2><strong>3<sup>e</sup></strong> année pour le projet d'entreprise Osons, autrement</h2>`
+                    `<h2><strong>3<sup>e</sup></strong> année</h2><p>pour le projet d'entreprise Osons, autrement</p>`
                 "
                 :hasModal="true"
                 :titleModal="

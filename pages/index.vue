@@ -41,7 +41,7 @@
                 :theme="'tertiary'"
                 :filters="['Transformation', 'Évènements']"
                 :content="
-                    `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
+                    `<h2><strong>22</strong> couleurs</h2><p>pour le nouveau nuancier d'i&#8209;BP</p>`
                 "
                 :hasModal="true"
                 :titleModal="`22 couleurs pour le nouveau nuancier d’i-BP`"
@@ -76,7 +76,7 @@
                 :filters="['Inside', 'Évènements']"
                 :height="'big'"
                 :content="
-                    `<h2><strong>61</strong> évènements auxquels i&#8209;BP a participé au titre de la marque employeur</h2>`
+                    `<h2><strong>61</strong> évènements</h2><p>auxquels i&#8209;BP a participé au titre de la marque employeur</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -191,7 +191,7 @@
                 :filters="['Inside']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>15</strong> engagements pour l'équilibre des temps de vie</h2>`
+                    `<h2><strong>15</strong> engagements</h2><p>pour l'équilibre des temps de vie</p>`
                 "
                 :hasModal="true"
                 :titleModal="`15 engagements pour l’équilibre des temps de vie`"
@@ -305,7 +305,7 @@
                 ]"
                 :height="'small'"
                 :content="
-                    `<h2><strong>3<sup>e</sup></strong> année pour le projet d'entreprise Osons, autrement</h2>`
+                    `<h2><strong>3<sup>e</sup></strong> année</h2><p>pour le projet d'entreprise Osons, autrement</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -386,7 +386,7 @@
                 :theme="'quinary'"
                 :filters="['Banque', 'Performances']"
                 :content="
-                    `<h2><strong class='small'>23&nbsp;000</strong> jours homme pour le Plan Informatique Annuel</h2>`
+                    `<h2><strong class='small'>23&nbsp;000</strong> jours homme</h2><p>pour le Plan Informatique Annuel</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -419,8 +419,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>9</strong> entités du Groupe BPCE réunies pour le 5ème hackathon Banque
-                    Populaire</h2>`
+                    `<h2><strong>9</strong> entités</h2><p>du Groupe BPCE réunies pour le 5ème hackathon Banque Populaire</p>`
                 "
                 :hasModal="true"
                 :titleModal="

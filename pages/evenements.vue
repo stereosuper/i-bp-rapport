@@ -107,7 +107,7 @@
                 :theme="'tertiary'"
                 :filters="['Transformation', 'Évènements']"
                 :content="
-                    `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
+                    `<h2><strong>22</strong> couleurs</h2><p>pour le nouveau nuancier d'i&#8209;BP</p>`
                 "
                 :hasModal="true"
                 :titleModal="`22 couleurs pour le nouveau nuancier d’i-BP`"
@@ -192,8 +192,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>9</strong> entités du Groupe BPCE réunies pour le 5ème hackathon Banque
-                    Populaire</h2>`
+                    `<h2><strong>9</strong> entités</h2><p>du Groupe BPCE réunies pour le 5ème hackathon Banque Populaire</p>`
                 "
                 :hasModal="true"
                 :titleModal="

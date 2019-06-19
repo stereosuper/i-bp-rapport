@@ -110,7 +110,7 @@
                 :filters="['Inside']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>15</strong> engagements pour l'équilibre des temps de vie</h2>`
+                    `<h2><strong>15</strong> engagements</h2><p>pour l'équilibre des temps de vie</p>`
                 "
                 :hasModal="true"
                 :titleModal="`15 engagements pour l’équilibre des temps de vie`"
@@ -131,7 +131,7 @@
                 :filters="['Inside', 'Évènements']"
                 :height="'big'"
                 :content="
-                    `<h2><strong>61</strong> évènements auxquels i&#8209;BP a participé au titre de la marque employeur</h2>`
+                    `<h2><strong>61</strong> évènements</h2><p>auxquels i&#8209;BP a participé au titre de la marque employeur</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -231,7 +231,7 @@
                 ]"
                 :height="'small'"
                 :content="
-                    `<h2><strong>3<sup>e</sup></strong> année pour le projet d'entreprise Osons, autrement</h2>`
+                    `<h2><strong>3<sup>e</sup></strong> année</h2><p>pour le projet d'entreprise Osons, autrement</p>`
                 "
                 :hasModal="true"
                 :titleModal="

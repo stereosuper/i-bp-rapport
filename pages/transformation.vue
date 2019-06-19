@@ -102,7 +102,7 @@
                 ]"
                 :height="'small'"
                 :content="
-                    `<h2><strong>3<sup>e</sup></strong> année pour le projet d'entreprise Osons, autrement</h2>`
+                    `<h2><strong>3<sup>e</sup></strong> année</h2><p>pour le projet d'entreprise Osons, autrement</p>`
                 "
                 :hasModal="true"
                 :titleModal="
@@ -170,7 +170,7 @@
                 :theme="'tertiary'"
                 :filters="['Transformation', 'Évènements']"
                 :content="
-                    `<h2><strong>22</strong> couleurs pour le nouveau nuancier d'i&#8209;BP</h2>`
+                    `<h2><strong>22</strong> couleurs</h2><p>pour le nouveau nuancier d'i&#8209;BP</p>`
                 "
                 :hasModal="true"
                 :titleModal="`22 couleurs pour le nouveau nuancier d’i-BP`"
