@@ -341,7 +341,7 @@
                     `14 chantiers pour traiter les problèmes et irritants remontés par les conseillers`
                 "
                 :col1Modal="
-                    `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un groupe d’action informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
+                    `<p>A la rentrée 2018, les opérateurs informatiques se sont réunis dans un Groupe d’Action Informatique pour traiter les problèmes et irritants remontés par les conseillers en agences lors d’enquêtes. La démarche est transverse et associe les banques, les caisses, i&#8209;BP, IT-CE, 89C3, BPCE-IT et Natixis, pour la satisfaction des conseillers du réseau.</p>`
                 "
                 :ctaModal="[
                     {
