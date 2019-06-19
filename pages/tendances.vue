@@ -112,7 +112,7 @@
                 :filters="['Banque', 'Tendances', 'Évènements']"
                 :height="'small'"
                 :content="
-                    `<h2><strong>9</strong> entités du Groupe BPCE</h2><p>réunies pour le 5ème hackathon Banque Populaire</p>`
+                    `<h2><strong>9</strong> entités du Groupe BPCE</h2><p>réunies pour le 5<sup>ème</sup> Hackathon Banque Populaire</p>`
                 "
                 :hasModal="true"
                 :titleModal="
