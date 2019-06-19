@@ -663,6 +663,7 @@ export default {
             align-items: center;
         }
         .wrapper-content {
+            height: 100%;
             align-items: center;
             justify-content: space-between;
             flex-direction: row;
@@ -995,6 +996,9 @@ header {
         }
         &.two-cols {
             width: 100%;
+            .wrapper-content {
+                height: auto;
+            }
         }
         .tile-content {
             min-height: 0;

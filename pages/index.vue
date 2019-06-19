@@ -6,6 +6,38 @@
         </div>
         <div class="wrapper-tiles">
             <Tile
+                :theme="'white'"
+                :filters="[
+                    'Banque',
+                    'Performances',
+                    'Inside',
+                    'Transformation',
+                    'Tendances',
+                    'Évènements'
+                ]"
+                :height="'small'"
+                :twoCols="true"
+                :content="
+                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                "
+                :illusUrl="'img/2018.svg'"
+                :hasModal="true"
+                :col1Modal="
+                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
+                "
+                :col2Modal="
+                    `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
+                "
+                :ctaModal="[
+                    {
+                        type: 'play',
+                        label: `L’année 2018`,
+                        url: 'https://youtu.be/6ddcFmj-w0E'
+                    }
+                ]"
+                :ctaModalCol="1"
+            />
+            <Tile
                 :theme="'tertiary'"
                 :filters="['Transformation', 'Évènements']"
                 :content="
@@ -27,35 +59,6 @@
                     }
                 ]"
                 :ctaModalCol="1"
-            />
-            <Tile
-                :theme="'white'"
-                :altTheme="'secondary'"
-                :filters="['Inside']"
-                :twoCols="true"
-                :content="
-                    `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2>`
-                "
-                :illusUrl="'img/dalle_12_mixite_colo.svg'"
-                :hasModal="true"
-                :titleModal="`37 % de femmes dans nos effectifs`"
-                :col1Modal="
-                    `<p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle. La représentativité des femmes dans les effectifs est en progression constante malgré un secteur très fortement masculinisé.</p>`
-                "
-                :ctaModal="[
-                    {
-                        type: 'linkedin',
-                        label: `Mixité et équilibre`,
-                        url:
-                            'https://www.linkedin.com/pulse/la-mixit%C3%A9-une-question-d%C3%A9quilibre-st%C3%A9phane-beaujaneau/'
-                    },
-                    {
-                        type: 'file',
-                        label: `Chiffres clés`,
-                        url: 'pdf/afterwork_infographie.pdf'
-                    }
-                ]"
-                :ctaModalCol="2"
             />
             <Tile
                 :theme="'white'"
@@ -236,6 +239,35 @@
                 :ctaModalCol="2"
             />
             <Tile
+                :theme="'white'"
+                :altTheme="'secondary'"
+                :filters="['Inside']"
+                :twoCols="true"
+                :content="
+                    `<h2><strong class='medium'>37<span>%</span></strong> de femmes dans nos effectifs</h2>`
+                "
+                :illusUrl="'img/dalle_12_mixite_colo.svg'"
+                :hasModal="true"
+                :titleModal="`37 % de femmes dans nos effectifs`"
+                :col1Modal="
+                    `<p>i&#8209;BP poursuit sa politique en faveur de la mixité et de l’égalité professionnelle. La représentativité des femmes dans les effectifs est en progression constante malgré un secteur très fortement masculinisé.</p>`
+                "
+                :ctaModal="[
+                    {
+                        type: 'linkedin',
+                        label: `Mixité et équilibre`,
+                        url:
+                            'https://www.linkedin.com/pulse/la-mixit%C3%A9-une-question-d%C3%A9quilibre-st%C3%A9phane-beaujaneau/'
+                    },
+                    {
+                        type: 'file',
+                        label: `Chiffres clés`,
+                        url: 'pdf/afterwork_infographie.pdf'
+                    }
+                ]"
+                :ctaModalCol="2"
+            />
+            <Tile
                 :theme="'primary-alt-light'"
                 :filters="['Tendances', 'Évènements']"
                 :height="'small'"
@@ -261,38 +293,6 @@
                     }
                 ]"
                 :ctaModalCol="2"
-            />
-            <Tile
-                :theme="'white'"
-                :filters="[
-                    'Banque',
-                    'Performances',
-                    'Inside',
-                    'Transformation',
-                    'Tendances',
-                    'Évènements'
-                ]"
-                :height="'small'"
-                :twoCols="true"
-                :content="
-                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
-                "
-                :illusUrl="'img/2018.svg'"
-                :hasModal="true"
-                :col1Modal="
-                    `<blockquote><p>L’année 2018 aura été pour i&#8209;BP une année enthousiasmante</p><span class='blockquote-author'><cite>Serge Matry</cite>, <span>Directeur général d'i&#8209;BP</span></blockquote>`
-                "
-                :col2Modal="
-                    `<img src='img/edito_serge_matry.jpg' alt='Serge Matry'/>`
-                "
-                :ctaModal="[
-                    {
-                        type: 'play',
-                        label: `L’année 2018`,
-                        url: 'https://youtu.be/6ddcFmj-w0E'
-                    }
-                ]"
-                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quaternary'"
