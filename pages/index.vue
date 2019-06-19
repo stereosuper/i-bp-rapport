@@ -386,7 +386,7 @@
                 :theme="'quinary'"
                 :filters="['Banque', 'Performances']"
                 :content="
-                    `<h2><strong>23</strong> mille jours homme pour le Plan Informatique Annuel</h2>`
+                    `<h2><strong class='small'>23&nbsp;000</strong> jours homme pour le Plan Informatique Annuel</h2>`
                 "
                 :hasModal="true"
                 :titleModal="
