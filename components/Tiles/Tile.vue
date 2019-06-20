@@ -303,7 +303,7 @@ export default {
         VanillaTilt.init(this.tile, {
             max: 2,
             scale: 1.01,
-            speed: 400
+            speed: 600
         });
     },
     destroyed() {},
@@ -348,6 +348,7 @@ export default {
     &::after {
         box-shadow: 0px 35px 40px rgba(50, 51, 94, 0.183141);
         opacity: 0;
+        transition: opacity 0.6s ease-out;
     }
     &.small-height {
         .tile-content {
