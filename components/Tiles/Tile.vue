@@ -742,7 +742,9 @@ export default {
         will-change: auto !important;
         transform: none !important;
         .modal {
-            display: block;
+            visibility: visible;
+            opacity: 1;
+            transition-duration: 0.2s;
         }
     }
 }
@@ -872,7 +874,6 @@ header {
     }
 }
 .modal {
-    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -881,9 +882,13 @@ header {
     padding: 0 60px 60px 0;
     color: $primary;
     z-index: 2;
+    min-width: 100vw;
     height: 100vh;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0s ease-out;
     .content {
         position: relative;
         display: flex;
