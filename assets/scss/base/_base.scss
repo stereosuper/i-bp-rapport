@@ -348,7 +348,8 @@ a {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: flex-start;
-    border-left: 1px solid $primary-x-light;
+    overflow: hidden;
+    width: calc(100% + 1px);
 }
 
 .default-style {

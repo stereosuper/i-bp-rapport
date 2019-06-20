@@ -184,7 +184,7 @@ export default {
     left: 0;
     right: 0;
     background: $white;
-    z-index: 2;
+    z-index: 3;
     &.is-fixed {
         position: fixed;
         &::before {

@@ -638,9 +638,11 @@ export default {
 
 <style lang="scss" scoped>
 .header-wrapper {
+    position: relative;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 3;
 }
 </style>

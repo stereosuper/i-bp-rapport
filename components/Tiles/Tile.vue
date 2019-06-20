@@ -10,6 +10,7 @@
             { 'modal-on': modalOn },
             { 'has-modal': hasModal }
         ]"
+        ref="tile"
     >
         <div v-if="hasModal" class="modal" ref="modal">
             <button type="button" class="btn-circular" @click="closeModal">
@@ -199,6 +200,8 @@ import {
     clearAllBodyScrollLocks
 } from "body-scroll-lock";
 
+import VanillaTilt from "vanilla-tilt";
+
 export default {
     components: {},
     props: {
@@ -287,6 +290,7 @@ export default {
     },
     data() {
         return {
+            tile: null,
             modal: null,
             modalOn: false
         };
@@ -294,7 +298,13 @@ export default {
     computed: {},
     watch: {},
     mounted() {
+        this.tile = this.$refs.tile;
         this.modal = this.$refs.modal;
+        VanillaTilt.init(this.tile, {
+            max: 2,
+            scale: 1.01,
+            speed: 400
+        });
     },
     destroyed() {},
     methods: {
@@ -314,11 +324,19 @@ export default {
 
 <style lang="scss" scoped>
 .tile {
-    width: 33.3333%;
+    width: calc(33.3333% + 1px);
     position: relative;
     z-index: 1;
-    margin-bottom: -1px;
-    &::before {
+    margin: 0 -1px -1px 0;
+    &:hover,
+    &:focus {
+        z-index: 2;
+        &::after {
+            opacity: 1;
+        }
+    }
+    &::before,
+    &::after {
         content: "";
         position: absolute;
         top: 0;
@@ -326,6 +344,10 @@ export default {
         bottom: 0;
         left: 0;
         z-index: -1;
+    }
+    &::after {
+        box-shadow: 0px 35px 40px rgba(50, 51, 94, 0.183141);
+        opacity: 0;
     }
     &.small-height {
         .tile-content {
@@ -339,9 +361,7 @@ export default {
     }
     &.bg-white {
         color: $primary;
-        border-top: 1px solid $primary-x-light;
-        border-bottom: 1px solid $primary-x-light;
-        border-right: 1px solid $primary-x-light;
+        border: 1px solid $primary-x-light;
         &::before {
             background: $white;
         }
@@ -467,8 +487,7 @@ export default {
     }
     &.bg-primary-alt-light {
         color: $primary;
-        border-top: 1px solid $primary-x-light;
-        border-right: 1px solid $primary-x-light;
+        border: 1px solid $primary-x-light;
         &::before {
             background: $primary-alt-light;
         }
@@ -716,6 +735,8 @@ export default {
     &.modal-on {
         z-index: 3;
         cursor: auto;
+        will-change: auto !important;
+        transform: none !important;
         .modal {
             display: block;
         }
