@@ -1026,6 +1026,11 @@ header {
 @media (max-width: $desktop) {
     .tile {
         width: 100%;
+        will-change: auto !important;
+        transform: perspective(0px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1) !important;
+        &::after {
+            content: none;
+        }
         &.small-height {
             .tile-content {
                 min-height: 0;
