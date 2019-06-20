@@ -11,7 +11,7 @@
             { 'has-modal': hasModal }
         ]"
     >
-        <div v-if="hasModal" class="modal">
+        <div v-if="hasModal" class="modal" ref="modal">
             <button type="button" class="btn-circular" @click="closeModal">
                 <span>Retour</span>
             </button>
@@ -193,6 +193,12 @@
 </template>
 
 <script>
+import {
+    disableBodyScroll,
+    enableBodyScroll,
+    clearAllBodyScrollLocks
+} from "body-scroll-lock";
+
 export default {
     components: {},
     props: {
@@ -281,21 +287,26 @@ export default {
     },
     data() {
         return {
+            modal: null,
             modalOn: false
         };
     },
     computed: {},
     watch: {},
-    mounted() {},
+    mounted() {
+        this.modal = this.$refs.modal;
+    },
     destroyed() {},
     methods: {
         openModal() {
             if (this.hasModal) {
                 this.modalOn = true;
+                disableBodyScroll(this.modal);
             }
         },
         closeModal() {
             this.modalOn = false;
+            enableBodyScroll(this.modal);
         }
     }
 };
@@ -845,11 +856,14 @@ header {
     padding: 0 60px 60px 0;
     color: $primary;
     z-index: 2;
+    height: 100vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
     .content {
         position: relative;
         display: flex;
         align-items: center;
-        height: calc(100vh - 60px);
+        min-height: calc(100vh - 60px);
         z-index: 1;
         &::before {
             content: "";
@@ -863,10 +877,8 @@ header {
             z-index: -1;
         }
         > div {
-            height: calc(100vh - 60px);
+            min-height: calc(100vh - 60px);
             padding: 90px 160px;
-            overflow: auto;
-            -webkit-overflow-scrolling: touch;
             &::before,
             &::after {
                 content: "";
