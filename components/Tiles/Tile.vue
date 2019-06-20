@@ -300,11 +300,14 @@ export default {
     mounted() {
         this.tile = this.$refs.tile;
         this.modal = this.$refs.modal;
-        VanillaTilt.init(this.tile, {
-            max: 2,
-            scale: 1.01,
-            speed: 600
-        });
+        if (this.hasModal) {
+            VanillaTilt.init(this.tile, {
+                max: 2,
+                scale: 1.01,
+                speed: 600,
+                gyroscope: false
+            });
+        }
     },
     destroyed() {},
     methods: {
@@ -331,9 +334,6 @@ export default {
     &:hover,
     &:focus {
         z-index: 2;
-        &::after {
-            opacity: 1;
-        }
     }
     &::before,
     &::after {
@@ -721,6 +721,9 @@ export default {
         cursor: pointer;
         &:hover,
         &:focus {
+            &::after {
+                opacity: 1;
+            }
             .btn-open {
                 background: rgba(#fff, 0.2);
                 &:before,
