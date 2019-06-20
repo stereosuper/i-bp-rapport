@@ -134,25 +134,43 @@ em {}
 
 blockquote {
     position: relative;
-    margin: 0;
-    padding-top: 70px;
-
-    &::before {
-        content: "“";
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-family: $archivo;
-        font-weight: 700;
-        font-size: 10rem;
-        color: $tertiary;
-    }
+    margin: 30px 0;
 
     p {
+        position: relative;
+        margin: 0;
+        padding: 55px 0;
         font-family: $archivo;
         font-weight: 700;
         font-size: 3.4rem;
         line-height: 1.1;
+
+        &::before,
+        &::after {
+            position: absolute;
+            font-family: $archivo;
+            font-weight: 700;
+            font-size: 10rem;
+            line-height: 71px;
+            color: $tertiary;
+        }
+
+        &::before {
+            content: "“";
+            top: 0;
+            left: 0;
+        }
+
+        &::after {
+            content: "”";
+            bottom: -41px;
+            right: 0;
+        }
+    }
+
+    .blockquote-author {
+        display: block;
+        margin-top: 20px;
     }
 }
 
@@ -423,6 +441,23 @@ a {
 
     h3 {
         font-size: 3rem;
+    }
+
+    blockquote {
+        p {
+            padding: 50px 0;
+            font-size: 3rem;
+
+            &::before,
+            &::after {
+                font-size: 8rem;
+                line-height: 58px;
+            }
+
+            &::after {
+                bottom: -34px;
+            }
+        }
     }
 }
 
