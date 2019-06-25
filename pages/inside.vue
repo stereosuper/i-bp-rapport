@@ -187,7 +187,7 @@
                     },
                     {
                         type: 'micro',
-                        label: `Ils ont testé`,
+                        label: `Ils ont testé la cooptation`,
                         url: 'pdf/IBP_interview_cooptation.pdf'
                     }
                 ]"
