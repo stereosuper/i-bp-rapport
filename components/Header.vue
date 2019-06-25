@@ -29,7 +29,7 @@ export default {
     display: flex;
     justify-content: flex-end;
     padding: 50px 60px 0;
-    z-index: 4;
+    z-index: 5;
 }
 .logo {
     display: block;
