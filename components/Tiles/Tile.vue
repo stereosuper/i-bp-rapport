@@ -830,6 +830,9 @@ header {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    .content {
+        width: 100%;
+    }
 }
 .wrapper-illus {
     width: $tileCol * 5;
