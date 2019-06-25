@@ -85,7 +85,7 @@
                         url: 'https://www.youtube.com/watch?v=NvrKGm14-8g'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
