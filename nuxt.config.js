@@ -1,4 +1,10 @@
 import pkg from "./package";
+const features = [
+    'Object.entries',
+    'Object.from',
+    'Array.from',
+    'Object.assign'
+].join('%2C');
 
 export default {
     mode: "universal",
@@ -8,6 +14,9 @@ export default {
      */
     head: {
         title: "Rapport d’activité 2018 | i-BP",
+        script: [{
+            src: `https://polyfill.io/v3/polyfill.min.js?features=${features}`
+        }],
         meta: [{
                 charset: "utf-8"
             },
