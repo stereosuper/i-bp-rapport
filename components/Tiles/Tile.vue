@@ -886,7 +886,7 @@ header {
     color: $primary;
     z-index: 2;
     min-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     visibility: hidden;
@@ -1079,13 +1079,11 @@ header {
         padding: 0;
         .content {
             align-items: flex-start;
-            height: 100vh;
             &::before,
             &::after {
                 content: none;
             }
             > div {
-                height: 100vh;
                 padding: 150px $gutter-small 50px;
                 &::before,
                 &::after {
