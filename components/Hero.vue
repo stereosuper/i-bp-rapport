@@ -35,7 +35,7 @@ export default {
     position: relative;
     color: $primary;
     background: $white;
-    z-index: 3;
+    z-index: 4;
     &:before,
     &:after {
         content: "";
