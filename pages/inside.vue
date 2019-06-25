@@ -72,7 +72,7 @@
                 :height="'small'"
                 :twoCols="true"
                 :content="
-                    `<h2><strong class='medium'>20</strong> films métiers</h2><p>diffusés lors des semaines thématiques.</p>`
+                    `<h2><strong class='medium'>20</strong> films métiers</h2><p>diffusés lors des semaines thématiques</p>`
                 "
                 :illusUrl="'img/dalle_05_video_colo_V3.svg'"
                 :hasModal="true"
