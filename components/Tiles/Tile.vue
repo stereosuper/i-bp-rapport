@@ -948,7 +948,7 @@ header {
         justify-content: space-between;
     }
     .col {
-        flex: 1 1 0;
+        flex: 1 1 0%;
         padding-right: 16.666%;
         > div {
             + .wrapper-buttons {
