@@ -1098,6 +1098,7 @@ header {
             width: 100%;
         }
         .btn-circular {
+            position: absolute;
             top: 50px;
             right: $gutter-small;
         }
