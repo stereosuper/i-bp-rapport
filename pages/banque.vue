@@ -159,7 +159,7 @@
                     `23 000 jours homme pour le Plan Informatique Annuel`
                 "
                 :col1Modal="
-                    `<p>De nombreux projets se sont concrétisés par des livraisons aux Banques Populaires, dont les enjeux sont l'autonomie du client, l'efficacité des outils collaborateurs, l'harmonisation avec le Groupe BPCE et la réponse aux exigences de conformité. L'efficacité score banking et la digitalisation restent au cœur de la stratégie.</p>`
+                    `<p>De nombreux projets se sont concrétisés par des livraisons aux Banques Populaires, dont les enjeux sont l'autonomie du client, l'efficacité des outils collaborateurs, l'harmonisation avec le Groupe BPCE et la réponse aux exigences de conformité. L'efficacité core banking et la digitalisation restent au cœur de la stratégie.</p>`
                 "
                 :ctaModal="[
                     {
