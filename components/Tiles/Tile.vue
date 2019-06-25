@@ -737,7 +737,7 @@ export default {
         }
     }
     &.modal-on {
-        z-index: 3;
+        z-index: 6;
         cursor: auto;
         will-change: auto !important;
         transform: none !important;
