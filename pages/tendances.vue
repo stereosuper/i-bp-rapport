@@ -198,7 +198,7 @@
                         url: 'https://www.youtube.com/watch?v=7t2uYqvST88'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'primary-alt-light'"
