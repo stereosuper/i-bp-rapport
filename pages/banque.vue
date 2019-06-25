@@ -42,6 +42,7 @@
                 :content="
                     `<h2><strong>1</strong> collaborateur i&#8209;BP</h2><p>parmi les lauréats</p>`
                 "
+                :logoUrl="'img/trophees-make-it-simple.png'"
                 :hasModal="true"
                 :titleModal="`1 collaborateur i-BP parmi les lauréats `"
                 :col1Modal="
@@ -54,7 +55,7 @@
                     {
                         type: 'play',
                         label: `Trophées Make It Simple`,
-                        url: 'https://youtu.be/NvrKGm14-8g'
+                        url: 'https://www.youtube.com/watch?v=NvrKGm14-8g'
                     }
                 ]"
                 :ctaModalCol="2"
