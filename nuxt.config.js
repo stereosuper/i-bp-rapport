@@ -3,7 +3,8 @@ const features = [
     'Object.entries',
     'Object.from',
     'Array.from',
-    'Object.assign'
+    'Object.assign',
+    'CustomEvent'
 ].join('%2C');
 
 export default {
