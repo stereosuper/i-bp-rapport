@@ -741,6 +741,7 @@ export default {
         cursor: auto;
         will-change: auto !important;
         transform: none !important;
+        transition: all 0s !important;
         .modal {
             visibility: visible;
             opacity: 1;
