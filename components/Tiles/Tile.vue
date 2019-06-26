@@ -1055,6 +1055,9 @@ header {
                 height: auto;
             }
         }
+        &.current-modal-on {
+            position: relative;
+        }
         .tile-content {
             min-height: 0;
             height: auto;
