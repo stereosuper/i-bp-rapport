@@ -1,7 +1,10 @@
 <template>
     <div
         class="content-page"
-        :class="{ 'overflow-not-scrollable': !overflowScrollable }"
+        :class="[
+            { 'overflow-not-scrollable': !overflowScrollable },
+            { 'modal-on': modalOn }
+        ]"
     >
         <Header />
         <nuxt />
@@ -30,6 +33,9 @@ export default {
     computed: {
         overflowScrollable() {
             return this.$store.state.overflowScrollable;
+        },
+        modalOn() {
+            return this.$store.state.modalOn;
         }
     },
     watch: {},

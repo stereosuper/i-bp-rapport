@@ -7,7 +7,7 @@
             `alt-${altTheme}`,
             `${height}-height`,
             { 'title-filled': titleFilled },
-            { 'modal-on': modalOn },
+            { 'current-modal-on': currentModalOn },
             { 'has-modal': hasModal }
         ]"
         ref="tile"
@@ -292,7 +292,7 @@ export default {
         return {
             tile: null,
             modal: null,
-            modalOn: false
+            currentModalOn: false
         };
     },
     computed: {},
@@ -313,12 +313,14 @@ export default {
     methods: {
         openModal() {
             if (this.hasModal) {
-                this.modalOn = true;
+                this.$store.commit("setModalOn", true);
+                this.currentModalOn = true;
                 disableBodyScroll(this.modal);
             }
         },
         closeModal() {
-            this.modalOn = false;
+            this.currentModalOn = false;
+            this.$store.commit("setModalOn", false);
             enableBodyScroll(this.modal);
         }
     }
@@ -736,12 +738,13 @@ export default {
             }
         }
     }
-    &.modal-on {
-        z-index: 6;
+    &.current-modal-on {
+        position: fixed;
         cursor: auto;
         will-change: auto !important;
         transform: none !important;
         transition: all 0s !important;
+        z-index: 6;
         .modal {
             visibility: visible;
             opacity: 1;
