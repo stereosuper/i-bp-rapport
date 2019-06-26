@@ -159,7 +159,7 @@
                             'https://twitter.com/InformatiqueBP/status/985824624360480769'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
