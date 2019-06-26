@@ -442,7 +442,7 @@
                         url: 'https://twitter.com/HackathonBP'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'white'"
