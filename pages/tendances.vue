@@ -166,7 +166,7 @@
                         url: 'pdf/Securite-informatique-Groupe-BPCE.pdf'
                     }
                 ]"
-                :ctaModalCol="2"
+                :ctaModalCol="1"
             />
             <Tile
                 :theme="'quaternary'"
