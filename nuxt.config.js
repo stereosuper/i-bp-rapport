@@ -8,7 +8,10 @@ const features = [
 ].join('%2C');
 
 export default {
-    mode: "universal",
+    mode: "spa",
+    router: {
+        mode: "hash"
+    },
 
     /*
      ** Headers of the page
@@ -134,22 +137,32 @@ export default {
                 removeRedundantAttributes: false
             }
         },
+        extend(config, {
+            isDev,
+            isClient
+        }) {
+            if (!isDev) {
+                // relative links, please.
+                config.output.publicPath = './_nuxt/'
+            }
+            return config;
+        }
         /*
          ** You can extend webpack config here
          */
-        extend(config, ctx) {
-            // Run ESLint on save
-            // if (ctx.isDev && ctx.isClient) {
-            //     config.module.rules.push({
-            //         enforce: "pre",
-            //         test: /\.(js|vue)$/,
-            //         loader: "eslint-loader",
-            //         exclude: /(node_modules)/,
-            //         options: {
-            //             fix: true
-            //         }
-            //     });
-            // }
-        }
+        // extend(config, ctx) {
+        // Run ESLint on save
+        // if (ctx.isDev && ctx.isClient) {
+        //     config.module.rules.push({
+        //         enforce: "pre",
+        //         test: /\.(js|vue)$/,
+        //         loader: "eslint-loader",
+        //         exclude: /(node_modules)/,
+        //         options: {
+        //             fix: true
+        //         }
+        //     });
+        // }
+        // }
     }
 };
