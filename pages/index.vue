@@ -267,6 +267,17 @@
                         type: 'file',
                         label: `Chiffres clés`,
                         url: 'pdf/afterwork_infographie.pdf'
+                    },
+                    {
+                        type: 'play',
+                        label: `Girls Can Code`,
+                        url: 'https://www.youtube.com/watch?v=jhZUiYdjA_c'
+                    },
+                    {
+                        type: 'twitter',
+                        label: `Elles Bougent`,
+                        url:
+                            'https://twitter.com/InformatiqueBP/status/1065161764504051712'
                     }
                 ]"
                 :ctaModalCol="1"
