@@ -124,6 +124,11 @@ p {
     .small {
         font-size: 1.4rem;
     }
+
+    b,
+    strong {
+        font-weight: 700;
+    }
 }
 
 b,
@@ -349,6 +354,23 @@ a {
     align-items: stretch;
     justify-content: flex-start;
     overflow: hidden;
+}
+
+.wrapper-social {
+    display: flex;
+    flex-direction: column;
+
+    >a {
+        display: flex;
+        align-items: baseline;
+        margin: 5px 0;
+
+        .icon {
+            margin-right: 8px;
+            width: 15px;
+            height: 15px;
+        }
+    }
 }
 
 .default-style {

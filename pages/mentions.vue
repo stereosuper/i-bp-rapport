@@ -49,48 +49,45 @@
         </p>
 
         <h3>Rapport d'activité 2018 i-BP</h3>
-        <ul>
-            <li>
-                <strong>Directeur de publication</strong> : Serge Matry <br />
-            </li>
-            <li>
-                <strong>Responsable de la publication</strong> : Annick
-                Bellaigue (02 40 67 48 41) <br />
-            </li>
-            <li>
-                <strong>Comité de rédaction</strong> : Cécile Joret avec la
-                contribution d’Isabelle Tylek, du service communication et des
-                collaborateurs et directions d’i-BP <br />
-            </li>
-
-            <li>
-                <strong>Conception et réalisation</strong> : L’Unique Équipe en
-                collaboration avec Les Indiens et Stéréosuper <br />
-            </li>
-            <li>
-                <strong>Crédits photos</strong> : iStock, Shutterstock, 123rf,
-                Groupe BPCE, Service communication i-BP
-            </li>
-        </ul>
-
+        <p>
+            <strong>Directeur de publication</strong> : Serge Matry <br />
+            <strong>Responsable de la publication</strong> : Annick Bellaigue
+            (02 40 67 48 41) <br />
+            <strong>Comité de rédaction</strong> : Cécile Joret avec la
+            contribution d’Isabelle Tylek, du service communication et des
+            collaborateurs et directions d’i-BP <br />
+            <strong>Conception et réalisation</strong> : L’Unique Équipe en
+            collaboration avec Les Indiens et Stéréosuper <br />
+            <strong>Crédits photos</strong> : iStock, Shutterstock, 123rf,
+            Groupe BPCE, Service communication i-BP
+        </p>
         <h3>Suivre i-BP</h3>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/company/"
-                    >Informatique Banque Populaire</a
-                >
-            </li>
-            <li>
-                <a href="https://twitter.com/informatiquebp?lang=fr"
-                    >@InformatiqueBP</a
-                >
-            </li>
-            <li>
-                <a href="https://informatique.banquepopulaire.fr/"
-                    >www.informatique.banquepopulaire.fr</a
-                >
-            </li>
-        </ul>
+        <div class="wrapper-social">
+            <a
+                href="https://www.linkedin.com/company/informatique-banque-populaire/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="icon icon-linkedin">
+                    <use xlink:href="#icon-linkedin"></use></svg
+                ><span>Informatique Banque Populaire</span></a
+            >
+            <a
+                href="https://twitter.com/informatiquebp?lang=fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="icon icon-twitter">
+                    <use xlink:href="#icon-twitter"></use></svg
+                ><span>@InformatiqueBP</span></a
+            >
+            <a
+                href="https://informatique.banquepopulaire.fr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="icon icon-link">
+                    <use xlink:href="#icon-link"></use></svg
+                ><span>www.informatique.banquepopulaire.fr</span></a
+            >
+        </div>
     </div>
 </template>
 
