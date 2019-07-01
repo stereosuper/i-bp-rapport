@@ -146,7 +146,7 @@
                     {
                         type: 'file',
                         label: `Détail du PIA 2018`,
-                        url: '/pdf/PIA-2018.pdf'
+                        url: 'pdf/PIA-2018.pdf'
                     }
                 ]"
                 :ctaModalCol="2"
